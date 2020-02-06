@@ -1,14 +1,14 @@
 {
   "name": "wc3data",
-  "version": "12164.0.1",
+  "version": "12164.0.2",
   "description": "Warcraft III data",
   "author": "verit",
   "license": "MIT",
   "scripts": {
     "build-js": "tsc -p tsconfig.build.json",
-    "build-types": "ts-node build/types.ts > src/types.ts",
-    "build-units-debug": "node -r ts-node/register --inspect-brk build/units.ts",
-    "build-units": "ts-node build/units.ts > src/units.ts",
+    "build-types": "ts-node bin/types.ts > src/types.ts",
+    "build-units-debug": "node -r ts-node/register --inspect-brk bin/units.ts",
+    "build-units": "ts-node bin/units.ts > src/units.ts",
     "build": "npm run build-types && npm run build-units && npm run build-js",
     "dev": "npm-watch",
     "test-debug": "node --inspect-brk node_modules/.bin/jest --runInBand",

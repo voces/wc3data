@@ -23,6 +23,6 @@
     "types": ["@types/jest", "@types/node"],
     "esModuleInterop": true
   },
-  "include": ["src", "build"],
+  "include": ["src", "bin"],
   "exclude": ["node_modules", "**/*.test.ts"]
 }
