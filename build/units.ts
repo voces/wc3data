@@ -23,8 +23,6 @@ const killWithError = ( err: string ): void => {
 
 const input = process.argv[ 2 ] || "data/units";
 
-const output = process.argv[ 3 ] || "src/units.ts";
-
 const fromPathEntries = ( arr: [string, string | number | boolean | void | Value[]][] ): IndexedDef => {
 
 	// const firstEntry = arr[ 0 ];
