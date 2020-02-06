@@ -1,6 +1,6 @@
 {
   "name": "wc3data",
-  "version": "12164.0.2",
+  "version": "12164.0.3",
   "description": "Warcraft III data",
   "author": "verit",
   "license": "MIT",
@@ -51,8 +51,5 @@
   "files": [
     "dist"
   ],
-  "main": "dist/index.ts",
-  "dependencies": {
-    "wc3maptranslator": "^3.0.2"
-  }
+  "main": "dist/index.ts"
 }
