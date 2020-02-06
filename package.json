@@ -1,6 +1,6 @@
 {
   "name": "wc3data",
-  "version": "12164.0.3",
+  "version": "12164.0.4",
   "description": "Warcraft III data",
   "author": "verit",
   "license": "MIT",
@@ -10,12 +10,9 @@
     "build-units-debug": "node -r ts-node/register --inspect-brk bin/units.ts",
     "build-units": "ts-node bin/units.ts > src/units.ts",
     "build": "npm run build-types && npm run build-units && npm run build-js",
-    "dev": "npm-watch",
-    "test-debug": "node --inspect-brk node_modules/.bin/jest --runInBand",
-    "test": "jest"
+    "dev": "npm-watch"
   },
   "devDependencies": {
-    "@types/jest": "^24.0.25",
     "@types/node": "^12.12.26",
     "@typescript-eslint/eslint-plugin": "^2.15.0",
     "@typescript-eslint/parser": "^2.15.0",
@@ -23,12 +20,8 @@
     "eslint-config-mdcs": "^4.2.3",
     "eslint-config-verit": "^1.0.3",
     "fast-glob": "^3.1.1",
-    "jest": "^24.9.0",
     "npm-watch": "^0.6.0",
-    "recast": "^0.18.5",
-    "ts-jest": "^24.2.0",
     "ts-node": "^8.6.2",
-    "ts-transformer-imports": "^0.4.3",
     "typescript": "^3.7.4"
   },
   "watch": {
