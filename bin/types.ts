@@ -1,5 +1,5 @@
 #!/usr/bin/env node --experimental-modules --no-warnings
-// Builds types.js from unit .slk files
+// Builds types.js from slk files
 
 import { promises as fs } from "fs";
 import path from "path";
@@ -22,13 +22,16 @@ glob( path.join( input, "*MetaData.slk" ) )
 
 		if ( slkPaths.length === 0 ) throw new Error( `No slk files found at ${input}` );
 
-		return Promise.all( slkPaths.map( tsvPath =>
-			fs.readFile( tsvPath, "utf-8" )
-				.then( slkToTable ),
-		) );
+		return Promise.all( [
+			fs.readFile( "./bin/template/items.ts", "utf-8" ),
+			Promise.all( slkPaths.map( tsvPath =>
+				fs.readFile( tsvPath, "utf-8" )
+					.then( slkToTable ),
+			) ),
+		] );
 
 	} )
-	.then( slkFiles => slkFiles
+	.then( ( [ template, slkFiles ] ) => [ template, slkFiles
 		.map( file => tableToObjs( file ) )
 		.flat()
 		.reduce(
@@ -43,20 +46,16 @@ glob( path.join( input, "*MetaData.slk" ) )
 			},
 			// eslint-disable-next-line @typescript-eslint/no-explicit-any
 			{} as Record<string, Record<string, any>>,
-		),
-
+		) ],
 	)
-	.then( async types => {
+	.then( async ( [ template, types ] ) => {
+
+		console.log( template );
 
 		[
-			"",
-			`export const types = ${jsStringify( types )};`,
+			`export const types: Record<string, TypeSpec> = ${jsStringify( types )};`,
 			"",
 			"export const typeArray = Object.values( types );",
-			"export type TypeId = keyof typeof types;",
-			"export const typeIds = Object.keys( types ) as Array<TypeId>;",
-			"export type Type = typeof types[TypeId];",
-			"",
 		].forEach( v => console.log( v ) );
 
 	} )

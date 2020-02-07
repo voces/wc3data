@@ -1,5 +1,5 @@
 #!/usr/bin/env node --experimental-modules --no-warnings
-// Builds units.json from unit .tsv files
+// Builds units.ts from slk files
 
 import { promises as fs } from "fs";
 import { inspect } from "util";
@@ -62,12 +62,15 @@ glob( input + "/*.slk" )
 		if ( slkPaths.length === 0 )
 			throw new Error( `No slk files found at ${input}` );
 
-		return Promise.all( slkPaths.map( slkPath =>
-			fs.readFile( slkPath, "utf-8" )
-				.then( slkToTable ).then( untyped ) ) );
+		return Promise.all( [
+			fs.readFile( "./bin/template/units.ts", "utf-8" ),
+			Promise.all( slkPaths.map( slkPath =>
+				fs.readFile( slkPath, "utf-8" )
+					.then( slkToTable ).then( untyped ) ) ),
+		] );
 
 	} )
-	.then( tsvs => {
+	.then( ( [ template, tsvs ] ) => {
 
 		const units: Record<string, Record<string, string | string[]>> = {};
 		for ( const tsv of tsvs ) {
@@ -126,11 +129,7 @@ glob( input + "/*.slk" )
 
 		} ).sort( ( a, b ) => a[ 0 ].localeCompare( b[ 0 ] ) ) );
 
-		[
-			"",
-			`export const units = ${jsStringify( sorted )}`,
-			"",
-		].forEach( v => console.log( v ) );
+		console.log( template + `\nexport const units: Record<string, UnitSpec> = ${jsStringify( sorted )};` );
 
 	} )
 	.catch( killWithError );

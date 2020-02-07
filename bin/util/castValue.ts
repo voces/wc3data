@@ -1,14 +1,14 @@
 
 import { inspect } from "util";
-import { types, typeIds, Type } from "../../src/types";
+import { typeArray, TypeSpec } from "../../src/types";
 
 export type Value = string | number | boolean | void;
 
-export const typesByField: Record<string, Type[]> = typeIds.reduce(
-	( obj, typeIds ) => {
+export const typesByField: Record<string, TypeSpec[]> = typeArray.reduce(
+	( obj, type ) => {
 
-		if ( ! obj[ types[ typeIds ].field ] ) obj[ types[ typeIds ].field ] = [ types[ typeIds ] ];
-		else obj[ types[ typeIds ].field ].push( types[ typeIds ] );
+		if ( ! obj[ type.field ] ) obj[ type.field ] = [ type ];
+		else obj[ type.field ].push( type );
 		return obj;
 
 	},
@@ -72,6 +72,8 @@ const _castValue = ( value: string, fieldType: string ): Value => {
 			return value;
 		case "bool":
 			return value === "1";
+		case "unitC": // a hack, since we treat unitClass as a list and chop the last four
+			return value[ 0 ].toUpperCase() + value.slice( 1 );
 
 	}
 
@@ -79,7 +81,7 @@ const _castValue = ( value: string, fieldType: string ): Value => {
 
 };
 
-export const castValue = ( value: string | string[], field: string, fieldDef?: Type ): Value | Value[] => {
+export const castValue = ( value: string | string[], field: string, fieldDef?: TypeSpec ): Value | Value[] => {
 
 	if ( typeof value === "string" && empty.includes( value ) ) return undefined;
 
@@ -144,6 +146,8 @@ export const castValue = ( value: string | string[], field: string, fieldDef?: T
 			case "": // shows up in UnitBalance
 			case "undefined": // shows up in UnitWeapons
 				return;
+			case "unitC": // a hack, since we treat unitClass as a list and chop the last four
+				return value[ 0 ].toUpperCase() + value.slice( 1 );
 
 		}
 
@@ -154,7 +158,7 @@ export const castValue = ( value: string | string[], field: string, fieldDef?: T
 	// eslint-disable-next-line no-extra-parens
 	const type = ( fieldDef || ( typesByField[ field ] ) ).type as string;
 
-	if ( type.endsWith( "List" ) ) {
+	if ( type.endsWith( "List" ) || type === "unitClass" ) {
 
 		// eslint-disable-next-line no-extra-parens
 		const arr = ( ( value || "" ) as string ).split( "," ).map( value =>
