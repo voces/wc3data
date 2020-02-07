@@ -23,7 +23,7 @@ type WeaponType =
 	| "WoodMediumBash"
 type Tileset = "*" | "A" | "B" | "C" | "D" | "F" | "G" | "I" | "J" | "K" | "L" | "N" | "O" | "Q" | "V" | "W" | "X" | "Y" | "Z"
 
-interface UnitSpec {
+export interface UnitSpec {
 	abil?: {
 		abilList: string[];
 		heroAbilList?: string[];
