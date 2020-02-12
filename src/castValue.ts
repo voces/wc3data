@@ -20,25 +20,29 @@ const _castValue = ( value: string, fieldType: string ): Value => {
 
 	if ( empty.includes( value ) ) return undefined;
 
-	let v;
-
 	switch ( fieldType ) {
 
 		case "int":
 		case "deathType":
 		case "attackBits":
 		case "versionFlags":
-		case "teamColor":
-			if ( v === undefined ) return v;
-			v = parseInt( value );
+		case "teamColor": {
+
+			if ( value === undefined ) return;
+			const v = parseInt( value );
 			if ( isNaN( v ) ) throw new Error( `bad int ${value}` );
 			return v;
+
+		}
 		case "real":
-		case "unreal":
-			if ( v === undefined ) return v;
-			v = parseFloat( value );
+		case "unreal": {
+
+			if ( value === undefined ) return;
+			const v = parseFloat( value );
 			if ( isNaN( v ) ) throw new Error( `bad float ${value}` );
 			return v;
+
+		}
 		case "ability":
 		case "heroAbility":
 		case "regenType":
@@ -88,8 +92,6 @@ export const castValue = ( value: string | string[], field: string, fieldDef?: T
 
 	if ( ! fieldDef ) {
 
-		let v;
-
 		switch ( field ) {
 
 			case "dmod1":
@@ -102,23 +104,28 @@ export const castValue = ( value: string | string[], field: string, fieldDef?: T
 			case "mindmg2":
 			case "version":
 			case "realM":
-			case "realHP":
-				// todo: won't v always be undefined here?
-				if ( v === undefined ) return v;
-				v = parseInt( value as string );
+			case "realHP": {
+
+				if ( value === undefined ) return;
+				const v = parseInt( value as string );
 				if ( isNaN( v ) ) throw new Error( `bad int ${value}` );
 				return v;
+
+			}
 			case "legacyModelScale":
 			case "mincool1":
 			case "mincool2":
 			case "legacyScale":
 			case "DPS":
 			case "abilTest":
-			case "realdef":
-				if ( v === undefined ) return v;
-				v = parseFloat( value as string );
+			case "realdef": {
+
+				if ( value === undefined ) return;
+				const v = parseFloat( value as string );
 				if ( isNaN( v ) ) throw new Error( `bad float ${value}` );
 				return v;
+
+			}
 			case "weap1":
 			case "weap2":
 			case "DmgUpg":
