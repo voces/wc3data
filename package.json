@@ -1,6 +1,6 @@
 {
   "name": "wc3data",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Warcraft III data",
   "author": "verit",
   "license": "MIT",
@@ -44,6 +44,5 @@
   "files": [
     "dist"
   ],
-  "main": "dist/index.js",
-  "type": "module"
+  "main": "dist/index.js"
 }

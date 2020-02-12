@@ -1,6 +1,6 @@
 
 import { inspect } from "util";
-import { typeArray, TypeSpec } from "../../src/types";
+import { typeArray, TypeSpec } from "./types";
 
 export type Value = string | number | boolean | void;
 
@@ -69,6 +69,7 @@ const _castValue = ( value: string, fieldType: string ): Value => {
 		case "unit":
 		case "char":
 		case "item":
+		case "soundLabel":
 			return value;
 		case "bool":
 			return value === "1";
@@ -85,7 +86,6 @@ export const castValue = ( value: string | string[], field: string, fieldDef?: T
 
 	if ( typeof value === "string" && empty.includes( value ) ) return undefined;
 
-	// debugger;
 	if ( ! fieldDef ) {
 
 		let v;
@@ -103,6 +103,7 @@ export const castValue = ( value: string | string[], field: string, fieldDef?: T
 			case "version":
 			case "realM":
 			case "realHP":
+				// todo: won't v always be undefined here?
 				if ( v === undefined ) return v;
 				v = parseInt( value as string );
 				if ( isNaN( v ) ) throw new Error( `bad int ${value}` );

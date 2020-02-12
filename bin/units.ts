@@ -5,7 +5,7 @@ import { promises as fs } from "fs";
 import { inspect } from "util";
 import glob from "fast-glob";
 import { jsStringify } from "./util/jsStringify";
-import { castValue, Value as CastValue, typesByField } from "./util/castValue";
+import { castValue, Value as CastValue, typesByField } from "../src/castValue";
 import { slkToTable } from "./util/slkToTable";
 
 const UNIT_SLKS = [ "UnitAbilities", "UnitUI", "UnitBalance", "UnitData", "Profile", "UnitWeapons" ];

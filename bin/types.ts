@@ -1,5 +1,3 @@
-#!/usr/bin/env node --experimental-modules --no-warnings
-// Builds types.js from slk files
 
 import { promises as fs } from "fs";
 import path from "path";
