@@ -7,6 +7,7 @@ import glob from "fast-glob";
 import { jsStringify } from "./util/jsStringify";
 import { castValue, Value as CastValue, typesByField } from "../src/castValue";
 import { slkToTable } from "./util/slkToTable";
+import { iniToObjs } from "./util/iniToObjs";
 
 const UNIT_SLKS = [ "UnitAbilities", "UnitUI", "UnitBalance", "UnitData", "Profile", "UnitWeapons" ];
 
@@ -25,13 +26,7 @@ const input = process.argv[ 2 ] || "data/units";
 
 const fromPathEntries = ( arr: [string, string | number | boolean | void | Value[]][] ): IndexedDef => {
 
-	// const firstEntry = arr[ 0 ];
 	const obj: IndexedDef = {};
-	// const obj = firstEntry &&
-	// 	firstEntry[ 0 ] &&
-	// 	! isNaN( parseInt( firstEntry[ 0 ].split( "." )[ 0 ] ) ) ?
-
-	// 	[] as Value[] : {} as Record<string, Value | Value[]>;
 
 	if ( ! Array.isArray( arr ) ) throw new Error( `not an array: ${inspect( arr, true, 10, true )}` );
 
@@ -56,21 +51,34 @@ const untyped = ( data: Array<string | number | boolean>[] ): string[][] =>
 	data.map( r => r.map( v => v.toString() ) );
 
 // const dir = "data/1.31.1.12164/units/raw";
-glob( input + "/*.slk" )
-	.then( slkPaths => {
+glob( input + "/*.(slk|txt)" )
+	.then( paths => {
 
-		if ( slkPaths.length === 0 )
-			throw new Error( `No slk files found at ${input}` );
+		if ( paths.length === 0 )
+			throw new Error( `No files found at ${input}` );
 
 		return Promise.all( [
 			fs.readFile( "./bin/template/units.ts", "utf-8" ),
-			Promise.all( slkPaths.map( slkPath =>
-				fs.readFile( slkPath, "utf-8" )
-					.then( slkToTable ).then( untyped ) ) ),
+			Promise.all(
+				paths
+					.filter( path => path.endsWith( ".slk" ) )
+					.map( path => fs
+						.readFile( path, "utf-8" )
+						.then( slkToTable ).then( untyped ),
+					),
+			),
+			Promise.all(
+				paths
+					.filter( path => path.endsWith( ".txt" ) )
+					.map( path => fs
+						.readFile( path, "utf-8" )
+						.then( iniToObjs ),
+					),
+			),
 		] );
 
 	} )
-	.then( ( [ template, tsvs ] ) => {
+	.then( ( [ template, tsvs, inis ] ) => {
 
 		const units: Record<string, Record<string, string | string[]>> = {};
 		for ( const tsv of tsvs ) {
@@ -99,6 +107,15 @@ glob( input + "/*.slk" )
 			}
 
 		}
+
+		for ( const ini of inis )
+			for ( const [ unitId, values ] of Object.entries( ini ) ) {
+
+				const unit = units[ unitId ];
+				if ( unit )
+					Object.assign( unit, values );
+
+			}
 
 		const sorted = Object.fromEntries( Object.entries( units ).map( ( [ id, unit ] ) => {
 

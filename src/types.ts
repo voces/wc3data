@@ -1,5 +1,5 @@
 
-type TypeType = "abilityList" | "armorType" | "itemClass" | "int" | "abilCode" | "bool"
+type Type = "abilityList" | "armorType" | "itemClass" | "int" | "abilCode" | "bool"
 	| "model" | "real" | "stringList" | "icon" | "string" | "soundLabel" | "unitList"
 	| "char" | "itemList" | "unreal" | "techList" | "intList" | "upgradeList" | "modelList"
 	| "heroAbilityList" | "defenseType" | "pathingListPrevent" | "attributeType"
@@ -19,7 +19,7 @@ export interface TypeSpec {
 	category: string;
 	displayName: string;
 	sort: string | undefined;
-	type: TypeType;
+	type: Type;
 	changeFlags: "s" | "c" | "m" | "i" | "t" | undefined;
 	importType: "Model" | "Image" | undefined;
 	stringExt: 0 | 1 | 3;

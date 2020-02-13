@@ -157,7 +157,7 @@ export const jsStringify = (
 
 		// Strings are pretty safe, just escape their definer
 		if ( typeof obj === "string" )
-			return `"${obj.replace( /"/g, "\\\"" ).replace( /\\/g, "\\\\" )}"`;
+			return `"${obj.replace( /\\/g, "\\\\" ).replace( /"/g, "\\\"" )}"`;
 
 		if ( typeof obj === "number" )
 			if ( obj < 0 ) return `- ${Math.abs( obj )}`;

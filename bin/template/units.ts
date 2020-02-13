@@ -240,8 +240,24 @@ export interface UnitSpec {
 		STRplus?: number;
 		type?: UnitType[];
 	};
-	tech?: { upgrades: string[] };
-	text?: { nameCount: number };
+	tech?: {
+		DependencyOr?: string[];
+		upgrades: string[];
+	};
+	text?: {
+		Awakentip?: string;
+		Casterupgradename?: string[];
+		Casterupgradetip?: string[];
+		Description?: string;
+		EditorSuffix?: string;
+		Hotkey?: string;
+		Name: string;
+		nameCount?: number;
+		Propernames?: string[];
+		Revivetip?: string;
+		Tip?: string;
+		Ubertip?: string;
+	};
 	threat?: boolean;
 	unitClass?: string;
 	valid?: boolean;

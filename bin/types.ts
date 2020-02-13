@@ -21,7 +21,7 @@ glob( path.join( input, "*MetaData.slk" ) )
 		if ( slkPaths.length === 0 ) throw new Error( `No slk files found at ${input}` );
 
 		return Promise.all( [
-			fs.readFile( "./bin/template/items.ts", "utf-8" ),
+			fs.readFile( "./bin/template/types.ts", "utf-8" ),
 			Promise.all( slkPaths.map( tsvPath =>
 				fs.readFile( tsvPath, "utf-8" )
 					.then( slkToTable ),

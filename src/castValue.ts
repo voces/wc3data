@@ -7,8 +7,9 @@ export type Value = string | number | boolean | void;
 export const typesByField: Record<string, TypeSpec[]> = typeArray.reduce(
 	( obj, type ) => {
 
-		if ( ! obj[ type.field ] ) obj[ type.field ] = [ type ];
-		else obj[ type.field ].push( type );
+		const field = type.field;
+		if ( ! obj[ field ] ) obj[ field ] = [ type ];
+		else obj[ field ].push( type );
 		return obj;
 
 	},
@@ -20,6 +21,7 @@ const _castValue = ( value: string, fieldType: string ): Value => {
 
 	if ( empty.includes( value ) ) return undefined;
 
+	// types
 	switch ( fieldType ) {
 
 		case "int":
@@ -74,6 +76,9 @@ const _castValue = ( value: string, fieldType: string ): Value => {
 		case "char":
 		case "item":
 		case "soundLabel":
+			// this may be wrong; we should maaybe just do this in the iniToObj function
+			if ( value && value.match( /^".*"$/ ) )
+				return value.slice( 1, - 1 );
 			return value;
 		case "bool":
 			return value === "1";
@@ -82,7 +87,7 @@ const _castValue = ( value: string, fieldType: string ): Value => {
 
 	}
 
-	throw new Error( `Uncaught cast: value=${inspect( value )} field=${fieldType}` );
+	throw new Error( `Uncaught type cast: value=${inspect( value )} fieldType=${fieldType}` );
 
 };
 
@@ -92,6 +97,7 @@ export const castValue = ( value: string | string[], field: string, fieldDef?: T
 
 	if ( ! fieldDef ) {
 
+		// values
 		switch ( field ) {
 
 			case "dmod1":
@@ -159,7 +165,7 @@ export const castValue = ( value: string | string[], field: string, fieldDef?: T
 
 		}
 
-		throw new Error( `Uncaught cast: value=${inspect( value )} field=${field}` );
+		throw new Error( `Uncaught value cast: value=${inspect( value )} field=${field}` );
 
 	}
 
