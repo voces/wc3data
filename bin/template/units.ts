@@ -1,13 +1,84 @@
-
-type Armor = "Stone" | "Flesh" | "Wood" | "Ethereal" | "Metal"
-type AttackType = "pierce" | "normal" | "siege" | "chaos" | "hero" | "magic" | "spells"
-type DefenseType = "fort" | "medium" | "large" | "divine" | "small" | "hero" | "none"
-type Target = "ground" | "structure" | "debris" | "item" | "ward" | "air" | "wall" | "tree" | "enemy" | "neutral" | "notself"
-type Weapon = "normal" | "missile" | "artillery" | "msplash" | "mbounce" | "mline" | "instant"
-type UberSplat = "EMDA" | "EMDB" | "ESMB" | "ESMA" | "HMED" | "HSMA" | "HCAS" | "HTOW" | "OMED" | "OSMA" | "OLAR" | "DPSE" | "NDGS" | "DPSW" | "NGOL" | "HLAR" | "NLAR" | "USMA" | "UMED" | "ULAR"
-type MovementType = "foot" | "float" | "horse" | "fly" | "amph" | "hover"
-type Race = "nightelf" | "human" | "naga" | "creeps" | "critters" | "orc" | "demon" | "undead" | "other" | "commoner";
-type UnitType = "Ancient" | "Mechanical" | "TownHall" | "Peon" | "Undead" | "Neutral" | "Standon" | "Sapper" | "Ward" | "Tauren"
+type Armor = "Stone" | "Flesh" | "Wood" | "Ethereal" | "Metal";
+type AttackType =
+	| "pierce"
+	| "normal"
+	| "siege"
+	| "chaos"
+	| "hero"
+	| "magic"
+	| "spells";
+type DefenseType =
+	| "fort"
+	| "medium"
+	| "large"
+	| "divine"
+	| "small"
+	| "hero"
+	| "none";
+type Target =
+	| "ground"
+	| "structure"
+	| "debris"
+	| "item"
+	| "ward"
+	| "air"
+	| "wall"
+	| "tree"
+	| "enemy"
+	| "neutral"
+	| "notself";
+type Weapon =
+	| "normal"
+	| "missile"
+	| "artillery"
+	| "msplash"
+	| "mbounce"
+	| "mline"
+	| "instant";
+type UberSplat =
+	| "EMDA"
+	| "EMDB"
+	| "ESMB"
+	| "ESMA"
+	| "HMED"
+	| "HSMA"
+	| "HCAS"
+	| "HTOW"
+	| "OMED"
+	| "OSMA"
+	| "OLAR"
+	| "DPSE"
+	| "NDGS"
+	| "DPSW"
+	| "NGOL"
+	| "HLAR"
+	| "NLAR"
+	| "USMA"
+	| "UMED"
+	| "ULAR";
+type MovementType = "foot" | "float" | "horse" | "fly" | "amph" | "hover";
+type Race =
+	| "nightelf"
+	| "human"
+	| "naga"
+	| "creeps"
+	| "critters"
+	| "orc"
+	| "demon"
+	| "undead"
+	| "other"
+	| "commoner";
+type UnitType =
+	| "Ancient"
+	| "Mechanical"
+	| "TownHall"
+	| "Peon"
+	| "Undead"
+	| "Neutral"
+	| "Standon"
+	| "Sapper"
+	| "Ward"
+	| "Tauren";
 type WeaponType =
 	| "AxeMediumChop"
 	| "MetalHeavyBash"
@@ -20,8 +91,27 @@ type WeaponType =
 	| "RockHeavyBash"
 	| "WoodHeavyBash"
 	| "WoodLightBash"
-	| "WoodMediumBash"
-type Tileset = "*" | "A" | "B" | "C" | "D" | "F" | "G" | "I" | "J" | "K" | "L" | "N" | "O" | "Q" | "V" | "W" | "X" | "Y" | "Z"
+	| "WoodMediumBash";
+type Tileset =
+	| "*"
+	| "A"
+	| "B"
+	| "C"
+	| "D"
+	| "F"
+	| "G"
+	| "I"
+	| "J"
+	| "K"
+	| "L"
+	| "N"
+	| "O"
+	| "Q"
+	| "V"
+	| "W"
+	| "X"
+	| "Y"
+	| "Z";
 
 type CommonArt = {
 	castbsw: number;
@@ -32,7 +122,7 @@ type CommonArt = {
 	launchX: number;
 	launchY: number;
 	launchZ: number;
-}
+};
 
 export interface UnitSpec {
 	abil?: {
@@ -41,41 +131,43 @@ export interface UnitSpec {
 		auto?: string;
 	};
 	abilTest?: number;
-	art?: CommonArt | CommonArt & {
-		blend: number;
-		blue: number;
-		buildingShadow: string;
-		customTeamColor: boolean;
-		death: number;
-		elevPts?: 2 | 3 | 4;
-		elevRad: number;
-		fatLOS: boolean;
-		file: string;
-		fileVerFlags: 0 | 2;
-		fogRad: number;
-		green: number;
-		maxPitch: number;
-		maxRoll: number;
-		modelScale: number;
-		occH: number;
-		orientInterp: 0 | 1 | 2 | 3 | 4 | 5;
-		propWin: number;
-		red: number;
-		run: number;
-		scale: number;
-		scaleBull: boolean;
-		selCircOnWater: boolean;
-		selZ: number;
-		shadowH?: number;
-		shadowOnWater: boolean;
-		shadowW?: number;
-		shadowX?: number;
-		shadowY?: number;
-		teamColor: number;
-		uberSplat?: UberSplat;
-		unitShadow?: "Shadow" | "ShadowFlyer" | "shadow";
-		walk: number;
-	};
+	art?:
+		| CommonArt
+		| (CommonArt & {
+				blend: number;
+				blue: number;
+				buildingShadow: string;
+				customTeamColor: boolean;
+				death: number;
+				elevPts?: 2 | 3 | 4;
+				elevRad: number;
+				fatLOS: boolean;
+				file: string;
+				fileVerFlags: 0 | 2;
+				fogRad: number;
+				green: number;
+				maxPitch: number;
+				maxRoll: number;
+				modelScale: number;
+				occH: number;
+				orientInterp: 0 | 1 | 2 | 3 | 4 | 5;
+				propWin: number;
+				red: number;
+				run: number;
+				scale: number;
+				scaleBull: boolean;
+				selCircOnWater: boolean;
+				selZ: number;
+				shadowH?: number;
+				shadowOnWater: boolean;
+				shadowW?: number;
+				shadowX?: number;
+				shadowY?: number;
+				teamColor: number;
+				uberSplat?: UberSplat;
+				unitShadow?: "Shadow" | "ShadowFlyer" | "shadow";
+				walk: number;
+		  });
 	avgdmg1?: number;
 	avgdmg2?: number;
 	legacyModelScale?: number;

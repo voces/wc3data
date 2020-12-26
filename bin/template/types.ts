@@ -1,21 +1,63 @@
+type Type =
+	| "abilityList"
+	| "armorType"
+	| "itemClass"
+	| "int"
+	| "abilCode"
+	| "bool"
+	| "model"
+	| "real"
+	| "stringList"
+	| "icon"
+	| "string"
+	| "soundLabel"
+	| "unitList"
+	| "char"
+	| "itemList"
+	| "unreal"
+	| "techList"
+	| "intList"
+	| "upgradeList"
+	| "modelList"
+	| "heroAbilityList"
+	| "defenseType"
+	| "pathingListPrevent"
+	| "attributeType"
+	| "regenType"
+	| "pathingListRequire"
+	| "tilesetList"
+	| "unitClass"
+	| "aiBuffer"
+	| "deathType"
+	| "moveType"
+	| "pathingTexture"
+	| "unitRace"
+	| "targetList"
+	| "shadowTexture"
+	| "versionFlags"
+	| "teamColor"
+	| "uberSplat"
+	| "shadowImage"
+	| "unitSound"
+	| "attackType"
+	| "attackBits"
+	| "weaponType"
+	| "combatSound";
 
-type Type = "abilityList" | "armorType" | "itemClass" | "int" | "abilCode" | "bool"
-	| "model" | "real" | "stringList" | "icon" | "string" | "soundLabel" | "unitList"
-	| "char" | "itemList" | "unreal" | "techList" | "intList" | "upgradeList" | "modelList"
-	| "heroAbilityList" | "defenseType" | "pathingListPrevent" | "attributeType"
-	| "regenType" | "pathingListRequire" | "tilesetList" | "unitClass" | "aiBuffer" | "deathType"
-	| "moveType" | "pathingTexture" | "unitRace" | "targetList" | "shadowTexture"
-	| "versionFlags" | "teamColor" | "uberSplat" | "shadowImage" | "unitSound" | "attackType"
-	| "attackBits" | "weaponType" | "combatSound"
-
-type Slks = "ItemData" | "Profile" | "UnitAbilities" | "UnitBalance" | "UnitData" | "UnitUI"
-	| "UnitWeapons"
+type Slks =
+	| "ItemData"
+	| "Profile"
+	| "UnitAbilities"
+	| "UnitBalance"
+	| "UnitData"
+	| "UnitUI"
+	| "UnitWeapons";
 
 export interface TypeSpec {
 	ID: string;
 	field: string;
 	slk: Slks;
-	index: - 1 | 0 | 1;
+	index: -1 | 0 | 1;
 	category: string;
 	displayName: string;
 	sort: string | undefined;
