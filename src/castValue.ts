@@ -1,5 +1,3 @@
-import { inspect } from "util";
-
 import { typeArray, TypeSpec } from "./types";
 
 export type Value = string | number | boolean | void;
@@ -78,7 +76,9 @@ const _castValue = (value: string, fieldType: string): Value => {
 	}
 
 	throw new Error(
-		`Uncaught type cast: value=${inspect(value)} fieldType=${fieldType}`,
+		`Uncaught type cast: value=${JSON.stringify(
+			value,
+		)} fieldType=${fieldType}`,
 	);
 };
 
@@ -154,7 +154,9 @@ export const castValue = (
 		}
 
 		throw new Error(
-			`Uncaught value cast: value=${inspect(value)} field=${field}`,
+			`Uncaught value cast: value=${JSON.stringify(
+				value,
+			)} field=${field}`,
 		);
 	}
 
