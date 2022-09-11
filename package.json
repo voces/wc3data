@@ -10,6 +10,8 @@
     "build-units-debug": "node -r ts-node/register --inspect-brk bin/units.ts",
     "build-units": "ts-node bin/units.ts > src/units.ts",
     "build": "npm run build-types && npm run build-units && npm run build-js && deno fmt dist",
+    "prepublishOnly": "npm run clean && npm run build",
+    "clean": "rm -rf dist",
     "test-lint": "deno lint . --ignore=node_modules,dist"
   },
   "devDependencies": {
