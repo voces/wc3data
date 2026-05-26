@@ -1,15 +1,14 @@
 {
   "compilerOptions": {
     "outDir": "dist",
-    "baseUrl": "src",
     "allowJs": false,
-    "target": "es6",
+    "target": "es2020",
     "lib": ["es2020", "dom"],
-    "moduleResolution": "node",
-    "module": "CommonJS",
+    "moduleResolution": "node16",
+    "module": "node16",
     "strict": true,
     "noImplicitAny": false,
-    "types": ["@types/node"],
+    "types": ["node"],
     "esModuleInterop": true,
     "declaration": true
   },

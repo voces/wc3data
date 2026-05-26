@@ -5,6 +5,7 @@
 
 import glob from "fast-glob";
 import { promises as fs } from "fs";
+import process from "node:process";
 import { inspect } from "util";
 
 import { castValue, typesByField, Value as CastValue } from "../src/castValue";
@@ -60,99 +61,94 @@ const fromPathEntries = (
 const untyped = (data: Array<string | number | boolean>[]): string[][] =>
   data.map((r) => r.map((v) => v.toString()));
 
-// const dir = "data/1.31.1.12164/units/raw";
-glob(input + "/*.(slk|txt)")
-  .then((paths) => {
-    if (paths.length === 0) throw new Error(`No files found at ${input}`);
+const main = async () => {
+  const paths = await glob(input + "/*.(slk|txt)");
+  if (paths.length === 0) throw new Error(`No files found at ${input}`);
 
-    return Promise.all([
-      fs.readFile("./bin/template/units.ts", "utf-8"),
-      Promise.all(
-        paths
-          .filter((path) => path.endsWith(".slk"))
-          .map((path) =>
-            fs
-              .readFile(path, "utf-8")
-              .then(slkToTable)
-              .then(untyped)
-          ),
+  const template = await fs.readFile("./bin/template/units.ts", "utf-8");
+  const tsvs = await Promise.all(
+    paths
+      .filter((path) => path.endsWith(".slk"))
+      .map((path) =>
+        fs
+          .readFile(path, "utf-8")
+          .then(slkToTable)
+          .then(untyped)
       ),
-      Promise.all(
-        paths
-          .filter((path) => path.endsWith(".txt"))
-          .map((path) => fs.readFile(path, "utf-8").then(iniToObjs)),
-      ),
-    ]);
-  })
-  .then(([template, tsvs, inis]) => {
-    const units: Record<string, Record<string, string | string[]>> = {};
-    for (const tsv of tsvs) {
-      const header = tsv[0];
-      for (const row of tsv.slice(1)) {
-        const unit = units[row[0]] || (units[row[0]] = {});
-        for (let i = 1; i < row.length; i++) {
-          const column = header[i];
-          const value = row[i];
-          const existingValue = unit[column];
-          if (existingValue !== undefined) {
-            if (Array.isArray(existingValue)) {
-              if (!existingValue.includes(value)) {
-                existingValue.push(value);
-              }
-            } else if (existingValue !== value) {
-              unit[column] = [existingValue, value];
+  );
+  const inis = await Promise.all(
+    paths
+      .filter((path) => path.endsWith(".txt"))
+      .map((path) => fs.readFile(path, "utf-8").then(iniToObjs)),
+  );
+
+  const units: Record<string, Record<string, string | string[]>> = {};
+  for (const tsv of tsvs) {
+    const header = tsv[0];
+    for (const row of tsv.slice(1)) {
+      const unit = units[row[0]] || (units[row[0]] = {});
+      for (let i = 1; i < row.length; i++) {
+        const column = header[i];
+        const value = row[i];
+        const existingValue = unit[column];
+        if (existingValue !== undefined) {
+          if (Array.isArray(existingValue)) {
+            if (!existingValue.includes(value)) {
+              existingValue.push(value);
             }
-          } else unit[column] = value;
-        }
+          } else if (existingValue !== value) {
+            unit[column] = [existingValue, value];
+          }
+        } else unit[column] = value;
       }
     }
+  }
 
-    for (const ini of inis) {
-      for (const [unitId, values] of Object.entries(ini)) {
-        const unit = units[unitId];
-        if (unit) Object.assign(unit, values);
-      }
+  for (const ini of inis) {
+    for (const [unitId, values] of Object.entries(ini)) {
+      const unit = units[unitId];
+      if (unit) Object.assign(unit, values);
     }
+  }
 
-    const sorted = Object.fromEntries(
-      Object.entries(units)
-        .map(([id, unit]) => {
-          const rawUnitEntries: [
-            string,
-            Value | Value[],
-          ][] = Object.entries(unit).map(([field, value]) => {
-            const types = typesByField[field];
-            const filteredTypes = types
-              ? types.filter((v) => UNIT_SLKS.includes(v.slk))
-              : [];
-            const type = filteredTypes.length === 1
-              ? filteredTypes[0]
-              : undefined;
+  const sorted = Object.fromEntries(
+    Object.entries(units)
+      .map(([id, unit]) => {
+        const rawUnitEntries: [
+          string,
+          Value | Value[],
+        ][] = Object.entries(unit).map(([field, value]) => {
+          const types = typesByField[field];
+          const filteredTypes = types
+            ? types.filter((v) => UNIT_SLKS.includes(v.slk))
+            : [];
+          const type = filteredTypes.length === 1
+            ? filteredTypes[0]
+            : undefined;
 
-            return [
-              type && type.category ? `${type.category}.${field}` : field,
-              castValue(value, field, type),
-            ];
-          });
+          return [
+            type && type.category ? `${type.category}.${field}` : field,
+            castValue(value, field, type),
+          ];
+        });
 
-          const unitEntries = rawUnitEntries
-            .filter(([, value]) => value !== undefined)
-            .sort((a, b) => a[0].localeCompare(b[0]));
+        const unitEntries = rawUnitEntries
+          .filter(([, value]) => value !== undefined)
+          .sort((a, b) => a[0].localeCompare(b[0]));
 
-          const castedUnit = fromPathEntries(unitEntries);
+        const castedUnit = fromPathEntries(unitEntries);
 
-          return [id, castedUnit] as [string, IndexedDef];
-        })
-        .sort((a, b) => a[0].localeCompare(b[0])),
-    );
+        return [id, castedUnit] as [string, IndexedDef];
+      })
+      .sort((a, b) => a[0].localeCompare(b[0])),
+  );
 
-    console.log(
-      template +
-        `\nexport const units: Record<string, UnitSpec> = ${
-          jsStringify(
-            sorted,
-          )
-        };`,
-    );
-  })
-  .catch(killWithError);
+  console.log(
+    template +
+      `\nexport const units: Record<string, UnitSpec> = ${
+        jsStringify(sorted)
+      };`,
+  );
+};
+
+main().catch(killWithError);
