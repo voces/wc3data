@@ -33,26 +33,29 @@ Ubertip="Large melee unit. |n|n|cffffcc00Attacks land units.|r"
 [nskm]
 Name=Skeletal Marksman
 Hotkey=K
-Tip=Hire S|cffffcc00k|reletal Marksman
+Tip=Hire Skeletal Marksman
 Ubertip="Light ranged unit that shoots Cold Arrows. |n|n|cffffcc00Attacks land and air units.|r"
 
 [nskf]
 Name=Burning Archer
 Hotkey=B
-Tip=Hire |cffffcc00B|rurning Archer
+Tip=Hire Burning Archer
+Tip:melee,V1=Summon Burning Archer
 Ubertip="Light ranged unit that shoots Searing Arrows. |n|n|cffffcc00Attacks land and air units.|r"
 
 // dragon hawk 1
 [nws1]
 Name=Dragon Hawk
 Hotkey=D
-Tip=Train |cffffcc00D|rragon Hawk
+Hotkey:melee,V0=W
+Tip=Train Dragon Hawk
+Tip:melee,V0=Train Dragon Hawk
 Ubertip="Heavy ranged unit that can Ensnare opponents. |n|n|cffffcc00Attacks land and air units.|r"
 
 [nban]
 Name=Bandit
 Hotkey=B
-Tip=Hire |cffffcc00B|randit
+Tip=Hire Bandit
 Ubertip="Light melee unit with Shadowmeld. |n|n|cffffcc00Attacks land units.|r"
 
 [nbrg]
@@ -63,113 +66,130 @@ Ubertip="Light ranged unit with Shadowmeld. |n|n|cffffcc00Attacks land and air u
 [nrog]
 Name=Rogue
 Hotkey=R
-Tip=Hire |cffffcc00R|rogue
+Tip=Hire Rogue
 Ubertip="Light melee unit with Shadowmeld. |n|n|cffffcc00Attacks land units.|r"
 
 [nenf]
 Name=Enforcer
 Hotkey=E
-Tip=Hire |cffffcc00E|rnforcer
-Ubertip="Light melee unit with Shadowmeld and Evasion. |n|n|cffffcc00Attacks land units.|r"
+Tip=Hire Enforcer
+Ubertip="Light melee unit with Evasion. |n|n|cffffcc00Attacks land units.|r"
 
 [nbld]
 Name=Bandit Lord
 Tip=Hire Bandit Lord
-Ubertip="Heavy melee unit with Shadowmeld and Devotion Aura. Can cast Divine Shield. |n|n|cffffcc00Attacks land units.|r"
+Ubertip="Heavy melee unit with Devotion Aura. Can cast Divine Shield. |n|n|cffffcc00Attacks land units.|r"
 
 [nass]
 Name=Assassin
-Tip=Hire |cffffcc00A|rssassin
+Tip=Hire Assassin
 Hotkey=A
 Ubertip="Medium ranged unit that fires envenomed bolts and can Shadowmeld. |n|n|cffffcc00Attacks land and air units.|r"
 
 [nbdk]
 Name=Black Drake
-Tip=Summon Black Dra|cffffcc00k|re
+Tip=Summon Black Drake
 Ubertip="Small ranged flying unit. |n|n|cffffcc00Attacks land and air units.|r"
 Hotkey=K
 
 [nrdk]
 Name=Red Dragon Whelp
-Tip=Summon Red Dragon |cffffcc00W|rhelp
+Tip=Summon Red Dragon Whelp
 Ubertip="Tiny ranged flying unit. |n|n|cffffcc00Attacks land and air units.|r"
 Hotkey=W
 
 [nbdr]
 Name=Black Dragon Whelp
-Tip=Summon Black Dragon |cffffcc00W|rhelp
+Tip=Summon Black Dragon Whelp
 Ubertip="Tiny ranged flying unit. |n|n|cffffcc00Attacks land and air units.|r"
 Hotkey=W
 
 [nrdr]
 Name=Red Drake
-Tip=Summon Red Dra|cffffcc00k|re
+Tip=Summon Red Drake
 Ubertip="Small ranged flying unit. |n|n|cffffcc00Attacks land and air units.|r"
 Hotkey=K
 
 [nbwm]
 Name=Black Dragon
-Tip=Summon Black |cffffcc00D|rragon
+Tip=Summon Black Dragon
 Ubertip="Heavy ranged flying unit that can Devour opponents and is immune to magic. |n|n|cffffcc00Attacks land and air units.|r"
+Ubertip:custom,V0=Heavy ranged flying unit that can Devour opponents. Immune to spells. |n|n|cffffcc00Attacks land and air units.|r
+Ubertip:melee,V0=Heavy ranged flying unit that can Devour opponents. |n|n|cffffcc00Attacks land and air units.|r
 Hotkey=D
 
 [nrwm]
 Name=Red Dragon
 Hotkey=D
-Tip=Summon Red |cffffcc00D|rragon
+Tip=Summon Red Dragon
 Ubertip="Heavy ranged flying unit that can Devour opponents and is immune to magic. |n|n|cffffcc00Attacks land and air units.|r"
+Ubertip:custom,V0=Heavy ranged flying unit that can Devour opponents. Immune to spells. |n|n|cffffcc00Attacks land and air units.|r
+Ubertip:melee,V0=Heavy ranged flying unit that can Devour opponents. |n|n|cffffcc00Attacks land and air units.|r
 
 [nadr]
 Name=Blue Dragon
-Tip=Summon Blue |cffffcc00D|rragon
+Tip=Summon Blue Dragon
 Hotkey=D
-Ubertip="Heavy ranged flying unit that can Devour opponents and is immune to magic. |n|n|cffffcc00Attacks land and air units.|r"
+Ubertip="Heavy ranged flying unit that deals cold damage and slows enemy units. Can Devour opponents and is immune to magic. |n|n|cffffcc00Attacks land and air units.|r"
+Ubertip:custom,V0=Heavy ranged unit that can Devour opponents. Immune to spells. |n|n|cffffcc00Attacks land and air units.|r
+Ubertip:custom,V1="Heavy ranged flying unit that can Devour opponents and is immune to magic. |n|n|cffffcc00Attacks land and air units.|r"
+Ubertip:melee,V0=Heavy ranged unit that can Devour opponents. |n|n|cffffcc00Attacks land and air units.|r
 
 [nadw]
 Name=Blue Dragon Whelp
-Tip=Summon Blue Dragon |cffffcc00W|rhelp
-Ubertip="Tiny ranged flying unit. |n|n|cffffcc00Attacks land and air units.|r"
+Tip=Summon Blue Dragon Whelp
+Ubertip="Tiny ranged flying unit that deals cold damage and slows enemy units. |n|n|cffffcc00Attacks land and air units.|r"
+Ubertip:custom,V0="Tiny ranged flying unit. |n|n|cffffcc00Attacks land and air units.|r"
+Ubertip:custom,V1="Tiny ranged flying unit. |n|n|cffffcc00Attacks land and air units.|r"
+Ubertip:melee,V0="Tiny ranged flying unit. |n|n|cffffcc00Attacks land and air units.|r"
 Hotkey=W
 
 [nadk]
 Name=Blue Drake
-Tip=Summon Blue Dra|cffffcc00k|re
-Ubertip="Small ranged flying unit. |n|n|cffffcc00Attacks land and air units.|r"
+Tip=Summon Blue Drake
+Ubertip="Small ranged flying unit that deals cold damage and slows enemy units. |n|n|cffffcc00Attacks land and air units.|r"
+Ubertip:custom,V0="Small ranged flying unit. |n|n|cffffcc00Attacks land and air units.|r"
+Ubertip:custom,V1="Small ranged flying unit. |n|n|cffffcc00Attacks land and air units.|r"
+Ubertip:melee,V0="Small ranged flying unit. |n|n|cffffcc00Attacks land and air units.|r"
 Hotkey=K
 
 [nbzd]
 Name=Bronze Dragon
-Tip=Summon Bronze |cffffcc00D|rragon
+Tip=Summon Bronze Dragon
 Hotkey=D
 Ubertip="Heavy ranged flying unit that can Devour opponents and is immune to magic. |n|n|cffffcc00Attacks land and air units.|r"
+Ubertip:custom,V0=Heavy ranged unit that can Devour opponents. Immune to spells. |n|n|cffffcc00Attacks land and air units.|r
+Ubertip:melee,V0=Heavy ranged unit that can Devour opponents. |n|n|cffffcc00Attacks land and air units.|r
 
 [nbzk]
 Name=Bronze Drake
-Tip=Summon Bronze Dra|cffffcc00k|re
+Tip=Summon Bronze Drake
 Ubertip="Small ranged flying unit. |n|n|cffffcc00Attacks land and air units.|r"
 Hotkey=K
 
 [nbzw]
 Name=Bronze Dragon Whelp
-Tip=Summon Bronze Dragon |cffffcc00W|rhelp
+Tip=Summon Bronze Dragon Whelp
 Ubertip="Tiny ranged flying unit. |n|n|cffffcc00Attacks land and air units.|r"
 Hotkey=W
 
 [ngrd]
 Name=Green Dragon
-Tip=Summon Green |cffffcc00D|rragon
+Tip=Summon Green Dragon
 Hotkey=D
 Ubertip="Heavy ranged flying unit that can Devour opponents and is immune to magic. |n|n|cffffcc00Attacks land and air units.|r"
+Ubertip:custom,V0=Heavy ranged unit that can Devour opponents. Immune to spells. |n|n|cffffcc00Attacks land and air units.|r
+Ubertip:melee,V0=Heavy ranged unit that can Devour opponents. |n|n|cffffcc00Attacks land and air units.|r
 
 [ngdk]
 Name=Green Drake
-Tip=Summon Green Dra|cffffcc00k|re
+Tip=Summon Green Drake
 Ubertip="Small ranged flying unit. |n|n|cffffcc00Attacks land and air units.|r"
 Hotkey=K
 
 [ngrw]
 Name=Green Dragon Whelp
-Tip=Summon Green Dragon |cffffcc00W|rhelp
+Tip=Summon Green Dragon Whelp
 Ubertip="Tiny ranged flying unit. |n|n|cffffcc00Attacks land and air units.|r"
 Hotkey=W
 
@@ -205,7 +225,13 @@ Description=Allows you to call forth Blue Dragons.
 
 [ncea]
 Name=Centaur Archer
-Tip=Hire Centaur |cffffcc00A|rrcher
+Tip=Hire Centaur Archer
+Hotkey=A
+Ubertip="Light ranged unit. |n|n|cffffcc00Attacks land and air units.|r"
+
+[ncef]
+Name=Centaur Archer
+Tip=Hire Centaur Archer
 Hotkey=A
 Ubertip="Light ranged unit. |n|n|cffffcc00Attacks land and air units.|r"
 
@@ -214,22 +240,46 @@ Name=Centaur Impaler
 Tip=Hire Centaur Impaler
 Ubertip="Medium ranged unit with Searing Arrows. |n|n|cffffcc00Attacks land and air units.|r"
 
+[ncif]
+Name=Centaur Impaler
+Tip=Hire Centaur Impaler
+Ubertip="Medium ranged unit with Searing Arrows. |n|n|cffffcc00Attacks land and air units.|r"
+
 [ncen]
 Name=Centaur Outrunner
-Tip=Hire Centaur |cffffcc00O|rutrunner
+Tip=Hire Centaur Outrunner
 Ubertip="Medium melee attacker wielding a large axe. |n|n|cffffcc00Attacks land units.|r"
 Hotkey=O
 
 [ncer]
 Name=Centaur Drudge
 Hotkey=D
-Tip=Hire Centaur |cffffcc00D|rrudge
+Tip=Hire Centaur Drudge
 Ubertip="Light melee unit. |n|n|cffffcc00Attacks land units.|r"
 
 [ncks]
 Name=Centaur Sorcerer
+Name:hd=Centaur Sorceress
+Name:custom,V0=Centaur Sorceror
+Name:custom,hd,V0=Centaur Sorceress
 Tip=Hire Centaur Sorcerer
+Tip:hd=Hire Centaur Sorceress
+Tip:custom,V0=Hire Centaur Sorceror
+Tip:custom,hd,V0=Hire Centaur Sorceress
 Ubertip="Medium ranged unit that hurls fiery missiles. Casts Abolish Magic and Bloodlust. |n|n|cffffcc00Attacks land and air units.|r"
+Ubertip:custom,V0=Medium ranged unit that hurls fiery missles. Casts Abolish Magic and Bloodlust. |n|n|cffffcc00Attacks land and air units.|r
+
+[nckf]
+Name=Centaur Sorcerer
+Name:custom,V1=Centaur Sorceress
+Name:custom,V0=Centaur Sorceress
+Name:melee,V0=Centaur Sorceress
+Tip=Hire Centaur Sorcerer
+Tip:custom,V1=Hire Centaur Sorceress
+Tip:custom,V0=Hire Centaur Sorceress
+Tip:melee,V0=Hire Centaur Sorceress
+Ubertip="Medium ranged unit that hurls fiery missiles. Casts Abolish Magic and Bloodlust. |n|n|cffffcc00Attacks land and air units.|r"
+Ubertip:custom,V0=Medium ranged unit that hurls fiery missles. Casts Abolish Magic and Bloodlust. |n|n|cffffcc00Attacks land and air units.|r
 
 [ncnk]
 Name=Centaur Khan
@@ -239,37 +289,37 @@ Ubertip="Heavy melee unit with Endurance Aura. Has the abilities War Stomp and R
 [ndth]
 Name=Dark Troll High Priest
 Hotkey=H
-Tip=Hire Dark Troll |cffffcc00H|righ Priest
+Tip=Hire Dark Troll High Priest
 Ubertip="High Priest of healing magic. Hurls fiery missiles. Can cast Sleep. |n|n|cffffcc00Attacks land and air units.|r"
 
 [ndtp]
 Name=Dark Troll Shadow Priest
 Hotkey=P
-Tip=Hire Dark Troll Shadow |cffffcc00P|rriest
+Tip=Hire Dark Troll Shadow Priest
 Ubertip="Shadow Priest of healing magic. Hurls fiery missiles. |n|n|cffffcc00Attacks land and air units.|r"
 
 [ndtb]
 Name=Dark Troll Berserker
 Hotkey=B
-Tip=Hire Dark Troll |cffffcc00B|rerserker
+Tip=Hire Dark Troll Berserker
 Ubertip="Rabid axe-thrower. |n|n|cffffcc00Attacks land and air units.|r"
 
 [ndtw]
 Name=Dark Troll Warlord
 Hotkey=W
-Tip=Hire Dark Troll |cffffcc00W|rarlord
+Tip=Hire Dark Troll Warlord
 Ubertip="Heavy ranged unit with Trueshot Aura. |n|n|cffffcc00Attacks land and air units.|r"
 
 [ndtr]
 Name=Dark Troll
 Hotkey=T
-Tip=Hire Dark |cffffcc00T|rroll
+Tip=Hire Dark Troll
 Ubertip="Light ranged unit. |n|n|cffffcc00Attacks land and air units.|r"
 
 [ndtt]
 Name=Dark Troll Trapper
 Hotkey=D
-Tip=Hire |cffffcc00D|rark Troll Trapper
+Tip=Hire Dark Troll Trapper
 Ubertip="Light ranged unit that can Ensnare opponents. |n|n|cffffcc00Attacks land and air units.|r"
 
 [nelb]
@@ -280,6 +330,7 @@ Ubertip="Heavy melee unit that can cast Frost Nova. Immune to spells. |n|n|cffff
 [nele]
 Name=Enraged Elemental
 Tip=Summon Enraged Elemental
+Tip:custom,V0=Summon Engraged Elemental
 Ubertip="Medium melee unit. Immune to spells. |n|n|cffffcc00Attacks land units.|r"
 
 [nenc]
@@ -306,37 +357,37 @@ Ubertip="Demonic beast that casts Mana Burn. |n|n|cffffcc00Attacks land units.|r
 [nfsh]
 Name=Forest Troll High Priest
 Hotkey=H
-Tip=Hire Forest Troll |cffffcc00H|righ Priest
+Tip=Hire Forest Troll High Priest
 Ubertip="High Priest of healing magic. Hurls fiery missiles. Can cast Abolish Magic and Inner Fire. |n|n|cffffcc00Attacks land and air units.|r"
 
 [nfsp]
 Name=Forest Troll Shadow Priest
 Hotkey=P
-Tip=Hire Forest Troll Shadow |cffffcc00P|rriest
+Tip=Hire Forest Troll Shadow Priest
 Ubertip="Shadow Priest of healing magic. Hurls fiery missiles. Can cast Abolish Magic. |n|n|cffffcc00Attacks land and air units.|r"
 
 [nftr]
 Name=Forest Troll
 Hotkey=T
-Tip=Hire Forest |cffffcc00T|rroll
+Tip=Hire Forest Troll
 Ubertip="Axe-throwing Troll. |n|n|cffffcc00Attacks land and air units.|r"
 
 [nftb]
 Name=Forest Troll Berserker
 Hotkey=B
-Tip=Hire Forest Troll |cffffcc00B|rerserker
+Tip=Hire Forest Troll Berserker
 Ubertip="Rabid axe-thrower. |n|n|cffffcc00Attacks land and air units.|r"
 
 [nftt]
 Name=Forest Troll Trapper
 Hotkey=F
-Tip=Hire |cffffcc00F|rorest Troll Trapper
+Tip=Hire Forest Troll Trapper
 Ubertip="Medium ranged unit that can Ensnare opponents. |n|n|cffffcc00Attacks land and air units.|r"
 
 [nftk]
 Name=Forest Troll Warlord
 Hotkey=W
-Tip=Hire Forest Troll |cffffcc00W|rarlord
+Tip=Hire Forest Troll Warlord
 Ubertip="Heavy ranged unit with Trueshot Aura. |n|n|cffffcc00Attacks land and air units.|r"
 
 [ngad]
@@ -357,7 +408,9 @@ Description=Sells boats.
 [ngrk]
 Name=Mud Golem
 Hotkey=U
-Tip=Summon M|cffffcc00u|rd Golem
+Tip=Summon Mud Golem
+Tip:custom,V0=Summon Mud Golem
+Tip:melee,V0=Summon Mud Golem
 Ubertip="Light melee unit that can Slow opponents. Immune to spells. |n|n|cffffcc00Attacks land units.|r"
 
 [ngst]
@@ -374,21 +427,27 @@ Ubertip="Heavy melee unit that can Slam opponents and hurl boulders. Immune to s
 Name=Battle Golem
 Tip=Summon Battle Golem
 Ubertip="Heavy melee unit. Immune to spells. |n|n|cffffcc00Attacks land units.|r"
+Ubertip:custom,V0=Heavy melee unit that hurls boulders at opponents. Immune to spells. |n|n|cffffcc00Attacks land units.|r
+Ubertip:melee,V0=Heavy melee unit that hurls boulders at opponents. Immune to spells. |n|n|cffffcc00Attacks land units.|r
 
 [nwrg]
 Name=War Golem
 Tip=Summon War Golem
 Ubertip="Heavy melee unit. Immune to spells. |n|n|cffffcc00Attacks land units.|r"
+Ubertip:custom,V0=Heavy melee unit that hurls boulders at opponents. Immune to spells. |n|n|cffffcc00Attacks land units.|r
+Ubertip:melee,V0=Heavy melee unit that hurls boulders at opponents. Immune to spells. |n|n|cffffcc00Attacks land units.|r
 
 [nsgg]
 Name=Siege Golem
 Tip=Summon Siege Golem
 Ubertip="Heavy melee unit. Immune to spells. |n|n|cffffcc00Attacks land units.|r"
+Ubertip:custom,V0=Heavy melee unit that hurls boulders at opponents. Immune to spells. |n|n|cffffcc00Attacks land units.|r
+Ubertip:melee,V0=Heavy melee unit that hurls boulders at opponents. Immune to spells. |n|n|cffffcc00Attacks land units.|r
 
 [ngir]
-Name=Goblin Shredder
+Name=Shredder
 Hotkey=G
-Tip=Hire |cffffcc00G|roblin Shredder
+Tip=Hire Shredder
 Ubertip="Medium melee unit made of iron. Excellent at harvesting large amounts of lumber. |n|n|cffffcc00Attacks land units and trees.|r"
 
 // Furbolg level 4
@@ -418,7 +477,7 @@ Ubertip="Heavy melee unit with Command Aura. Can also War Stomp. |n|n|cffffcc00A
 // Furbolg Shaman level 4
 [nfrs]
 Name=Furbolg Shaman
-Tip=Hire |cffffcc00F|rurbolg Shaman
+Tip=Hire Furbolg Shaman
 Hotkey=F
 Ubertip="Medium ranged unit that hurls bolts of lightning. Can cast Rejuvenation. |n|n|cffffcc00Attacks land and air units.|r"
 
@@ -440,37 +499,39 @@ Ubertip="Heavy ranged unit that can cast Curse and Possession. |n|n|cffffcc00Att
 
 [ngna]
 Name=Gnoll Poacher
-Tip=Hire Gnoll Po|cffffcc00a|rrcher
+Tip=Hire Gnoll Poacher
 Hotkey=A
 Ubertip="Light ranged unit. |n|n|cffffcc00Attacks land and air units.|r"
 
 [ngns]
 Name=Gnoll Assassin
-Tip=Hire Gnoll A|cffffcc00s|rsassin
+Tip=Hire Gnoll Assassin
 Hotkey=S
 Ubertip="Light ranged unit that fires envenomed bolts. |n|n|cffffcc00Attacks land and air units.|r"
 
 [ngno]
 Name=Gnoll
-Tip=Hire Gnoll |cffffcc00R|robber
+Tip=Hire Gnoll Robber
 Hotkey=R
 Ubertip="Light melee unit. |n|n|cffffcc00Attacks land units.|r"
 
 [ngnb]
 Name=Gnoll Brute
-Tip=Hire Gnoll |cffffcc00B|rrute
+Tip=Hire Gnoll Brute
 Hotkey=B
 Ubertip="Light melee unit to bolster your forces. |n|n|cffffcc00Attacks land units.|r"
 
 [ngnw]
 Name=Gnoll Warden
-Tip=Hire Gnoll |cffffcc00W|rarden
+Tip=Hire Gnoll Warden
 Hotkey=W
 Ubertip="Light ranged unit that hurls bolts of lightning. Can cast Purge. |n|n|cffffcc00Attacks land and air units.|r"
 
 [ngnv]
 Name=Gnoll Overseer
-Tip=Hire Gnoll |cffffcc00O|rverseer
+Tip=Hire Gnoll Overseer
+Tip:custom,V0=Hire Gnoll Overseer
+Tip:melee,V0=Hire Gnoll Overseer
 Hotkey=O
 Ubertip="Heavy melee unit with Command Aura. |n|n|cffffcc00Attacks land units.|r"
 
@@ -480,8 +541,8 @@ Tip=Build Gold Mine
 Description=The main source of gold.
 
 [ngsp]
-Name=Goblin Sapper
-Tip=Hire Goblin |cffffcc00S|rapper
+Name=Sapper
+Tip=Hire Sapper
 Ubertip="Explosive team of goblin sappers. Particularly effective against buildings. |n|cffffcc00Can Kaboom land units and trees.|r"
 Hotkey=S
 
@@ -492,15 +553,20 @@ Ubertip="Light flying ranged unit that hurls pin-feathers. |n|n|cffffcc00Attacks
 
 [nhrr]
 Name=Harpy Rogue
-Tip=Hire Harpy |cffffcc00R|rogue
+Tip=Hire Harpy Rogue
 Hotkey=R
 Ubertip="Light flying ranged unit that hurls pin-feathers. |n|n|cffffcc00Attacks land and air units.|r"
 
 [nhrw]
 Name=Harpy Windwitch
-Tip=Hire Harpy |cffffcc00W|rindwitch
+Tip=Hire Harpy Windwitch
+Tip:custom,V0=Hire Harpy Windwitch
+Tip:melee,V0=Hire Harpy Windwitch
 Hotkey=W
 Ubertip="Light flying ranged unit that hurls bolts of lightning. Casts Faerie Fire. |n|n|cffffcc00Attacks land and air units.|r"
+Ubertip:custom,V0=Light flying ranged unit that hurls bolts of lightning. Casts Faerie Fire and Abolish Magic. |n|n|cffffcc00Attacks land and air units.|r
+Ubertip:custom,V1=Light flying ranged unit that hurls bolts of lightning. Casts Faerie Fire and Abolish Magic. |n|n|cffffcc00Attacks land and air units.|r
+Ubertip:melee,V0=Light flying ranged unit that hurls bolts of lightning. Casts Faerie Fire and Abolish Magic. |n|n|cffffcc00Attacks land and air units.|r
 
 [nhrh]
 Name=Harpy Storm-hag
@@ -535,13 +601,13 @@ Ubertip="Light ranged unit. |n|n|cffffcc00Attacks land and air units.|r"
 
 [nits]
 Name=Ice Troll Berserker
-Tip=Hire Ice Troll |cffffcc00B|rerserker
+Tip=Hire Ice Troll Berserker
 Hotkey=B
 Ubertip="Medium ranged unit. |n|n|cffffcc00Attacks land and air units.|r"
 
 [nitt]
 Name=Ice Troll Trapper
-Tip=Hire Ice Troll |cffffcc00T|rrapper
+Tip=Hire Ice Troll Trapper
 Hotkey=T
 Ubertip="Medium ranged unit that can Ensnare opponents. |n|n|cffffcc00Attacks land and air units.|r"
 
@@ -558,28 +624,31 @@ Ubertip="High Priest of healing magic. Can cast Abolish Magic and Frost Armor. |
 [nitp]
 Name=Ice Troll Priest
 Tip=Hire Ice Troll Priest
+Hotkey:melee,V1=P
 Ubertip="Priest of healing magic. |n|n|cffffcc00Attacks land and air units.|r"
 
 [nkob]
 Name=Kobold
-Tip=Hire |cffffcc00K|robold
+Tip=Hire Kobold
 Hotkey=K
 Ubertip="Light melee unit. |n|n|cffffcc00Attacks land units.|r"
 
 [nkog]
 Name=Kobold Geomancer
-Tip=Hire Kobold |cffffcc00G|reomancer
+Tip=Hire Kobold Geomancer
 Hotkey=G
 Ubertip="Light ranged unit that casts Slow and Abolish Magic. |n|n|cffffcc00Attacks land and air units.|r"
 
 [nkol]
 Name=Kobold Taskmaster
 Tip=Hire Kobold Taskmaster
+Hotkey:melee,V1=K
 Ubertip="Heavy melee unit with Command Aura. Can Bash opponents. |n|n|cffffcc00Attacks land units.|r"
 
 [nkot]
 Name=Kobold Tunneler
 Tip=Hire Kobold Tunneler
+Hotkey:melee,V1=T
 Ubertip="Light melee unit that can Bash opponents. |n|n|cffffcc00Attacks land units.|r"
 
 [nltl]
@@ -594,9 +663,10 @@ Ubertip="A ward that lures nearby monsters."
 
 [nthl]
 Name=Thunder Lizard
-Tip=Summon |cffffcc00T|rhunder Lizard
+Tip=Summon Thunder Lizard
 Hotkey=T
 Ubertip="Heavy ranged unit that hurls bolts of lightning. Can Slam opponents. |n|n|cffffcc00Attacks land and air units.|r"
+EditorSuffix= 2
 
 [nstw]
 Name=Storm Wyrm
@@ -605,7 +675,7 @@ Ubertip="Heavy ranged unit that hurls bolts of lightning. Has the ability to Dev
 
 [nmfs]
 Name=Murloc Flesheater
-Tip=Hire |cffffcc00M|rurloc Flesheater
+Tip=Hire Murloc Flesheater
 Hotkey=M
 Ubertip="Light melee unit that can Cannibalize corpses. |n|n|cffffcc00Attacks land units.|r"
 
@@ -626,7 +696,7 @@ Ubertip="Light melee unit. |n|n|cffffcc00Attacks land units.|r"
 
 [nmrr]
 Name=Murloc Huntsman
-Tip=Hire Murloc |cffffcc00H|runtsman
+Tip=Hire Murloc Huntsman
 Hotkey=H
 Ubertip="Light melee unit that can Ensnare opponents. |n|n|cffffcc00Attacks land units.|r"
 
@@ -637,17 +707,23 @@ Ubertip="Light melee unit that poisons opponents. Can also Shadowmeld. |n|n|cfff
 
 [nowb]
 Name=Wildkin
-Tip=Summon |cffffcc00W|rildkin
+Name:custom,V0=Owlbear
+Tip=Summon Wildkin
+Tip:custom,V0=Summon Owlbear
 Hotkey=W
 Ubertip="Medium melee unit. |n|n|cffffcc00Attacks land units.|r"
 
 [nowe]
 Name=Enraged Wildkin
+Name:custom,V0=Enraged Owlbear
 Tip=Summon Enraged Wildkin
+Tip:custom,V0=Summon Enraged Owlbear
 
 [nowk]
 Name=Berserk Wildkin
+Name:custom,V0=Berserk Owlbear
 Tip=Summon Berserk Wildkin
+Tip:custom,V0=Summon Berserk Owlbear
 Ubertip="Heavy melee unit with Bash and War Stomp. |n|n|cffffcc00Attacks land units.|r"
 
 [nrzs]
@@ -660,7 +736,7 @@ Tip=Hire Razormane Brute
 
 [nrzm]
 Name=Razormane Medicine Man
-Tip=Hire Razormane Medicine |cffffcc00M|ran
+Tip=Hire Razormane Medicine Man
 Hotkey=M
 Ubertip="Medium melee unit that can cast Healing Ward and Feral Spirit. |n|n|cffffcc00Attacks land units.|r"
 
@@ -677,6 +753,7 @@ Ubertip="Light ranged unit. |n|n|cffffcc00Attacks land and air units.|r"
 [nqbh]
 Name=Quillboar Hunter
 Tip=Hire Quillboar Hunter
+Hotkey:melee,V1=H
 Ubertip="Medium ranged unit with Evasion. |n|n|cffffcc00Attacks land and air units.|r"
 
 [nspd]
@@ -686,13 +763,16 @@ Ubertip="Light melee unit. |n|n|cffffcc00Attacks land units.|r"
 
 [nnwa]
 Name=Nerubian Warrior
-Tip=Summon Nerubian |cffffcc00W|rarrior
+Tip=Summon Nerubian Warrior
+Tip:melee,V1=Hire Nerubian Warrior
 Hotkey=W
 Ubertip="Light melee unit that carries its young into battle. |n|n|cffffcc00Attacks land units.|r"
 
 [nnwl]
 Name=Nerubian Webspinner
-Tip=Summon |cffffcc00N|rerubian Webspinner
+Tip=Summon Nerubian Webspinner
+Tip:custom,V0=Summon Nerubian Webspinner
+Tip:melee,V0=Summon Nerubian Webspinner
 Hotkey=N
 Ubertip="Light ranged unit that can cast Web and Raise Dead. |n|n|cffffcc00Attacks land units.|r"
 
@@ -704,6 +784,8 @@ Ubertip="Heavy melee unit that carries its young into battle. |n|n|cffffcc00Atta
 [nnwr]
 Name=Nerubian Seer
 Tip=Summon Nerubian Seer
+Tip:melee,V1=Hire Nerubian Seer
+Hotkey:melee,V1=N
 Ubertip="Heavy melee unit that can cast Abolish Magic and Raise Dead. |n|n|cffffcc00Attacks land units.|r"
 
 [nnwq]
@@ -813,28 +895,28 @@ Description=A store for purchasing goods.
 // ogre 1
 [nogr]
 Name=Ogre Warrior
-Tip=Hire Ogre |cffffcc00W|rarrior
+Tip=Hire Ogre Warrior
 Ubertip="Standard warrior of the Ogre Legion. |n|n|cffffcc00Attacks land units.|r"
 Hotkey=W
 
 // ogre 2
 [nogm]
 Name=Ogre Mauler
-Tip=Hire Ogre |cffffcc00M|rauler
+Tip=Hire Ogre Mauler
 Ubertip="Large brutal warrior of the Ogre Legion. |n|n|cffffcc00Attacks land units.|r"
 Hotkey=M
 
 // ogre lord
 [nogl]
 Name=Ogre Lord
-Tip=Hire Ogre |cffffcc00L|rord
+Tip=Hire Ogre Lord
 Ubertip="Lord of the Ogre Legion. Has a defensive aura, and can cast Shockwave. |n|n|cffffcc00Attacks land units.|r"
 Hotkey=L
 
 // ogre magi
 [nomg]
 Name=Ogre Magi
-Tip=Hire O|cffffcc00g|rre Magi
+Tip=Hire Ogre Magi
 Ubertip="Spellcasting warrior of the Ogre Legion. Can cast Bloodlust. |n|n|cffffcc00Attacks land units.|r"
 Hotkey=G
 
@@ -845,7 +927,7 @@ Ubertip="Light melee unit with Immolation. |n|n|cffffcc00Attacks land units.|r"
 
 [nrvs]
 Name=Frost Revenant
-Tip=Summon |cffffcc00F|rrost Revenant
+Tip=Summon Frost Revenant
 Hotkey=F
 Ubertip="Medium melee unit that can cast Blizzard. |n|n|cffffcc00Attacks land units.|r"
 
@@ -871,13 +953,14 @@ Ubertip="Light melee unit that can Slow opponents. |n|n|cffffcc00Attacks land un
 
 [nslf]
 Name=Sludge Flinger
-Tip=Summon Sludge |cffffcc00F|rlinger
+Tip=Summon Sludge Flinger
 Hotkey=F
 Ubertip="Light ranged unit that can Slow opponents. |n|n|cffffcc00Attacks land and air units.|r"
 
 [nsln]
 Name=Sludge Monstrosity
 Tip=Summon Sludge Monstrosity
+Hotkey:melee,V1=L
 Ubertip="Medium melee unit that can Slow opponents. |n|n|cffffcc00Attacks land units.|r"
 
 [nslh]
@@ -908,7 +991,14 @@ Ubertip="Light ranged unit that hurls bolts of hellfire. Can cast Purge. |n|n|cf
 // satyr 2
 [nsts]
 Name=Satyr Shadowdancer
-Tip=Hire Satyr |cffffcc00S|rhadowdancer
+Tip=Hire Satyr Shadowdancer
+Hotkey=S
+Ubertip="Light ranged unit with Shadowmeld. Can cast Curse. |n|n|cffffcc00Attacks land and air units.|r"
+
+// satyr 2F
+[nstf]
+Name=Satyr Shadowdancer
+Tip=Hire Satyr Shadowdancer
 Hotkey=S
 Ubertip="Light ranged unit with Shadowmeld. Can cast Curse. |n|n|cffffcc00Attacks land and air units.|r"
 
@@ -916,11 +1006,11 @@ Ubertip="Light ranged unit with Shadowmeld. Can cast Curse. |n|n|cffffcc00Attack
 [nsth]
 Name=Satyr Hellcaller
 Tip=Hire Satyr Hellcaller
-Ubertip="Heavy melee unit with Unholy Aura. Can also Animate Dead. |n|n|cffffcc00Attacks land units.|r"
+Ubertip="Heavy melee unit with Unholy Aura. Can cast Bloodlust and Animate Dead. |n|n|cffffcc00Attacks land units.|r"
 
 [nstl]
 Name=Satyr Soulstealer
-Tip=Hire Satyr |cffffcc00S|roulstealer
+Tip=Hire Satyr Soulstealer
 Hotkey=S
 Ubertip="Medium melee unit that can cast Mana Burn and Raise Dead. |n|n|cffffcc00Attacks land units.|r"
 
@@ -947,6 +1037,7 @@ Ubertip="Medium melee unit that poisons opponents. Can cast Ensnare. |n|n|cffffc
 [nssp]
 Name=Spitting Spider
 Tip=Summon Spitting Spider
+Hotkey:melee,V1=P
 Ubertip="Light ranged unit that spits poison at opponents. |n|n|cffffcc00Attacks land and air units.|r"
 
 [nsbm]
@@ -1059,6 +1150,7 @@ Ubertip="Light melee unit. |n|n|cffffcc00Attacks land units.|r"
 [nwlg]
 Name=Giant Wolf
 Tip=Summon Giant Wolf
+Hotkey:melee,V1=W
 Ubertip="Medium melee unit with Critical Strike. |n|n|cffffcc00Attacks land units.|r"
 
 [nwld]
@@ -1117,8 +1209,8 @@ Tip=Hire Dark Wizard
 Ubertip="Heavy ranged unit with Brilliance Aura. Can also cast Raise Dead and Polymorph. |n|n|cffffcc00Attacks land and air units.|r"
 
 [nzep]
-Name=Goblin Zeppelin
-Tip=Hire Goblin |cffffcc00Z|reppelin
+Name=Zeppelin
+Tip=Hire Zeppelin
 Ubertip="Flying air-transport."
 Hotkey=Z
 
@@ -1175,6 +1267,7 @@ Description=A sturdy hide-covered shelter.
 Name=Tauren Tent
 Tip=Build Tauren Tent
 Description=A sturdy hide-covered shelter.
+EditorSuffix= 2
 
 [ngnh]
 Name=Gnoll Hut
@@ -1207,11 +1300,13 @@ Description=A hollowed-out log that some Trolls call home.
 Name=Forest Troll Hut
 Tip=Build Forest Troll Hut
 Description=A hollowed-out log that some Trolls call home.
+EditorSuffix= 2
 
 [nfr1]
 Name=Furbolg Hut
 Tip=Build Furbolg Hut
 Description=A hollowed-out log that some Furbolgs call home.
+EditorSuffix= 2
 
 [nfr2]
 Name=Furbolg Hut
@@ -1222,6 +1317,7 @@ Description=A hollowed-out log that some Furbolgs call home.
 Name=Ice Troll Hut
 Tip=Build Ice Troll Hut
 Description=A snow-covered dwelling that some Trolls call home.
+EditorSuffix= 2
 
 [nth1]
 Name=Ice Troll Hut
@@ -1366,43 +1462,46 @@ Description=A nest whose wooden frame is sparsely covered with a layer of debris
 [nowl]
 Name=Owl Scout
 EditorSuffix= (Level 1)
+EditorSuffix:custom,V0=(Level One)
 
 [now2]
 Name=Owl Scout
 EditorSuffix= (Level 2)
+EditorSuffix:custom,V0=(Level Two)
 
 [now3]
 Name=Owl Scout
 EditorSuffix= (Level 3)
+EditorSuffix:custom,V0=(Level Three)
 
 [nspp]
 Name=Spirit Pig
 
 // neutral heroes
 [Npbm]
-Name=Pandaren Brewmaster
+Name=Brewmaster
 Propernames=Mojo Dark-Ale,Sinjo Honeybrew,Kesha Wildbarley,Tatsa Sweetbarrow,Mushi Ale-Hearth,Jinto Reedwine,Masha Storm-Stout,Polo Barrel-keg
 Hotkey=N
-Tip=Summon Pa|cffffcc00n|rdaren Brewmaster
+Tip=Summon Brewmaster
 Ubertip="Warrior Hero, exceptional at absorbing damage and melee combat. Can learn Breath of Fire, Drunken Haze, Drunken Brawler and Storm, Earth, And Fire. |n|n|cffffcc00Attacks land units.|r"
-Revivetip=Revive Pa|cffffcc00n|rdaren Brewmaster
-Awakentip=Revive Pa|cffffcc00n|rdaren Brewmaster
+Revivetip=Revive Brewmaster
+Awakentip=Revive Brewmaster
 
 [npn1]
 Name=Fire
-Tip=Summon |cffffcc00F|rire
+Tip=Summon Fire
 Ubertip="Fierce Pandaren warrior of fire. Has Permanent Immolation and Resistant Skin. |n|n|cffffcc00Attacks land units.|r"
 Hotkey=F
 
 [npn2]
 Name=Storm
-Tip=Summon S|cffffcc00t|rorm
+Tip=Summon Storm
 Ubertip="Quick Pandaren warrior of storms. Has Resistant Skin. Can cast Dispel Magic, Cyclone, and Wind Walk. |n|n|cffffcc00Attacks land and air units.|r"
 Hotkey=T
 
 [npn3]
 Name=Earth
-Tip=Summon |cffffcc00E|rarth
+Tip=Summon Earth
 Ubertip="Sturdy Pandaren warrior of earth. Has Resistant Skin, and Spell Immunity. Can cast Pulverize, and Taunt. |n|n|cffffcc00Attacks land units.|r"
 Hotkey=E
 
@@ -1413,20 +1512,20 @@ Hotkey=E
 Name=Alchemist
 Propernames=Razzil Naypolm,Niffy Gurglebeaker,Ezzel Darkbrewer,Lapis Concocter,Savvy Foulmixer,Fictious Warpotion
 Hotkey=X
-Tip=Summon Alchemist (|cffffcc00X|r)
+Tip=Summon Alchemist
 Ubertip="Warrior Hero, known for offensive and defensive versatility. Can learn Healing Spray, Chemical Rage, Acid Bomb and Transmute.|n|n|cffffcc00Attacks land and air units.|r"
-Revivetip=Revive Alchemist (|cffffcc00X|r)
-Awakentip=Revive Alchemist (|cffffcc00X|r)
+Revivetip=Revive Alchemist
+Awakentip=Revive Alchemist
 
 //alchemist
 [Nalm]
 Name=Alchemist
 Propernames=Razzil Naypolm,Niffy Gurglebeaker,Ezzel Darkbrewer,Lapis Concocter,Savvy Foulmixer,Fictious Warpotion
 Hotkey=X
-Tip=Summon Alchemist (|cffffcc00X|r)
+Tip=Summon Alchemist
 Ubertip="Warrior Hero, known for offensive and defensive versatility. Can learn Healing Spray, Chemical Rage, Acid Bomb and Transmute.|n|n|cffffcc00Attacks land and air units.|r"
-Revivetip=Revive Alchemist (|cffffcc00X|r)
-Awakentip=Revive Alchemist (|cffffcc00X|r)
+Revivetip=Revive Alchemist
+Awakentip=Revive Alchemist
 EditorSuffix= (Morph level 1)
 
 //alchemist (morph, 2)
@@ -1434,10 +1533,10 @@ EditorSuffix= (Morph level 1)
 Name=Alchemist
 Propernames=Razzil Naypolm,Niffy Gurglebeaker,Ezzel Darkbrewer,Lapis Concocter,Savvy Foulmixer,Fictious Warpotion
 Hotkey=X
-Tip=Summon Alchemist (|cffffcc00X|r)
+Tip=Summon Alchemist
 Ubertip="Warrior Hero, known for offensive and defensive versatility. Can learn Healing Spray, Chemical Rage, Acid Bomb and Transmute.|n|n|cffffcc00Attacks land and air units.|r"
-Revivetip=Revive Alchemist (|cffffcc00X|r)
-Awakentip=Revive Alchemist (|cffffcc00X|r)
+Revivetip=Revive Alchemist
+Awakentip=Revive Alchemist
 EditorSuffix= (Morph level 2)
 
 //alchemist (morph, 3)
@@ -1445,10 +1544,10 @@ EditorSuffix= (Morph level 2)
 Name=Alchemist
 Propernames=Razzil Naypolm,Niffy Gurglebeaker,Ezzel Darkbrewer,Lapis Concocter,Savvy Foulmixer,Fictious Warpotion
 Hotkey=X
-Tip=Summon Alchemist (|cffffcc00X|r)
+Tip=Summon Alchemist
 Ubertip="Warrior Hero, known for offensive and defensive versatility. Can learn Healing Spray, Chemical Rage, Acid Bomb and Transmute.|n|n|cffffcc00Attacks land and air units.|r"
-Revivetip=Revive Alchemist (|cffffcc00X|r)
-Awakentip=Revive Alchemist (|cffffcc00X|r)
+Revivetip=Revive Alchemist
+Awakentip=Revive Alchemist
 EditorSuffix= (Morph level 3)
 
 // Tinker
@@ -1456,62 +1555,62 @@ EditorSuffix= (Morph level 3)
 Name=Tinker
 Propernames=Gazz Stripbolt,Riket Contraption,Mekka Gobb,Tek Piecetinker,Plug Rattletrap,Ratso Steamwheedle
 Hotkey=Z
-Tip=Summon Tinker (|cffffcc00Z|r)
+Tip=Summon Tinker
 Ubertip="Cunning Hero, exceptional at disrupting battles and enduring damage. Can learn Pocket Factory, Cluster Rockets, Engineering Upgrade and Robo-Goblin.|n|n|cffffcc00Attacks land units.|r"
-Revivetip=Revive Tinker (|cffffcc00Z|r)
-Awakentip=Revive Tinker (|cffffcc00Z|r)
+Revivetip=Revive Tinker
+Awakentip=Revive Tinker
 
 // Tinker (morph / robo-goblin)
 [Nrob]
 Name=Tinker
 Propernames=Gazz Stripbolt,Riket Contraption,Mekka Gobb,Tek Piecetinker,Plug Rattletrap,Ratso Steamwheedle
 Hotkey=Z
-Tip=Summon Tinker (|cffffcc00Z|r)
+Tip=Summon Tinker
 Ubertip="Cunning Hero, exceptional at disrupting battles and enduring damage. Can learn Pocket Factory, Cluster Rockets, Engineering Upgrade and Robo-Goblin.|n|n|cffffcc00Attacks land units.|r"
-Revivetip=Revive Tinker (|cffffcc00Z|r)
-Awakentip=Revive Tinker (|cffffcc00Z|r)
+Revivetip=Revive Tinker
+Awakentip=Revive Tinker
 
 [ncgb]
 Name=Clockwerk Goblin
-Tip=Summon |cffffcc00C|rlockwerk Goblin
+Tip=Summon Clockwerk Goblin
 Ubertip="Poorly engineered mechanical goblin melee warrior.  Detonates after a certain period of time.|n|n|cffffcc00Attacks land units.|r"
 Hotkey=C
 
 [ncg1]
 Name=Clockwerk Goblin
-Tip=Summon |cffffcc00C|rlockwerk Goblin
+Tip=Summon Clockwerk Goblin
 Ubertip="Poorly engineered mechanical goblin melee warrior.  Detonates after a certain period of time.|n|n|cffffcc00Attacks land units.|r"
 Hotkey=C
 
 [ncg2]
 Name=Clockwerk Goblin
-Tip=Summon |cffffcc00C|rlockwerk Goblin
+Tip=Summon Clockwerk Goblin
 Ubertip="Poorly engineered mechanical goblin melee warrior.  Detonates after a certain period of time.|n|n|cffffcc00Attacks land units.|r"
 Hotkey=C
 
 [ncg3]
 Name=Clockwerk Goblin
-Tip=Summon |cffffcc00C|rlockwerk Goblin
+Tip=Summon Clockwerk Goblin
 Ubertip="Poorly engineered mechanical goblin melee warrior.  Detonates after a certain period of time.|n|n|cffffcc00Attacks land units.|r"
 Hotkey=C
 
 [nfac]
 Name=Pocket Factory
-Tip=Summon Pocket |cffffcc00F|ractory
+Tip=Summon Pocket Factory
 Ubertip="Factory unit for spawning Clockwerk Goblins via the Pocket Factory ability."
 Hotkey=F
 EditorSuffix= (Level 1)
 
 [nfa1]
 Name=Pocket Factory
-Tip=Summon Pocket |cffffcc00F|ractory
+Tip=Summon Pocket Factory
 Ubertip="Factory unit for spawning Clockwerk Goblins via the Pocket Factory ability."
 Hotkey=F
 EditorSuffix= (Level 2)
 
 [nfa2]
 Name=Pocket Factory
-Tip=Summon Pocket |cffffcc00F|ractory
+Tip=Summon Pocket Factory
 Ubertip="Factory unit for spawning Clockwerk Goblins via the Pocket Factory ability."
 Hotkey=F
 EditorSuffix= (Level 3)
@@ -1520,10 +1619,10 @@ EditorSuffix= (Level 3)
 Name=Dark Ranger
 Propernames=Nara Pathstrider,Anya Eversong,Anthis Sunbow,Clea Deathstrider,Cyndia Hawkspear,Mira Shadewither,Amora Eagleye,Siren Ghostsong,Somand Wayfinder
 Hotkey=R
-Tip=Summon Dark |cffffcc00R|ranger
+Tip=Summon Dark Ranger
 Ubertip="Cunning Hero, adept at manipulating opponents. Can learn Silence, Black Arrow, Life Drain, and Charm. |n|n|cffffcc00Attacks land and air units.|r"
-Revivetip=Revive Dark |cffffcc00R|ranger
-Awakentip=Revive Dark |cffffcc00R|ranger
+Revivetip=Revive Dark Ranger
+Awakentip=Revive Dark Ranger
 
 [ndr1]
 Name=Lesser Dark Minion
@@ -1589,7 +1688,7 @@ Ubertip="Light melee amphibious unit whose spiked shell harms enemy melee attack
 
 [ntrt]
 Name=Giant Sea Turtle
-Tip=Hire Giant Sea |cffffcc00T|rurtle
+Tip=Hire Giant Sea Turtle
 Ubertip="Medium ranged amphibious unit whose spiked shell harms enemy melee attackers. |n|n|cffffcc00Attacks land and air units.|r"
 Hotkey=T
 
@@ -1645,13 +1744,13 @@ Ubertip="Light melee unit. |n|n|cffffcc00Attacks land units.|r"
 
 [nlds]
 Name=Makrura Deepseer
-Tip=Hire Makrura |cffffcc00D|reepseer
+Tip=Hire Makrura Deepseer
 Ubertip="Medium ranged unit that can cast Entangling Roots and summon Prawns. |n|n|cffffcc00Attacks land and air units.|r"
 Hotkey=D
 
 [nlsn]
 Name=Makrura Snapper
-Tip=Hire Mak|cffffcc00r|rura Snapper
+Tip=Hire Makrura Snapper
 Ubertip="Heavy melee unit. |n|n|cffffcc00Attacks land units.|r"
 Hotkey=R
 
@@ -1668,6 +1767,7 @@ Ubertip="Light melee amphibious unit. |n|n|cffffcc00Attacks land units.|r"
 [nmbg]
 Name=Mur'gul Blood-Gill
 Tip=Hire Mur'gul Blood-Gill
+Hotkey:melee,V1=B
 Ubertip="Light ranged amphibious unit with Heal. |n|n|cffffcc00Attacks land and air units.|r"
 
 [nmtw]
@@ -1677,7 +1777,8 @@ Ubertip="Light melee amphibious unit. |n|n|cffffcc00Attacks land units.|r"
 
 [nmsn]
 Name=Mur'gul Snarecaster
-Tip=Hire Mur'|cffffcc00g|rul Snarecaster
+Tip=Hire Mur'gul Snarecaster
+Hotkey:melee,V1=S
 Ubertip="Medium ranged amphibious unit with Abolish Magic and Slow. |n|n|cffffcc00Attacks land and air units.|r"
 Hotkey=G
 
@@ -1693,7 +1794,7 @@ Ubertip="Heavy ranged amphibious unit with Curse and Hex. |n|n|cffffcc00Attacks 
 
 [nscb]
 Name=Spider Crab Shorecrawler
-Tip=Hire Spider |cffffcc00C|rrab Shorecrawler
+Tip=Hire Spider Crab Shorecrawler
 Ubertip="Light melee unit. |n|n|cffffcc00Attacks land units.|r"
 Hotkey=C
 
@@ -1750,6 +1851,7 @@ Ubertip="Light melee unit. |n|n|cffffcc00Attacks land units.|r"
 [nsog]
 Name=Skeletal Orc Grunt
 Tip=Summon Skeletal Orc Grunt
+Hotkey:melee,V1=G
 Ubertip="Heavy melee unit. |n|n|cffffcc00Attacks land units.|r"
 
 [nsoc]
@@ -1765,6 +1867,7 @@ Ubertip="Light ranged unit. |n|n|cffffcc00Attacks land and air units.|r"
 [nsrh]
 Name=Stormreaver Hermit
 Tip=Hire Stormreaver Hermit
+Hotkey:melee,V1=H
 Ubertip="Light ranged unit with Purge. |n|n|cffffcc00Attacks land and air units.|r"
 
 [nsrn]
@@ -1780,31 +1883,32 @@ Ubertip="Heavy ranged unit with Monsoon and Animate Dead. |n|n|cffffcc00Attacks 
 [nbot]
 Name=Transport Ship
 Hotkey=T
-Tip=Hire |cffffcc00T|rransport Ship
+Tip=Hire Transport Ship
 Ubertip="A sea vessel capable of carrying units."
 
 [nfrp]
-Name=Pandaren
-Tip=Hire Pandaren
+Name=Primal Pandaren
+Tip=Hire Primal Pandaren
 Ubertip="Medium melee unit. |n|n|cffffcc00Attacks land units.|r"
 
 [Nngs]
-Name=Naga Sea Witch
+Name=Sea Witch
 Propernames=Anna Kondra,Scilla Murkshadow,Ursula Snakemane,Lady Venomtongue,Lady Serpentra,Lady Darkscale,Serena Scarscale,Asprah Serpus,Venna Seastorm,Charib'dishal
 Hotkey=G
-Tip=Summon Na|cffffcc00g|ra Sea Witch
+Tip=Summon Sea Witch
 Ubertip="Mystical Hero, adept at ranged combat. Can learn Forked Lightning, Frost Arrows, Mana Shield, and Tornado. |n|n|cffffcc00Attacks land and air units.|r"
-Revivetip=Revive Na|cffffcc00g|ra Sea Witch
-Awakentip=Revive Na|cffffcc00g|ra Sea Witch
+Revivetip=Revive Sea Witch
+Awakentip=Revive Sea Witch
 
 [Nfir]
 Name=Firelord
 Propernames=Ragepyre,Hatespark,Blazefury,Heatflayer,Volcanus,Flashfire,Kar the Everburning,Smolderas,Singeslayer
 Hotkey=O
-Tip=Summon Firel|cffffcc00o|rrd
+Tip=Summon Firelord
 Ubertip="Mystical Hero, adept at disrupting spells and dealing large amounts of fire damage.  Can learn Soul Burn, Summon Lava Spawn, Incinerate and Volcano.|n|n|cffffcc00Attacks land and air units.|r"
-Revivetip=Revive Firel|cffffcc00o|rrd
-Awakentip=Revive Firel|cffffcc00o|rrd
+Ubertip:custom,V1="Mystical Hero, adept at disrupting spells and dealing large amounts of fire damage.  Can learn Incinerate, Soul Burn, Summon Lava Spawn, and Volcano.|n|n|cffffcc00Attacks land and air units.|r"
+Revivetip=Revive Firelord
+Awakentip=Revive Firelord
 
 //lava spawn1
 [nlv1]
@@ -1825,19 +1929,19 @@ EditorSuffix= (Level 3)
 Name=Pit Lord
 Propernames=Azgalor,Brutillus,Mongrethod,Destromath,Gogonnash
 Hotkey=I
-Tip=Summon P|cffffcc00i|rt Lord
+Tip=Summon Pit Lord
 Ubertip="Warrior Hero, adept at terrorizing enemies. Can learn Rain of Fire, Howl of Terror, Cleaving Attack, and Doom. |n|n|cffffcc00Attacks land units.|r"
-Revivetip=Revive P|cffffcc00i|rt Lord
-Awakentip=Revive P|cffffcc00i|rt Lord
+Revivetip=Revive Pit Lord
+Awakentip=Revive Pit Lord
 
 [Nbst]
 Name=Beastmaster
 Propernames=Mag Bearmaul,Tagar Bearclaw,Gorsh Talonfang,Maxx Rocmane,Gaz Boartusk,Mok Rocksnout,Gish Eagle Eye
 Hotkey=S
-Tip=Summon Bea|cffffcc00s|rtmaster
+Tip=Summon Beastmaster
 Ubertip="Warrior Hero, adept at summoning beasts into battle. Can learn Summon Bear, Summon Quilbeast, Summon Hawk, and Stampede. |n|n|cffffcc00Attacks land units.|r"
-Revivetip=Revive Bea|cffffcc00s|rtmaster
-Awakentip=Revive Bea|cffffcc00s|rtmaster
+Revivetip=Revive Beastmaster
+Awakentip=Revive Beastmaster
 
 [ngz1]
 Name=Bear
@@ -1880,13 +1984,13 @@ Name=Tornado
 
 [nsc2]
 Name=Spider Crab Limbripper
-Tip=Hire Spider |cffffcc00C|rrab
+Tip=Hire Spider Crab
 Ubertip="Light melee unit. |n|n|cffffcc00Attacks land units.|r"
 Hotkey=C
 
 [nsc3]
 Name=Spider Crab Behemoth
-Tip=Hire Spider |cffffcc00C|rrab
+Tip=Hire Spider Crab
 Ubertip="Heavy melee unit. |n|n|cffffcc00Attacks land units.|r"
 Hotkey=C
 
@@ -1946,6 +2050,7 @@ Ubertip="Heavy melee unit with Command Aura. |n|n|cffffcc00Attacks land units.|r
 [ntkh]
 Name=Tuskarr Healer
 Tip=Hire Tuskarr Healer
+Hotkey:melee,V1=H
 Ubertip="Light ranged unit with Heal and Abolish Magic. |n|n|cffffcc00Attacks land and air units.|r"
 
 [ntks]
@@ -1955,13 +2060,14 @@ Ubertip="Medium ranged unit with Inner Fire. |n|n|cffffcc00Attacks land and air 
 
 [nbdm]
 Name=Blue Dragonspawn Meddler
-Tip=Hire Blue |cffffcc00D|rragonspawn Meddler
+Tip=Hire Blue Dragonspawn Meddler
 Hotkey=D
 Ubertip="Light melee unit with Evasion. |n|n|cffffcc00Attacks land units.|r"
 
 [nbdw]
 Name=Blue Dragonspawn Warrior
 Tip=Hire Blue Dragonspawn Warrior
+Hotkey:melee,V1=W
 Ubertip="Heavy melee unit with Evasion. |n|n|cffffcc00Attacks land units.|r"
 
 [nbdo]
@@ -1981,7 +2087,7 @@ Ubertip="Medium ranged unit with Evasion and Frost Nova. |n|n|cffffcc00Attacks l
 
 [nmgw]
 Name=Magnataur Warrior
-Tip=Hire Magnataur |cffffcc00W|rarrior
+Tip=Hire Magnataur Warrior
 Hotkey=W
 Ubertip="Heavy melee unit. Immune to spells. |n|n|cffffcc00Attacks land units.|r"
 
@@ -2002,13 +2108,13 @@ Ubertip="Light melee unit. |n|n|cffffcc00Attacks land units.|r"
 
 [nanb]
 Name=Barbed Arachnathid
-Tip=Hire |cffffcc00B|rarbed Arachnathid
+Tip=Hire Barbed Arachnathid
 Hotkey=B
 Ubertip="Light ranged unit. |n|n|cffffcc00Attacks land and air units.|r"
 
 [nanm]
 Name=Barbed Arachnathid
-Tip=Hire |cffffcc00B|rarbed Arachnathid
+Tip=Hire Barbed Arachnathid
 Hotkey=B
 Ubertip="Light ranged unit that has the Burrow ability. |n|n|cffffcc00Attacks land and air units.|r"
 
@@ -2060,6 +2166,7 @@ Ubertip="Medium melee unit. Can cast ensnare. |n|n|cffffcc00Attacks land units.|
 [nubw]
 Name=Unbroken Darkweaver
 Tip=Hire Unbroken Darkweaver
+Hotkey:melee,V1=D
 Ubertip="Medium melee unit with Unholy Frenzy. |n|n|cffffcc00Attacks land units.|r"
 
 [nplb]
@@ -2076,16 +2183,19 @@ Ubertip="Heavy melee amphibious unit. |n|n|cffffcc00Attacks land units.|r"
 Name=Watery Minion
 Tip=Summon Watery Minion
 Ubertip="Light melee amphibious unit. |n|n|cffffcc00Attacks land units.|r"
+EditorSuffix= (Level 1)
 
 [ntws]
 Name=Watery Minion
 Tip=Summon Watery Minion
 Ubertip="Light melee amphibious unit. |n|n|cffffcc00Attacks land units.|r"
+EditorSuffix= (Level 2)
 
 [nsns]
 Name=Watery Minion
 Tip=Summon Watery Minion
 Ubertip="Medium ranged amphibious unit with Abolish Magic and Slow. |n|n|cffffcc00Attacks land and air units.|r"
+EditorSuffix= (Level 3)
 
 [ngni]
 Name=Infected Granary
@@ -2114,7 +2224,7 @@ Ubertip="Heavy ranged unit with Frost Nova and Healing Wave. |n|n|cffffcc00Attac
 
 [nfps]
 Name=Polar Furbolg Shaman
-Tip=Hire Polar |cffffcc00F|rurbolg Shaman
+Tip=Hire Polar Furbolg Shaman
 Hotkey=F
 Ubertip="Medium ranged unit with Abolish Magic and Frost Armor. |n|n|cffffcc00Attacks land and air units.|r"
 
@@ -2129,15 +2239,19 @@ Tip=Hire Polar Furbolg Tracker
 Ubertip="Heavy melee unit that can Slow opponents. |n|n|cffffcc00Attacks land units.|r"
 
 [nmgv]
+Tooltip:custom,V0=Build Magic Vault
+Tooltip:melee,V0=Build Magic Vault
 Name=Magic Vault
-Tip=Purchase Magic |cffffcc00V|rault, Build Magic Vault
+Tip=Purchase Magic Vault, Build Magic Vault
+Tip:custom,V0=Purchase Magic Vault
+Tip:melee,V0=Purchase Magic Vault
 Hotkey=V
 Ubertip="A secret lies within every box."
 Description=A vault sealed with glowing runes. Often such vaults hold magical treasures.
 
 [nitb]
 Name=Icy Treasure Box
-Tip=Purchase Icy Treasure |cffffcc00B|rox, Build Treasure Box
+Tip=Purchase Icy Treasure Box, Build Treasure Box
 Hotkey=B
 Ubertip="A treasure lies frozen within."
 Description=A box sealed by solid ice. Often such boxes hold magical treasures.
@@ -2210,25 +2324,43 @@ Ubertip="A hearty villager."
 EditorSuffix= (Male 2)
 
 [nwc1]
-Name=Wyvern Cage
-Tip=Build Wyvern Cage
+Name=Wind Rider Cage
+Tip=Build Wind Rider Cage
 EditorSuffix= (1)
-Description=A sturdy cage designed to hold Wyverns captive.
+Description=A sturdy cage designed to hold Wind Riders captive.
 
 [nwc2]
-Name=Wyvern Cage
-Tip=Build Wyvern Cage
+Name=Wind Rider Cage
+Tip=Build Wind Rider Cage
 EditorSuffix= (2)
-Description=A sturdy cage designed to hold Wyverns captive.
+Description=A sturdy cage designed to hold Wind Riders captive.
+
+[nwc3]
+Name=Wind Rider Cage
+Tip=Build Wind Rider Cage
+EditorSuffix= (3)
+Description=A sturdy cage designed to hold Wind Riders captive.
+
+[nwc4]
+Name=Wind Rider Cage
+Tip=Build Wind Rider Cage
+EditorSuffix= (4)
+Description=A sturdy cage designed to hold Wind Riders captive.
 
 [nzom]
 Name=Zombie
 Tip=Summon Zombie
 Ubertip="Light melee unit. |n|n|cffffcc00Attacks land units.|r"
 
+[nzof]
+Name=Zombie
+Tip=Summon Zombie
+Ubertip="Light melee unit. |n|n|cffffcc00Attacks land units.|r"
+EditorSuffix= Female
+
 [npfl]
 Name=Fel Beast
-Tip=Summon |cffffcc00F|rel Beast
+Tip=Summon Fel Beast
 Hotkey=F
 Ubertip="Light melee unit. |n|n|cffffcc00Attacks land units.|r"
 
@@ -2282,6 +2414,7 @@ Ubertip="Light melee unit. |n|n|cffffcc00Attacks land units.|r"
 [nfgb]
 Name=Bloodfiend
 Tip=Hire Bloodfiend
+Hotkey:melee,V1=B
 Ubertip="Medium melee unit with Cleaving Attack. |n|n|cffffcc00Attacks land units.|r"
 
 [nfov]
@@ -2316,13 +2449,13 @@ Ubertip="Light melee unit. |n|n|cffffcc00Attacks land units.|r"
 
 [ndrd]
 Name=Draenei Darkslayer
-Tip=Hire Draenei Dark|cffffcc00s|rlayer
+Tip=Hire Draenei Darkslayer
 Hotkey=S
 Ubertip="Medium melee unit with Immolation. |n|n|cffffcc00Attacks land units.|r"
 
 [ndrm]
 Name=Draenei Disciple
-Tip=Hire Draenei |cffffcc00D|risciple
+Tip=Hire Draenei Disciple
 Hotkey=D
 Ubertip="Light ranged unit that casts Heal. |n|n|cffffcc00Attacks land and air units.|r"
 
@@ -2358,13 +2491,13 @@ Ubertip="Light ranged unit. |n|n|cffffcc00Attacks land and air units.|r"
 
 [nvdw]
 Name=Voidwalker
-Tip=Hire |cffffcc00V|roidwalker
+Tip=Hire Voidwalker
 Hotkey=V
 Ubertip="Light ranged unit with Cold Arrows. |n|n|cffffcc00Attacks land and air units.|r"
 
 [nvdg]
 Name=Greater Voidwalker
-Tip=Hire Greater |cffffcc00V|roidwalker
+Tip=Hire Greater Voidwalker
 Hotkey=V
 Ubertip="Heavy ranged unit that casts Chain Lightning and Frost Armor. |n|n|cffffcc00Attacks land and air units.|r"
 
@@ -2375,19 +2508,19 @@ Ubertip="Heavy ranged unit that can cast Devour Magic and Forked Lightning. |n|n
 
 [nnht]
 Name=Nether Dragon Hatchling
-Tip=Summon Nether Dragon |cffffcc00H|ratchling
+Tip=Summon Nether Dragon Hatchling
 Hotkey=H
 Ubertip="Tiny ranged flying unit. |n|n|cffffcc00Attacks land and air units.|r"
 
 [nndk]
 Name=Nether Drake
-Tip=Summon Nether Dra|cffffcc00k|re
+Tip=Summon Nether Drake
 Hotkey=K
 Ubertip="Heavy ranged flying unit. |n|n|cffffcc00Attacks land and air units.|r"
 
 [nndr]
 Name=Nether Dragon
-Tip=Summon Nether |cffffcc00D|rragon
+Tip=Summon Nether Dragon
 Hotkey=D
 Ubertip="Heavy ranged flying unit that can cast Cripple and is immune to magic. |n|n|cffffcc00Attacks land and air units.|r"
 
@@ -2430,6 +2563,7 @@ Ubertip="A simple peasant's Draenei hut."
 Name=Draenei Hut
 Tip=Build Draenei Hut
 Ubertip="A simple peasant's Draenei hut."
+EditorSuffix= 2
 
 [ndch]
 Name=Draenei Chieftain's Hut
@@ -2451,3 +2585,90 @@ Name=Jungle Stalker
 Tip=Summon Jungle Stalker
 Ubertip="Medium melee unit. |n|n|cffffcc00Attacks land units.|r"
 
+[ntn3]
+EditorSuffix= 3
+Name=Tent
+
+[nggm]
+Name=Moss Covered Granite Golem
+
+[nggg]
+Name=Guardian Golem
+
+[nggd]
+Name=Defender Golem
+
+[ngow]
+Name=Gnoll Warlord
+
+[nwzw]
+Name=Blood Wizard
+
+[ngos]
+Name=Snarlmane the Bloodgorger
+
+[ngog]
+Name=Guard Dog
+
+[nwar]
+Name=War Wagon
+
+[nccd]
+Name=Diablo Cart
+
+[ncco]
+Name=Orc Cart
+
+[nccu]
+Name=Undead Cart
+
+[nccr]
+Name=Dwarf Cart
+
+[Hjnd]
+Name=Ranger
+Propernames=Jennalla Deemspring
+
+[nmg2]
+Name=Murloc Hut
+EditorSuffix=2
+
+[nhn2]
+Name=Harpy Nest
+EditorSuffix=2
+
+[obai]
+Name=Baine
+
+[hrrh]
+Name=Runner
+EditorSuffix=High Elf
+
+[Haah]
+Name=High Elf Archmage
+Propernames=Kelen the Seeker
+
+[Hssa]
+Name=High King
+Propernames=Anasterian Sunstrider
+
+[Hddt]
+Name=Master Swordsman
+Propernames=Thalorien Dawnseeker
+
+[owad]
+Name=Slave Master
+
+[nobs]
+Description:custom,V0=A building for astronomical study.
+Description:melee,V0=A building for astronomical study.
+Tip:custom,V0=Build Observatory
+Tip:melee,V0=Build Observatory
+Name:custom,V0=Observatory
+Name:melee,V0=Observatory
+
+[ndrb]
+Name:melee,V0=Dragon Roost
+Tip:custom,V0=Build Dragon Roost
+Tip:melee,V0=Build Dragon Roost
+Name:custom,V0=Dragon Roost

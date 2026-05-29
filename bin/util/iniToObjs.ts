@@ -24,7 +24,10 @@ export const iniToObjs = (
       if (line[valueMatch[1].length] === ":") continue;
       const key = valueMatch[1]
         .replace("UberTip", "Ubertip")
-        .replace("ButtonPos", "Buttonpos");
+        .replace("ButtonPos", "Buttonpos")
+        .replace("Missilehoming", "MissileHoming")
+        .replace("RequiresCount", "Requirescount")
+        .replace("UnitSound", "unitSound");
       entry[key] = valueMatch[2];
       continue;
     }

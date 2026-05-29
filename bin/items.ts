@@ -111,6 +111,14 @@ const main = async () => {
           string,
           Value | Value[],
         ][] = Object.entries(item).map(([field, value]) => {
+          if (field === "Buttonpos" && typeof value === "string") {
+            const parts = value.split(",").map((v) => parseInt(v, 10));
+            if (parts.every((n) => !isNaN(n))) {
+              return ["art.Buttonpos", parts];
+            }
+            return [field, undefined];
+          }
+
           const types = typesByField[field];
           const filteredTypes = types
             ? types.filter((v) =>

@@ -114,26 +114,39 @@ type Tileset =
   | "Z";
 
 type CommonArt = {
-  castbsw: number;
+  castbsw?: number;
   castpt?: number;
-  impactSwimZ: number;
-  impactZ: number;
-  launchSwimZ: number;
-  launchX: number;
-  launchY: number;
-  launchZ: number;
+  impactSwimZ?: number;
+  impactZ?: number;
+  launchSwimZ?: number;
+  launchX?: number;
+  launchY?: number;
+  launchZ?: number;
 };
 
 export interface UnitSpec {
   abil?: {
     abilList: string[];
-    heroAbilList?: string[];
+    abilSkinList?: string[];
     auto?: string;
+    heroAbilList?: string[];
+    heroAbilSkinList?: string[];
   };
+  Animprops?: string[];
+  InBeta?: boolean;
   abilTest?: number;
   art?:
     | CommonArt
     | (CommonArt & {
+      Art?: string;
+      Buttonpos?: number[];
+      Attachmentanimprops?: string[];
+      Attachmentlinkprops?: string[];
+      Boneprops?: string[];
+      Casterupgradeart?: string;
+      ScoreScreenIcon?: string;
+      Specialart?: string[];
+      Targetart?: string[];
       blend: number;
       blue: number;
       buildingShadow: string;
@@ -207,6 +220,10 @@ export interface UnitSpec {
     Hfact1?: number;
     Hfact2?: number;
     minRange?: number;
+    MissileHoming?: boolean;
+    Missilearc?: number;
+    Missileart?: string;
+    Missilespeed?: number;
     Qarea1?: number;
     Qarea2?: number;
     Qfact1?: number;
@@ -215,8 +232,8 @@ export interface UnitSpec {
     rangeN2?: number;
     RngBuff1?: number;
     RngBuff2?: number;
-    showUI1: boolean;
-    showUI2: boolean;
+    showUI1?: boolean;
+    showUI2?: boolean;
     sides1?: number;
     sides2?: number;
     spillDist1: number;
@@ -278,7 +295,14 @@ export interface UnitSpec {
   realdef?: number;
   realHP?: number;
   realM?: number;
-  sound?: { unitSound: string };
+  sound?: {
+    BuildingSoundLabel?: string;
+    LoopingSoundFadeIn?: number;
+    LoopingSoundFadeOut?: number;
+    MovementSoundLabel?: string;
+    RandomSoundLabel?: string;
+    unitSound?: string;
+  };
   stats?: {
     AGI?: number;
     AGIplus?: number;
@@ -333,8 +357,20 @@ export interface UnitSpec {
     type?: UnitType[];
   };
   tech?: {
+    Builds?: string[];
     DependencyOr?: string[];
-    upgrades: string[];
+    Makeitems?: string[];
+    Requires?: string[];
+    Requires1?: string[];
+    Requires2?: string[];
+    Requirescount?: number;
+    Researches?: string[];
+    Revive?: boolean;
+    Sellitems?: string[];
+    Sellunits?: string[];
+    Trains?: string[];
+    Upgrade?: string[];
+    upgrades?: string[];
   };
   text?: {
     Awakentip?: string;

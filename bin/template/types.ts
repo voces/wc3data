@@ -1,5 +1,6 @@
 type Type =
   | "abilityList"
+  | "abilitySkinList"
   | "armorType"
   | "itemClass"
   | "int"
@@ -76,4 +77,6 @@ export interface TypeSpec {
   useItem: 0 | 1;
   useSpecific: undefined;
   version: 0 | 1;
+  section: string | undefined;
+  netsafe: number;
 }

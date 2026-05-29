@@ -36,6 +36,7 @@ const _castValue = (value: string, fieldType: string): Value => {
       return v;
     }
     case "ability":
+    case "abilitySkin":
     case "heroAbility":
     case "regenType":
     case "defenseType":
@@ -124,12 +125,6 @@ export const castValue = (
         if (isNaN(v)) throw new Error(`bad float ${value}`);
         return v;
       }
-      case "stackMax": {
-        if (value === undefined) return;
-        const v = parseInt(value as string);
-        if (isNaN(v)) throw new Error(`bad int ${value}`);
-        return v;
-      }
       case "weap1":
       case "weap2":
       case "DmgUpg":
@@ -138,6 +133,18 @@ export const castValue = (
       case "Name":
       case "scriptname":
         return value;
+      case "Animprops": {
+        if (typeof value !== "string") return value;
+        const arr = value.split(",").map((v) => v.trim()).filter(Boolean);
+        return arr.length === 0 ? undefined : arr;
+      }
+      case "XPFactor": {
+        if (typeof value !== "string") return undefined;
+        const arr = value.split(",").map((v) => parseFloat(v));
+        if (arr.some((v) => isNaN(v))) return undefined;
+        return arr.length === 1 ? arr[0] : arr;
+      }
+      case "InBeta":
       case "hiddenInEditor":
       case "valid":
       case "threat": // todo: maybe an int?
@@ -150,19 +157,23 @@ export const castValue = (
             "",
           )
           : value;
-      case "InBeta":
+      // Skipped: editor-only sort-order strings ("c1a02"-style codes used for
+      // ordering fields in the WE property panel — no consumer use case).
       case "sortWeap":
       case "sort":
       case "sort2":
       case "sortBalance":
       case "sortAbil":
       case "sortUI":
-      case "Buttonpos": // skip: indexed pair, not currently parsed
-      case "XPFactor": // skip: rare dependency XP factor
-      case "skinType": // always "item", redundant
-      case "skinnableID": // duplicate of row id
-      case "": // shows up in UnitBalance
-      case "undefined": // shows up in UnitWeapons
+      // Skipped: row tagging fields whose value is fully implied by context.
+      // `skinType` is always the kind of entity the source file describes;
+      // `skinnableID` is a verbatim copy of the row key.
+      case "skinType":
+      case "skinnableID":
+      // Skipped: malformed SLK header cells (empty / literal "undefined" cell
+      // names produced by buggy SLK exports in UnitBalance / UnitWeapons).
+      case "":
+      case "undefined":
         return;
       case "unitC": // a hack, since we treat unitClass as a list and chop the last four
         return value[0].toUpperCase() + value.slice(1);

@@ -118,11 +118,34 @@ const main = async () => {
           string,
           Value | Value[],
         ][] = Object.entries(unit).map(([field, value]) => {
+          if (field === "Buttonpos" && typeof value === "string") {
+            const parts = value.split(",").map((v) => parseInt(v, 10));
+            if (parts.every((n) => !isNaN(n))) {
+              return ["art.Buttonpos", parts];
+            }
+            return [field, undefined];
+          }
+
           const types = typesByField[field];
           const filteredTypes = types
-            ? types.filter((v) => UNIT_SLKS.includes(v.slk))
+            ? types.filter((v) =>
+              UNIT_SLKS.includes(v.slk) &&
+              (v.slk !== "Profile" ||
+                v.useUnit === 1 ||
+                v.useBuilding === 1 ||
+                v.useHero === 1)
+            )
             : [];
-          const type = filteredTypes.length === 1
+          // Indexed Profile fields (e.g. Missileart for primary/secondary
+          // attack) have multiple metadata entries with the same category and
+          // type but different indices. INI sources only ever populate one,
+          // so picking the first match is unambiguous.
+          const sameShape = filteredTypes.length > 1 &&
+            filteredTypes.every((v) =>
+              v.category === filteredTypes[0].category &&
+              v.type === filteredTypes[0].type
+            );
+          const type = filteredTypes.length === 1 || sameShape
             ? filteredTypes[0]
             : undefined;
 

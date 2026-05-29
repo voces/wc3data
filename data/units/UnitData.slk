@@ -1,5 +1,5 @@
 ID;PWXL;N;E
-B;X32;Y837;D0
+B;X32;Y865;D0
 C;X1;Y1;K"unitID"
 C;X2;K"sort"
 C;X3;K"comment(s)"
@@ -4261,7 +4261,7 @@ C;X11;K1
 C;X12;K"foot"
 C;X13;K0
 C;X14;K0
-C;X15;K0.4
+C;X15;K0.5
 C;X16;K60
 C;X17;K1
 C;X18;K0
@@ -4385,7 +4385,7 @@ C;X11;K1
 C;X12;K"foot"
 C;X13;K0
 C;X14;K0
-C;X15;K0.5
+C;X15;K0.6
 C;X16;K60
 C;X17;K5
 C;X18;K2
@@ -4416,7 +4416,7 @@ C;X11;K1
 C;X12;K"foot"
 C;X13;K0
 C;X14;K0
-C;X15;K0.5
+C;X15;K0.6
 C;X16;K60
 C;X17;K5
 C;X18;K2
@@ -4847,7 +4847,7 @@ C;X8;K0
 C;X9;K0.94
 C;X10;K0
 C;X11;K"-"
-C;X12;K"amph"
+C;X12;K"fly"
 C;X13;K0
 C;X14;K0
 C;X15;K"-"
@@ -7449,7 +7449,7 @@ C;X6;K1
 C;X7;K1
 C;X8;K3
 C;X9;K3
-C;X10;K0
+C;X10;K1
 C;X11;K1
 C;X12;K"horse"
 C;X13;K0
@@ -8441,7 +8441,7 @@ C;X6;K1
 C;X7;K1
 C;X8;K3
 C;X9;K3
-C;X10;K0
+C;X10;K1
 C;X11;K1
 C;X12;K"foot"
 C;X13;K0
@@ -16089,7 +16089,38 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y520;K"nalb"
+C;X1;Y520;K"nzof"
+C;X2;K"n2"
+C;X3;K"ZombieFemale"
+C;X4;K"undead"
+C;X5;K1
+C;X6;K1
+C;X7;K1
+C;X8;K2
+C;X9;K3
+C;X10;K1
+C;X11;K1
+C;X12;K"foot"
+C;X13;K0
+C;X14;K0
+C;X15;K0.5
+C;X16;K60
+C;X17;K0
+C;X18;K0
+C;X19;K"ground"
+C;X20;K"_"
+C;X21;K0
+C;X22;K100
+C;X23;K"_"
+C;X24;K"-"
+C;X25;K"-"
+C;X26;K1
+C;X27;K0
+C;X28;K0
+C;X29;K0
+C;X30;K0
+C;X31;K0
+C;X1;Y521;K"nalb"
 C;X2;K"o2"
 C;X3;K"Albatross"
 C;X4;K"critters"
@@ -16120,7 +16151,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K1
-C;X1;Y521;K"ncrb"
+C;X1;Y522;K"ncrb"
 C;X2;K"o2"
 C;X3;K"Crab"
 C;X4;K"critters"
@@ -16151,7 +16182,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K1
-C;X1;Y522;K"nder"
+C;X1;Y523;K"nder"
 C;X2;K"o2"
 C;X3;K"deer"
 C;X4;K"critters"
@@ -16182,7 +16213,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y523;K"ndog"
+C;X1;Y524;K"ndog"
 C;X2;K"o2"
 C;X3;K"Dog"
 C;X4;K"critters"
@@ -16213,7 +16244,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y524;K"ndwm"
+C;X1;Y525;K"ndwm"
 C;X2;K"o2"
 C;X3;K"Dune Worm"
 C;X4;K"critters"
@@ -16244,7 +16275,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y525;K"nech"
+C;X1;Y526;K"nech"
 C;X2;K"o2"
 C;X3;K"Chicken"
 C;X4;K"critters"
@@ -16275,7 +16306,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K1
-C;X1;Y526;K"necr"
+C;X1;Y527;K"necr"
 C;X2;K"o2"
 C;X3;K"Rabbit"
 C;X4;K"critters"
@@ -16306,7 +16337,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K1
-C;X1;Y527;K"nfbr"
+C;X1;Y528;K"nfbr"
 C;X2;K"o2"
 C;X3;K"Felboar"
 C;X4;K"critters"
@@ -16337,7 +16368,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y528;K"nfro"
+C;X1;Y529;K"nfro"
 C;X2;K"o2"
 C;X3;K"Frog"
 C;X4;K"critters"
@@ -16368,7 +16399,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K1
-C;X1;Y529;K"nhmc"
+C;X1;Y530;K"nhmc"
 C;X2;K"o2"
 C;X3;K"Hermit Crab"
 C;X4;K"critters"
@@ -16399,7 +16430,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K1
-C;X1;Y530;K"now2"
+C;X1;Y531;K"now2"
 C;X2;K"o2"
 C;X3;K"owlscout 2"
 C;X4;K"nightelf"
@@ -16430,7 +16461,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y531;K"now3"
+C;X1;Y532;K"now3"
 C;X2;K"o2"
 C;X3;K"owlscout 3"
 C;X4;K"nightelf"
@@ -16461,7 +16492,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y532;K"nowl"
+C;X1;Y533;K"nowl"
 C;X2;K"o2"
 C;X3;K"owlscout"
 C;X4;K"nightelf"
@@ -16492,7 +16523,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y533;K"npig"
+C;X1;Y534;K"npig"
 C;X2;K"o2"
 C;X3;K"Pig"
 C;X4;K"critters"
@@ -16523,7 +16554,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y534;K"npng"
+C;X1;Y535;K"npng"
 C;X2;K"o2"
 C;X3;K"Penguin"
 C;X4;K"critters"
@@ -16554,7 +16585,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y535;K"npnw"
+C;X1;Y536;K"npnw"
 C;X2;K"o2"
 C;X3;K"Penguin, water"
 C;X4;K"critters"
@@ -16585,7 +16616,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y536;K"nrac"
+C;X1;Y537;K"nrac"
 C;X2;K"o2"
 C;X3;K"Raccoon"
 C;X4;K"critters"
@@ -16616,7 +16647,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K1
-C;X1;Y537;K"nrat"
+C;X1;Y538;K"nrat"
 C;X2;K"o2"
 C;X3;K"Rat"
 C;X4;K"critters"
@@ -16647,7 +16678,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y538;K"nsea"
+C;X1;Y539;K"nsea"
 C;X2;K"o2"
 C;X3;K"Seal"
 C;X4;K"critters"
@@ -16678,7 +16709,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y539;K"nsha"
+C;X1;Y540;K"nsha"
 C;X2;K"o2"
 C;X3;K"Amph. Sheep"
 C;X4;K"critters"
@@ -16709,7 +16740,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K1
-C;X1;Y540;K"nshe"
+C;X1;Y541;K"nshe"
 C;X2;K"o2"
 C;X3;K"Sheep"
 C;X4;K"critters"
@@ -16740,7 +16771,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y541;K"nshf"
+C;X1;Y542;K"nshf"
 C;X2;K"o2"
 C;X3;K"Flying Sheep"
 C;X4;K"critters"
@@ -16771,7 +16802,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y542;K"nshw"
+C;X1;Y543;K"nshw"
 C;X2;K"o2"
 C;X3;K"Water Sheep (speccccial sheep)"
 C;X4;K"critters"
@@ -16802,7 +16833,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K1
-C;X1;Y543;K"nskk"
+C;X1;Y544;K"nskk"
 C;X2;K"o2"
 C;X3;K"Skink"
 C;X4;K"critters"
@@ -16833,7 +16864,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K1
-C;X1;Y544;K"nsno"
+C;X1;Y545;K"nsno"
 C;X2;K"o2"
 C;X3;K"Snowy Owl"
 C;X4;K"critters"
@@ -16864,7 +16895,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y545;K"nvil"
+C;X1;Y546;K"nvil"
 C;X2;K"o2"
 C;X3;K"Villager Man"
 C;X4;K"commoner"
@@ -16895,7 +16926,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y546;K"nvk2"
+C;X1;Y547;K"nvk2"
 C;X2;K"o2"
 C;X3;K"Villager Kid 2"
 C;X4;K"commoner"
@@ -16926,7 +16957,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y547;K"nvl2"
+C;X1;Y548;K"nvl2"
 C;X2;K"o2"
 C;X3;K"Villager Man 2"
 C;X4;K"commoner"
@@ -16957,7 +16988,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y548;K"nvlk"
+C;X1;Y549;K"nvlk"
 C;X2;K"o2"
 C;X3;K"Villager Kid"
 C;X4;K"commoner"
@@ -16988,7 +17019,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y549;K"nvlw"
+C;X1;Y550;K"nvlw"
 C;X2;K"o2"
 C;X3;K"Villager Woman"
 C;X4;K"commoner"
@@ -17019,7 +17050,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y550;K"nvul"
+C;X1;Y551;K"nvul"
 C;X2;K"o2"
 C;X3;K"Vulture"
 C;X4;K"critters"
@@ -17050,7 +17081,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y551;K"ncb0"
+C;X1;Y552;K"ncb0"
 C;X2;K"p3"
 C;X3;K"city building"
 C;X4;K"other"
@@ -17081,7 +17112,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y552;K"ncb1"
+C;X1;Y553;K"ncb1"
 C;X2;K"p3"
 C;X3;K"city building"
 C;X4;K"other"
@@ -17112,7 +17143,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y553;K"ncb2"
+C;X1;Y554;K"ncb2"
 C;X2;K"p3"
 C;X3;K"city building"
 C;X4;K"other"
@@ -17143,7 +17174,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y554;K"ncb3"
+C;X1;Y555;K"ncb3"
 C;X2;K"p3"
 C;X3;K"city building"
 C;X4;K"other"
@@ -17174,7 +17205,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y555;K"ncb4"
+C;X1;Y556;K"ncb4"
 C;X2;K"p3"
 C;X3;K"city building"
 C;X4;K"other"
@@ -17205,7 +17236,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y556;K"ncb5"
+C;X1;Y557;K"ncb5"
 C;X2;K"p3"
 C;X3;K"city building"
 C;X4;K"other"
@@ -17236,7 +17267,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y557;K"ncb6"
+C;X1;Y558;K"ncb6"
 C;X2;K"p3"
 C;X3;K"city building"
 C;X4;K"other"
@@ -17267,7 +17298,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y558;K"ncb7"
+C;X1;Y559;K"ncb7"
 C;X2;K"p3"
 C;X3;K"city building"
 C;X4;K"other"
@@ -17298,7 +17329,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y559;K"ncb8"
+C;X1;Y560;K"ncb8"
 C;X2;K"p3"
 C;X3;K"city building"
 C;X4;K"other"
@@ -17329,7 +17360,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y560;K"ncb9"
+C;X1;Y561;K"ncb9"
 C;X2;K"p3"
 C;X3;K"city building"
 C;X4;K"other"
@@ -17360,7 +17391,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y561;K"ncba"
+C;X1;Y562;K"ncba"
 C;X2;K"p3"
 C;X3;K"city building"
 C;X4;K"other"
@@ -17391,7 +17422,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y562;K"ncbb"
+C;X1;Y563;K"ncbb"
 C;X2;K"p3"
 C;X3;K"city building"
 C;X4;K"other"
@@ -17422,7 +17453,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y563;K"ncbc"
+C;X1;Y564;K"ncbc"
 C;X2;K"p3"
 C;X3;K"city building"
 C;X4;K"other"
@@ -17453,7 +17484,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y564;K"ncbd"
+C;X1;Y565;K"ncbd"
 C;X2;K"p3"
 C;X3;K"city building"
 C;X4;K"other"
@@ -17484,7 +17515,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y565;K"ncbe"
+C;X1;Y566;K"ncbe"
 C;X2;K"p3"
 C;X3;K"city building"
 C;X4;K"other"
@@ -17515,7 +17546,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y566;K"ncbf"
+C;X1;Y567;K"ncbf"
 C;X2;K"p3"
 C;X3;K"city building"
 C;X4;K"other"
@@ -17546,7 +17577,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y567;K"ncnt"
+C;X1;Y568;K"ncnt"
 C;X2;K"p3"
 C;X3;K"Centaur Tent"
 C;X4;K"other"
@@ -17577,7 +17608,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y568;K"ncop"
+C;X1;Y569;K"ncop"
 C;X2;K"p3"
 C;X3;K"Circle Of Power"
 C;X4;K"other"
@@ -17608,7 +17639,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y569;K"ncp2"
+C;X1;Y570;K"ncp2"
 C;X2;K"p3"
 C;X3;K"Circle Of Power medium"
 C;X4;K"other"
@@ -17639,7 +17670,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y570;K"ncp3"
+C;X1;Y571;K"ncp3"
 C;X2;K"p3"
 C;X3;K"Circle Of Power large"
 C;X4;K"other"
@@ -17670,7 +17701,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y571;K"nct1"
+C;X1;Y572;K"nct1"
 C;X2;K"p3"
 C;X3;K"Centaur Tent"
 C;X4;K"other"
@@ -17701,7 +17732,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y572;K"nct2"
+C;X1;Y573;K"nct2"
 C;X2;K"p3"
 C;X3;K"Centaur Tent"
 C;X4;K"other"
@@ -17732,7 +17763,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y573;K"ndch"
+C;X1;Y574;K"ndch"
 C;X2;K"p3"
 C;X3;K"draenei chieftain hut"
 C;X4;K"other"
@@ -17763,7 +17794,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y574;K"ndh0"
+C;X1;Y575;K"ndh0"
 C;X2;K"p3"
 C;X3;K"draenei hut 0"
 C;X4;K"other"
@@ -17794,7 +17825,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y575;K"ndh1"
+C;X1;Y576;K"ndh1"
 C;X2;K"p3"
 C;X3;K"draenei hut 1"
 C;X4;K"other"
@@ -17825,7 +17856,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y576;K"ndh2"
+C;X1;Y577;K"ndh2"
 C;X2;K"p3"
 C;X3;K"draenei outpost"
 C;X4;K"other"
@@ -17856,7 +17887,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y577;K"ndh3"
+C;X1;Y578;K"ndh3"
 C;X2;K"p3"
 C;X3;K"draenei warriors hall"
 C;X4;K"other"
@@ -17887,7 +17918,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y578;K"ndh4"
+C;X1;Y579;K"ndh4"
 C;X2;K"p3"
 C;X3;K"draenei seer's lodge"
 C;X4;K"other"
@@ -17918,7 +17949,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y579;K"ndrg"
+C;X1;Y580;K"ndrg"
 C;X2;K"p3"
 C;X3;K"Dragon Roost green"
 C;X4;K"other"
@@ -17949,7 +17980,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y580;K"ndrk"
+C;X1;Y581;K"ndrk"
 C;X2;K"p3"
 C;X3;K"Dragon Roost black"
 C;X4;K"other"
@@ -17980,7 +18011,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y581;K"ndro"
+C;X1;Y582;K"ndro"
 C;X2;K"p3"
 C;X3;K"Dragon Roost Outland"
 C;X4;K"other"
@@ -18011,7 +18042,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y582;K"ndrr"
+C;X1;Y583;K"ndrr"
 C;X2;K"p3"
 C;X3;K"Dragon Roost red"
 C;X4;K"other"
@@ -18042,7 +18073,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y583;K"ndru"
+C;X1;Y584;K"ndru"
 C;X2;K"p3"
 C;X3;K"Dragon Roost blue"
 C;X4;K"other"
@@ -18073,7 +18104,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y584;K"ndrz"
+C;X1;Y585;K"ndrz"
 C;X2;K"p3"
 C;X3;K"Dragon Roost bronze"
 C;X4;K"other"
@@ -18104,7 +18135,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y585;K"nfh0"
+C;X1;Y586;K"nfh0"
 C;X2;K"p3"
 C;X3;K"Forest Troll Hut 0"
 C;X4;K"other"
@@ -18135,7 +18166,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y586;K"nfh1"
+C;X1;Y587;K"nfh1"
 C;X2;K"p3"
 C;X3;K"Forest Troll Hut 1"
 C;X4;K"other"
@@ -18166,7 +18197,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y587;K"nfoh"
+C;X1;Y588;K"nfoh"
 C;X2;K"p3"
 C;X3;K"Fountain of Health"
 C;X4;K"other"
@@ -18197,7 +18228,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y588;K"nfr1"
+C;X1;Y589;K"nfr1"
 C;X2;K"p3"
 C;X3;K"Furbolg Hut 1"
 C;X4;K"other"
@@ -18228,7 +18259,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y589;K"nfr2"
+C;X1;Y590;K"nfr2"
 C;X2;K"p3"
 C;X3;K"Furbolg Hut 2"
 C;X4;K"other"
@@ -18259,7 +18290,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y590;K"ngad"
+C;X1;Y591;K"ngad"
 C;X2;K"p3"
 C;X3;K"Goblin Ammo Dump"
 C;X4;K"other"
@@ -18290,7 +18321,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y591;K"ngme"
+C;X1;Y592;K"ngme"
 C;X2;K"p3"
 C;X3;K"goblin merchant"
 C;X4;K"other"
@@ -18321,7 +18352,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y592;K"ngnh"
+C;X1;Y593;K"ngnh"
 C;X2;K"p3"
 C;X3;K"Gnoll Hut"
 C;X4;K"other"
@@ -18352,7 +18383,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y593;K"ngni"
+C;X1;Y594;K"ngni"
 C;X2;K"p3"
 C;X3;K"Infected Granary"
 C;X4;K"undead"
@@ -18383,7 +18414,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y594;K"ngol"
+C;X1;Y595;K"ngol"
 C;X2;K"p3"
 C;X3;K"GoldMine"
 C;X4;K"other"
@@ -18414,7 +18445,7 @@ C;X28;K0
 C;X29;K1
 C;X30;K1
 C;X31;K0
-C;X1;Y595;K"ngt2"
+C;X1;Y596;K"ngt2"
 C;X2;K"p3"
 C;X3;K"Gnoll Hut"
 C;X4;K"other"
@@ -18445,7 +18476,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y596;K"ngwr"
+C;X1;Y597;K"ngwr"
 C;X2;K"p3"
 C;X3;K"grain warehouse"
 C;X4;K"human"
@@ -18476,7 +18507,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y597;K"nhns"
+C;X1;Y598;K"nhns"
 C;X2;K"p3"
 C;X3;K"harpy nest"
 C;X4;K"other"
@@ -18507,7 +18538,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y598;K"nmer"
+C;X1;Y599;K"nmer"
 C;X2;K"p3"
 C;X3;K"MercenaryCamp L"
 C;X4;K"other"
@@ -18538,7 +18569,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y599;K"nmg0"
+C;X1;Y600;K"nmg0"
 C;X2;K"p3"
 C;X3;K"Murloc Hut 0"
 C;X4;K"other"
@@ -18569,7 +18600,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y600;K"nmg1"
+C;X1;Y601;K"nmg1"
 C;X2;K"p3"
 C;X3;K"Murloc Hut 1"
 C;X4;K"other"
@@ -18600,7 +18631,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y601;K"nmh0"
+C;X1;Y602;K"nmh0"
 C;X2;K"p3"
 C;X3;K"Murloc Hut 0"
 C;X4;K"other"
@@ -18631,7 +18662,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y602;K"nmh1"
+C;X1;Y603;K"nmh1"
 C;X2;K"p3"
 C;X3;K"Murloc Hut 1"
 C;X4;K"other"
@@ -18662,7 +18693,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y603;K"nmoo"
+C;X1;Y604;K"nmoo"
 C;X2;K"p3"
 C;X3;K"Fountain of Life"
 C;X4;K"other"
@@ -18693,7 +18724,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y604;K"nmr0"
+C;X1;Y605;K"nmr0"
 C;X2;K"p3"
 C;X3;K"MercenaryCamp V"
 C;X4;K"other"
@@ -18724,7 +18755,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y605;K"nmr2"
+C;X1;Y606;K"nmr2"
 C;X2;K"p3"
 C;X3;K"MercenaryCamp F"
 C;X4;K"other"
@@ -18755,7 +18786,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y606;K"nmr3"
+C;X1;Y607;K"nmr3"
 C;X2;K"p3"
 C;X3;K"MercenaryCamp W"
 C;X4;K"other"
@@ -18786,7 +18817,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y607;K"nmr4"
+C;X1;Y608;K"nmr4"
 C;X2;K"p3"
 C;X3;K"MercenaryCamp B"
 C;X4;K"other"
@@ -18817,7 +18848,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y608;K"nmr5"
+C;X1;Y609;K"nmr5"
 C;X2;K"p3"
 C;X3;K"MercenaryCamp A"
 C;X4;K"other"
@@ -18848,7 +18879,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y609;K"nmr6"
+C;X1;Y610;K"nmr6"
 C;X2;K"p3"
 C;X3;K"MercenaryCamp C"
 C;X4;K"other"
@@ -18879,7 +18910,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y610;K"nmr7"
+C;X1;Y611;K"nmr7"
 C;X2;K"p3"
 C;X3;K"MercenaryCamp N"
 C;X4;K"other"
@@ -18910,7 +18941,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y611;K"nmr8"
+C;X1;Y612;K"nmr8"
 C;X2;K"p3"
 C;X3;K"MercenaryCamp Y"
 C;X4;K"other"
@@ -18941,7 +18972,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y612;K"nmr9"
+C;X1;Y613;K"nmr9"
 C;X2;K"p3"
 C;X3;K"MercenaryCamp X"
 C;X4;K"other"
@@ -18972,7 +19003,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y613;K"nmra"
+C;X1;Y614;K"nmra"
 C;X2;K"p3"
 C;X3;K"MercenaryCamp D"
 C;X4;K"other"
@@ -19003,7 +19034,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y614;K"nmrb"
+C;X1;Y615;K"nmrb"
 C;X2;K"p3"
 C;X3;K"MercenaryCamp G"
 C;X4;K"other"
@@ -19034,7 +19065,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y615;K"nmrc"
+C;X1;Y616;K"nmrc"
 C;X2;K"p3"
 C;X3;K"MercenaryCamp Z"
 C;X4;K"other"
@@ -19065,7 +19096,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K1
-C;X1;Y616;K"nmrd"
+C;X1;Y617;K"nmrd"
 C;X2;K"p3"
 C;X3;K"MercenaryCamp I"
 C;X4;K"other"
@@ -19096,7 +19127,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y617;K"nmre"
+C;X1;Y618;K"nmre"
 C;X2;K"p3"
 C;X3;K"MercenaryCamp O"
 C;X4;K"other"
@@ -19127,7 +19158,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y618;K"nmrf"
+C;X1;Y619;K"nmrf"
 C;X2;K"p3"
 C;X3;K"MercenaryCamp K"
 C;X4;K"other"
@@ -19158,7 +19189,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y619;K"nmrk"
+C;X1;Y620;K"nmrk"
 C;X2;K"p3"
 C;X3;K"Marketplace"
 C;X4;K"other"
@@ -19189,7 +19220,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K1
-C;X1;Y620;K"nnzg"
+C;X1;Y621;K"nnzg"
 C;X2;K"p3"
 C;X3;K"nerubian ziggurat"
 C;X4;K"other"
@@ -19220,7 +19251,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y621;K"nshp"
+C;X1;Y622;K"nshp"
 C;X2;K"p3"
 C;X3;K"Goblin Shipyard"
 C;X4;K"other"
@@ -19251,7 +19282,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K1
-C;X1;Y622;K"ntav"
+C;X1;Y623;K"ntav"
 C;X2;K"p3"
 C;X3;K"Tavern"
 C;X4;K"other"
@@ -19282,7 +19313,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K1
-C;X1;Y623;K"nten"
+C;X1;Y624;K"nten"
 C;X2;K"p3"
 C;X3;K"Tent"
 C;X4;K"other"
@@ -19313,7 +19344,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y624;K"nth0"
+C;X1;Y625;K"nth0"
 C;X2;K"p3"
 C;X3;K"Ice Troll Hut 0"
 C;X4;K"other"
@@ -19344,7 +19375,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y625;K"nth1"
+C;X1;Y626;K"nth1"
 C;X2;K"p3"
 C;X3;K"Ice Troll Hut 1"
 C;X4;K"other"
@@ -19375,7 +19406,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y626;K"ntn2"
+C;X1;Y627;K"ntn2"
 C;X2;K"p3"
 C;X3;K"Tent"
 C;X4;K"other"
@@ -19406,7 +19437,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y627;K"ntnt"
+C;X1;Y628;K"ntnt"
 C;X2;K"p3"
 C;X3;K"Tauren Tent"
 C;X4;K"other"
@@ -19437,7 +19468,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y628;K"ntt2"
+C;X1;Y629;K"ntt2"
 C;X2;K"p3"
 C;X3;K"Tauren Tent"
 C;X4;K"other"
@@ -19468,7 +19499,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y629;K"nwgt"
+C;X1;Y630;K"nwgt"
 C;X2;K"p3"
 C;X3;K"WayGate"
 C;X4;K"other"
@@ -19499,7 +19530,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K1
 C;X31;K0
-C;X1;Y630;K"Ecen"
+C;X1;Y631;K"Ecen"
 C;X2;K"z1"
 C;X3;K"cenarius"
 C;X4;K"nightelf"
@@ -19530,7 +19561,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y631;K"Eevi"
+C;X1;Y632;K"Eevi"
 C;X2;K"z1"
 C;X3;K"evil illidan"
 C;X4;K"nightelf"
@@ -19561,7 +19592,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y632;K"Eevm"
+C;X1;Y633;K"Eevm"
 C;X2;K"z1"
 C;X3;K"evil illidan demon form"
 C;X4;K"nightelf"
@@ -19592,7 +19623,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y633;K"Efur"
+C;X1;Y634;K"Efur"
 C;X2;K"z1"
 C;X3;K"furion"
 C;X4;K"nightelf"
@@ -19623,7 +19654,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y634;K"Eidm"
+C;X1;Y635;K"Eidm"
 C;X2;K"z1"
 C;X3;K"illidan demon form"
 C;X4;K"nightelf"
@@ -19654,7 +19685,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y635;K"Eill"
+C;X1;Y636;K"Eill"
 C;X2;K"z1"
 C;X3;K"illidan"
 C;X4;K"nightelf"
@@ -19685,7 +19716,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y636;K"Eilm"
+C;X1;Y637;K"Eilm"
 C;X2;K"z1"
 C;X3;K"illidanmorphed"
 C;X4;K"nightelf"
@@ -19716,7 +19747,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y637;K"Ekgg"
+C;X1;Y638;K"Ekgg"
 C;X2;K"z1"
 C;X3;K"HeroKeeperoftheGrove ghost"
 C;X4;K"nightelf"
@@ -19747,7 +19778,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y638;K"Emfr"
+C;X1;Y639;K"Emfr"
 C;X2;K"z1"
 C;X3;K"Mal'furion"
 C;X4;K"nightelf"
@@ -19778,7 +19809,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y639;K"Emns"
+C;X1;Y640;K"Emns"
 C;X2;K"z1"
 C;X3;K"Mal'furion no stag"
 C;X4;K"nightelf"
@@ -19809,7 +19840,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y640;K"Etyr"
+C;X1;Y641;K"Etyr"
 C;X2;K"z1"
 C;X3;K"Tyrande"
 C;X4;K"nightelf"
@@ -19840,7 +19871,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y641;K"Ewrd"
+C;X1;Y642;K"Ewrd"
 C;X2;K"z1"
 C;X3;K"Maiev"
 C;X4;K"nightelf"
@@ -19871,7 +19902,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y642;K"Hant"
+C;X1;Y643;K"Hant"
 C;X2;K"z1"
 C;X3;K"antonidus"
 C;X4;K"human"
@@ -19902,7 +19933,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y643;K"Hapm"
+C;X1;Y644;K"Hapm"
 C;X2;K"z1"
 C;X3;K"Admiral Proudmoore"
 C;X4;K"human"
@@ -19933,7 +19964,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y644;K"Harf"
+C;X1;Y645;K"Harf"
 C;X2;K"z1"
 C;X3;K"arthas w/ frostmourne"
 C;X4;K"human"
@@ -19964,7 +19995,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y645;K"Hart"
+C;X1;Y646;K"Hart"
 C;X2;K"z1"
 C;X3;K"arthas"
 C;X4;K"human"
@@ -19995,7 +20026,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y646;K"Hdgo"
+C;X1;Y647;K"Hdgo"
 C;X2;K"z1"
 C;X3;K"Dagren the Orcslayer"
 C;X4;K"human"
@@ -20026,7 +20057,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y647;K"Hgam"
+C;X1;Y648;K"Hgam"
 C;X2;K"z1"
 C;X3;K"ghostly archmage"
 C;X4;K"human"
@@ -20057,7 +20088,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y648;K"Hhkl"
+C;X1;Y649;K"Hhkl"
 C;X2;K"z1"
 C;X3;K"Halahk the Lifebringer"
 C;X4;K"human"
@@ -20088,7 +20119,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y649;K"Hjai"
+C;X1;Y650;K"Hjai"
 C;X2;K"z1"
 C;X3;K"jaina"
 C;X4;K"human"
@@ -20119,7 +20150,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y650;K"Hkal"
+C;X1;Y651;K"Hkal"
 C;X2;K"z1"
 C;X3;K"Kael"
 C;X4;K"human"
@@ -20150,7 +20181,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y651;K"Hlgr"
+C;X1;Y652;K"Hlgr"
 C;X2;K"z1"
 C;X3;K"Lord Garithos"
 C;X4;K"human"
@@ -20181,7 +20212,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y652;K"Hmbr"
+C;X1;Y653;K"Hmbr"
 C;X2;K"z1"
 C;X3;K"muradin bronzebeard"
 C;X4;K"human"
@@ -20212,7 +20243,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y653;K"Hmgd"
+C;X1;Y654;K"Hmgd"
 C;X2;K"z1"
 C;X3;K"Magroth the Defender"
 C;X4;K"human"
@@ -20243,7 +20274,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y654;K"Hpb1"
+C;X1;Y655;K"Hpb1"
 C;X2;K"z1"
 C;X3;K"paladin boss 1"
 C;X4;K"human"
@@ -20274,7 +20305,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y655;K"Hpb2"
+C;X1;Y656;K"Hpb2"
 C;X2;K"z1"
 C;X3;K"paladin boss 2"
 C;X4;K"human"
@@ -20305,7 +20336,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y656;K"Huth"
+C;X1;Y657;K"Huth"
 C;X2;K"z1"
 C;X3;K"uther"
 C;X4;K"human"
@@ -20336,7 +20367,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y657;K"Hvsh"
+C;X1;Y658;K"Hvsh"
 C;X2;K"z1"
 C;X3;K"Lady Vashj"
 C;X4;K"naga"
@@ -20367,7 +20398,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y658;K"Hvwd"
+C;X1;Y659;K"Hvwd"
 C;X2;K"z1"
 C;X3;K"sylvanas windrunner"
 C;X4;K"human"
@@ -20398,7 +20429,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y659;K"Naka"
+C;X1;Y660;K"Naka"
 C;X2;K"z1"
 C;X3;K"Akama"
 C;X4;K"creeps"
@@ -20429,7 +20460,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y660;K"Nbbc"
+C;X1;Y661;K"Nbbc"
 C;X2;K"z1"
 C;X3;K"blackrock blademaster"
 C;X4;K"orc"
@@ -20460,7 +20491,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y661;K"Nkjx"
+C;X1;Y662;K"Nkjx"
 C;X2;K"z1"
 C;X3;K"Kiljaeden - cinematic only"
 C;X4;K"undead"
@@ -20491,7 +20522,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y662;K"Nklj"
+C;X1;Y663;K"Nklj"
 C;X2;K"z1"
 C;X3;K"Kiljaeden"
 C;X4;K"undead"
@@ -20522,7 +20553,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y663;K"Nmag"
+C;X1;Y664;K"Nmag"
 C;X2;K"z1"
 C;X3;K"Magtheridon"
 C;X4;K"undead"
@@ -20553,7 +20584,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y664;K"Nman"
+C;X1;Y665;K"Nman"
 C;X2;K"z1"
 C;X3;K"mannoroth"
 C;X4;K"undead"
@@ -20584,7 +20615,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y665;K"Npld"
+C;X1;Y666;K"Npld"
 C;X2;K"z1"
 C;X3;K"pit lord"
 C;X4;K"undead"
@@ -20615,7 +20646,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y666;K"Nsjs"
+C;X1;Y667;K"Nsjs"
 C;X2;K"z1"
 C;X3;K"Chen Stormstout"
 C;X4;K"orc"
@@ -20646,7 +20677,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y667;K"Ocb2"
+C;X1;Y668;K"Ocb2"
 C;X2;K"z1"
 C;X3;K"cairne bloodhoof"
 C;X4;K"orc"
@@ -20677,7 +20708,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y668;K"Ocbh"
+C;X1;Y669;K"Ocbh"
 C;X2;K"z1"
 C;X3;K"cairne bloodhoof"
 C;X4;K"orc"
@@ -20708,7 +20739,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y669;K"Odrt"
+C;X1;Y670;K"Odrt"
 C;X2;K"z1"
 C;X3;K"Drek'Thar"
 C;X4;K"orc"
@@ -20739,7 +20770,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y670;K"Ogld"
+C;X1;Y671;K"Ogld"
 C;X2;K"z1"
 C;X3;K"Gul'Dan"
 C;X4;K"orc"
@@ -20770,7 +20801,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y671;K"Ogrh"
+C;X1;Y672;K"Ogrh"
 C;X2;K"z1"
 C;X3;K"grom hellscream"
 C;X4;K"orc"
@@ -20801,7 +20832,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y672;K"Opgh"
+C;X1;Y673;K"Opgh"
 C;X2;K"z1"
 C;X3;K"possessed grom hellscream"
 C;X4;K"orc"
@@ -20832,7 +20863,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y673;K"Orex"
+C;X1;Y674;K"Orex"
 C;X2;K"z1"
 C;X3;K"Rexxar"
 C;X4;K"orc"
@@ -20863,7 +20894,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y674;K"Orkn"
+C;X1;Y675;K"Orkn"
 C;X2;K"z1"
 C;X3;K"Rokhan"
 C;X4;K"orc"
@@ -20894,7 +20925,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y675;K"Osam"
+C;X1;Y676;K"Osam"
 C;X2;K"z1"
 C;X3;K"Samuro"
 C;X4;K"orc"
@@ -20925,7 +20956,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y676;K"Otcc"
+C;X1;Y677;K"Otcc"
 C;X2;K"z1"
 C;X3;K"cairne bloodhoof cinematic"
 C;X4;K"orc"
@@ -20956,7 +20987,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y677;K"Othr"
+C;X1;Y678;K"Othr"
 C;X2;K"z1"
 C;X3;K"thrall"
 C;X4;K"orc"
@@ -20987,7 +21018,38 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y678;K"Uanb"
+C;X1;Y679;K"Oths"
+C;X2;K"z1"
+C;X3;K"thrall unmounted"
+C;X4;K"orc"
+C;X5;K12
+C;X6;K1
+C;X7;K1
+C;X8;K2
+C;X9;K2.1
+C;X10;K0
+C;X11;K1
+C;X12;K"horse"
+C;X13;K0
+C;X14;K0
+C;X15;K0.4
+C;X16;K60
+C;X17;K5
+C;X18;K2
+C;X19;K"ground"
+C;X20;K"_"
+C;X21;K0
+C;X22;K100
+C;X23;K"_"
+C;X24;K"-"
+C;X25;K1
+C;X26;K1
+C;X27;K0
+C;X28;K0
+C;X29;K0
+C;X30;K0
+C;X31;K0
+C;X1;Y680;K"Uanb"
 C;X2;K"z1"
 C;X3;K"anub'arak"
 C;X4;K"undead"
@@ -21018,7 +21080,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y679;K"Ubal"
+C;X1;Y681;K"Ubal"
 C;X2;K"z1"
 C;X3;K"balnazzar"
 C;X4;K"undead"
@@ -21049,7 +21111,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y680;K"Uclc"
+C;X1;Y682;K"Uclc"
 C;X2;K"z1"
 C;X3;K"kelthuzadlich cinematic"
 C;X4;K"undead"
@@ -21080,7 +21142,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y681;K"Udth"
+C;X1;Y683;K"Udth"
 C;X2;K"z1"
 C;X3;K"dethecus"
 C;X4;K"undead"
@@ -21111,7 +21173,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y682;K"Uear"
+C;X1;Y684;K"Uear"
 C;X2;K"z1"
 C;X3;K"evil arthas"
 C;X4;K"undead"
@@ -21142,7 +21204,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y683;K"Uktl"
+C;X1;Y685;K"Uktl"
 C;X2;K"z1"
 C;X3;K"kelthuzadlich"
 C;X4;K"undead"
@@ -21173,7 +21235,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y684;K"Umal"
+C;X1;Y686;K"Umal"
 C;X2;K"z1"
 C;X3;K"malganis"
 C;X4;K"undead"
@@ -21204,7 +21266,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y685;K"Usyl"
+C;X1;Y687;K"Usyl"
 C;X2;K"z1"
 C;X3;K"Evil Sylvanas"
 C;X4;K"undead"
@@ -21235,7 +21297,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y686;K"Utic"
+C;X1;Y688;K"Utic"
 C;X2;K"z1"
 C;X3;K"tichondrius"
 C;X4;K"undead"
@@ -21266,7 +21328,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y687;K"Uvar"
+C;X1;Y689;K"Uvar"
 C;X2;K"z1"
 C;X3;K"varimathras"
 C;X4;K"undead"
@@ -21297,7 +21359,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y688;K"Uvng"
+C;X1;Y690;K"Uvng"
 C;X2;K"z1"
 C;X3;K"vengyr"
 C;X4;K"undead"
@@ -21328,7 +21390,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y689;K"Uwar"
+C;X1;Y691;K"Uwar"
 C;X2;K"z1"
 C;X3;K"archimonde"
 C;X4;K"undead"
@@ -21359,7 +21421,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y690;K"eilw"
+C;X1;Y692;K"eilw"
 C;X2;K"z2"
 C;X3;K"illidan wagon"
 C;X4;K"nightelf"
@@ -21390,7 +21452,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y691;K"enec"
+C;X1;Y693;K"enec"
 C;X2;K"z2"
 C;X3;K"night elf courier"
 C;X4;K"nightelf"
@@ -21421,7 +21483,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y692;K"ensh"
+C;X1;Y694;K"ensh"
 C;X2;K"z2"
 C;X3;K"Naisha"
 C;X4;K"nightelf"
@@ -21452,7 +21514,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y693;K"eshd"
+C;X1;Y695;K"eshd"
 C;X2;K"z2"
 C;X3;K"shandris"
 C;X4;K"nightelf"
@@ -21483,7 +21545,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y694;K"etrs"
+C;X1;Y696;K"etrs"
 C;X2;K"z2"
 C;X3;K"night elf transport ship"
 C;X4;K"nightelf"
@@ -21514,7 +21576,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y695;K"hbew"
+C;X1;Y697;K"hbew"
 C;X2;K"z2"
 C;X3;K"blood elf wagon"
 C;X4;K"human"
@@ -21545,7 +21607,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y696;K"hcth"
+C;X1;Y698;K"hcth"
 C;X2;K"z2"
 C;X3;K"the captain"
 C;X4;K"human"
@@ -21576,7 +21638,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y697;K"hhdl"
+C;X1;Y699;K"hhdl"
 C;X2;K"z2"
 C;X3;K"headless rider"
 C;X4;K"human"
@@ -21607,7 +21669,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y698;K"hhes"
+C;X1;Y700;K"hhes"
 C;X2;K"z2"
 C;X3;K"high elven swordsman"
 C;X4;K"human"
@@ -21638,7 +21700,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y699;K"hprt"
+C;X1;Y701;K"hprt"
 C;X2;K"z2"
 C;X3;K"portal unit"
 C;X4;K"human"
@@ -21669,7 +21731,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y700;K"hrdh"
+C;X1;Y702;K"hrdh"
 C;X2;K"z2"
 C;X3;K"pack horse"
 C;X4;K"human"
@@ -21700,7 +21762,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y701;K"nbee"
+C;X1;Y703;K"nbee"
 C;X2;K"z2"
 C;X3;K"blood elf engineer"
 C;X4;K"human"
@@ -21731,7 +21793,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y702;K"nbel"
+C;X1;Y704;K"nbel"
 C;X2;K"z2"
 C;X3;K"blood elf lieutenant"
 C;X4;K"human"
@@ -21762,7 +21824,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y703;K"nbsp"
+C;X1;Y705;K"nbsp"
 C;X2;K"z2"
 C;X3;K"battleship"
 C;X4;K"other"
@@ -21793,7 +21855,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y704;K"nchg"
+C;X1;Y706;K"nchg"
 C;X2;K"z2"
 C;X3;K"chaos grunt"
 C;X4;K"orc"
@@ -21824,7 +21886,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y705;K"nchr"
+C;X1;Y707;K"nchr"
 C;X2;K"z2"
 C;X3;K"ChaosWolfRider"
 C;X4;K"orc"
@@ -21855,7 +21917,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y706;K"nchw"
+C;X1;Y708;K"nchw"
 C;X2;K"z2"
 C;X3;K"ChaosWarlock"
 C;X4;K"orc"
@@ -21886,7 +21948,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y707;K"nckb"
+C;X1;Y709;K"nckb"
 C;X2;K"z2"
 C;X3;K"Chaos Kodo Beast"
 C;X4;K"orc"
@@ -21917,7 +21979,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y708;K"ncpn"
+C;X1;Y710;K"ncpn"
 C;X2;K"z2"
 C;X3;K"Chaos Peon"
 C;X4;K"orc"
@@ -21948,7 +22010,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y709;K"ndmu"
+C;X1;Y711;K"ndmu"
 C;X2;K"z2"
 C;X3;K"dalaran mutant"
 C;X4;K"creeps"
@@ -21979,7 +22041,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y710;K"ndrd"
+C;X1;Y712;K"ndrd"
 C;X2;K"z2"
 C;X3;K"draenei darkslayer"
 C;X4;K"creeps"
@@ -22010,7 +22072,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y711;K"ndrf"
+C;X1;Y713;K"ndrf"
 C;X2;K"z2"
 C;X3;K"draenei guardian"
 C;X4;K"creeps"
@@ -22041,7 +22103,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y712;K"ndrh"
+C;X1;Y714;K"ndrh"
 C;X2;K"z2"
 C;X3;K"draenei harbinger"
 C;X4;K"creeps"
@@ -22072,7 +22134,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y713;K"ndrj"
+C;X1;Y715;K"ndrj"
 C;X2;K"z2"
 C;X3;K"dalaran reject"
 C;X4;K"creeps"
@@ -22103,7 +22165,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y714;K"ndrl"
+C;X1;Y716;K"ndrl"
 C;X2;K"z2"
 C;X3;K"draenei laborer"
 C;X4;K"creeps"
@@ -22134,7 +22196,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y715;K"ndrm"
+C;X1;Y717;K"ndrm"
 C;X2;K"z2"
 C;X3;K"draenei disciple"
 C;X4;K"creeps"
@@ -22165,7 +22227,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y716;K"ndrn"
+C;X1;Y718;K"ndrn"
 C;X2;K"z2"
 C;X3;K"draenei vindicator"
 C;X4;K"creeps"
@@ -22196,7 +22258,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y717;K"ndrp"
+C;X1;Y719;K"ndrp"
 C;X2;K"z2"
 C;X3;K"draenei protector"
 C;X4;K"creeps"
@@ -22227,7 +22289,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y718;K"ndrs"
+C;X1;Y720;K"ndrs"
 C;X2;K"z2"
 C;X3;K"draenei seer"
 C;X4;K"creeps"
@@ -22258,7 +22320,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y719;K"ndrt"
+C;X1;Y721;K"ndrt"
 C;X2;K"z2"
 C;X3;K"draenei stalker"
 C;X4;K"creeps"
@@ -22289,7 +22351,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y720;K"ndrw"
+C;X1;Y722;K"ndrw"
 C;X2;K"z2"
 C;X3;K"draenei watcher"
 C;X4;K"creeps"
@@ -22320,7 +22382,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y721;K"ndsa"
+C;X1;Y723;K"ndsa"
 C;X2;K"z2"
 C;X3;K"draenei salamander"
 C;X4;K"creeps"
@@ -22351,7 +22413,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y722;K"negz"
+C;X1;Y724;K"negz"
 C;X2;K"z2"
 C;X3;K"engineer gazlowe"
 C;X4;K"orc"
@@ -22382,7 +22444,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y723;K"nemi"
+C;X1;Y725;K"nemi"
 C;X2;K"z2"
 C;X3;K"emissary"
 C;X4;K"human"
@@ -22413,7 +22475,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y724;K"nfgl"
+C;X1;Y726;K"nfgl"
 C;X2;K"z2"
 C;X3;K"flesh golem"
 C;X4;K"creeps"
@@ -22444,7 +22506,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y725;K"ngbl"
+C;X1;Y727;K"ngbl"
 C;X2;K"z2"
 C;X3;K"goblin blaster"
 C;X4;K"orc"
@@ -22475,7 +22537,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y726;K"nhea"
+C;X1;Y728;K"nhea"
 C;X2;K"z2"
 C;X3;K"high elven archer"
 C;X4;K"human"
@@ -22506,7 +22568,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y727;K"nhef"
+C;X1;Y729;K"nhef"
 C;X2;K"z2"
 C;X3;K"high elven female"
 C;X4;K"human"
@@ -22537,7 +22599,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y728;K"nhem"
+C;X1;Y730;K"nhem"
 C;X2;K"z2"
 C;X3;K"high elven male"
 C;X4;K"human"
@@ -22568,7 +22630,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y729;K"nhew"
+C;X1;Y731;K"nhew"
 C;X2;K"z2"
 C;X3;K"high elven male"
 C;X4;K"human"
@@ -22599,7 +22661,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y730;K"njks"
+C;X1;Y732;K"njks"
 C;X2;K"z2"
 C;X3;K"jailor kassan"
 C;X4;K"human"
@@ -22630,7 +22692,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y731;K"nmdm"
+C;X1;Y733;K"nmdm"
 C;X2;K"z2"
 C;X3;K"medivh morphed"
 C;X4;K"human"
@@ -22661,7 +22723,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y732;K"nmed"
+C;X1;Y734;K"nmed"
 C;X2;K"z2"
 C;X3;K"medivh"
 C;X4;K"human"
@@ -22692,7 +22754,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y733;K"nmpe"
+C;X1;Y735;K"nmpe"
 C;X2;K"z2"
 C;X3;K"naga peon"
 C;X4;K"naga"
@@ -22723,7 +22785,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y734;K"nmsh"
+C;X1;Y736;K"nmsh"
 C;X2;K"z2"
 C;X3;K"misha the bear"
 C;X4;K"orc"
@@ -22754,7 +22816,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y735;K"nser"
+C;X1;Y737;K"nser"
 C;X2;K"z2"
 C;X3;K"searinox"
 C;X4;K"human"
@@ -22785,7 +22847,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y736;K"nspc"
+C;X1;Y738;K"nspc"
 C;X2;K"z2"
 C;X3;K"support column"
 C;X4;K"orc"
@@ -22816,7 +22878,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y737;K"nssn"
+C;X1;Y739;K"nssn"
 C;X2;K"z2"
 C;X3;K"night elf assassin"
 C;X4;K"nightelf"
@@ -22847,7 +22909,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y738;K"nthr"
+C;X1;Y740;K"nthr"
 C;X2;K"z2"
 C;X3;K"tharifas"
 C;X4;K"nightelf"
@@ -22878,7 +22940,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y739;K"nw2w"
+C;X1;Y741;K"nw2w"
 C;X2;K"z2"
 C;X3;K"War2Warlock"
 C;X4;K"orc"
@@ -22909,7 +22971,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y740;K"nwat"
+C;X1;Y742;K"nwat"
 C;X2;K"z2"
 C;X3;K"watcher"
 C;X4;K"nightelf"
@@ -22940,7 +23002,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y741;K"nzlc"
+C;X1;Y743;K"nzlc"
 C;X2;K"z2"
 C;X3;K"cinematic lich king"
 C;X4;K"undead"
@@ -22971,7 +23033,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y742;K"odkt"
+C;X1;Y744;K"odkt"
 C;X2;K"z2"
 C;X3;K"Drak'Thul"
 C;X4;K"orc"
@@ -23002,7 +23064,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y743;K"ogrk"
+C;X1;Y745;K"ogrk"
 C;X2;K"z2"
 C;X3;K"Gar'thok"
 C;X4;K"orc"
@@ -23033,7 +23095,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y744;K"ojgn"
+C;X1;Y746;K"ojgn"
 C;X2;K"z2"
 C;X3;K"actual orc juggernaut unit"
 C;X4;K"orc"
@@ -23064,7 +23126,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y745;K"omtg"
+C;X1;Y747;K"omtg"
 C;X2;K"z2"
 C;X3;K"mathog"
 C;X4;K"orc"
@@ -23072,7 +23134,7 @@ C;X5;K3
 C;X6;K1
 C;X7;K1
 C;X8;K3
-C;X9;K1.75
+C;X9;K3.2
 C;X10;K0
 C;X11;K1
 C;X12;K"foot"
@@ -23095,7 +23157,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y746;K"onzg"
+C;X1;Y748;K"onzg"
 C;X2;K"z2"
 C;X3;K"nazgrel"
 C;X4;K"orc"
@@ -23126,7 +23188,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y747;K"oosc"
+C;X1;Y749;K"oosc"
 C;X2;K"z2"
 C;X3;K"kodo beast (riderless)"
 C;X4;K"orc"
@@ -23157,7 +23219,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y748;K"oswy"
+C;X1;Y750;K"oswy"
 C;X2;K"z2"
 C;X3;K"spirit wyvern"
 C;X4;K"orc"
@@ -23188,7 +23250,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y749;K"ovlj"
+C;X1;Y751;K"ovlj"
 C;X2;K"z2"
 C;X3;K"vol'jin"
 C;X4;K"orc"
@@ -23219,7 +23281,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y750;K"owar"
+C;X1;Y752;K"owar"
 C;X2;K"z2"
 C;X3;K"orc warchief"
 C;X4;K"orc"
@@ -23227,7 +23289,7 @@ C;X5;K3
 C;X6;K1
 C;X7;K1
 C;X8;K3
-C;X9;K1.75
+C;X9;K3.2
 C;X10;K0
 C;X11;K1
 C;X12;K"foot"
@@ -23250,7 +23312,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y751;K"ownr"
+C;X1;Y753;K"ownr"
 C;X2;K"z2"
 C;X3;K"wyvern"
 C;X4;K"orc"
@@ -23281,7 +23343,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y752;K"uabc"
+C;X1;Y754;K"uabc"
 C;X2;K"z2"
 C;X3;K"Abomination cinematic"
 C;X4;K"undead"
@@ -23312,7 +23374,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y753;K"uarb"
+C;X1;Y755;K"uarb"
 C;X2;K"z2"
 C;X3;K"air barge"
 C;X4;K"undead"
@@ -23343,7 +23405,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y754;K"ubdd"
+C;X1;Y756;K"ubdd"
 C;X2;K"z2"
 C;X3;K"dead azurelore"
 C;X4;K"undead"
@@ -23374,7 +23436,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y755;K"ubdr"
+C;X1;Y757;K"ubdr"
 C;X2;K"z2"
 C;X3;K"azurelore"
 C;X4;K"undead"
@@ -23405,7 +23467,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y756;K"ubot"
+C;X1;Y758;K"ubot"
 C;X2;K"z2"
 C;X3;K"undead transport"
 C;X4;K"undead"
@@ -23436,7 +23498,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y757;K"udes"
+C;X1;Y759;K"udes"
 C;X2;K"z2"
 C;X3;K"undead destroyer"
 C;X4;K"undead"
@@ -23467,7 +23529,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y758;K"uktg"
+C;X1;Y760;K"uktg"
 C;X2;K"z2"
 C;X3;K"kelthuzadghost"
 C;X4;K"undead"
@@ -23498,7 +23560,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y759;K"uktn"
+C;X1;Y761;K"uktn"
 C;X2;K"z2"
 C;X3;K"kelthuzadnecro"
 C;X4;K"undead"
@@ -23529,7 +23591,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y760;K"uswb"
+C;X1;Y762;K"uswb"
 C;X2;K"z2"
 C;X3;K"sylvanus banshee"
 C;X4;K"undead"
@@ -23560,7 +23622,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y761;K"haro"
+C;X1;Y763;K"haro"
 C;X2;K"z3"
 C;X3;K"Arcane Observatory"
 C;X4;K"human"
@@ -23591,7 +23653,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y762;K"nbfl"
+C;X1;Y764;K"nbfl"
 C;X2;K"z3"
 C;X3;K"Fountain of Blood"
 C;X4;K"orc"
@@ -23622,7 +23684,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y763;K"nbse"
+C;X1;Y765;K"nbse"
 C;X2;K"z3"
 C;X3;K"bindstone southeast"
 C;X4;K"other"
@@ -23653,7 +23715,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y764;K"nbsm"
+C;X1;Y766;K"nbsm"
 C;X2;K"z3"
 C;X3;K"book of summoning pedestal"
 C;X4;K"undead"
@@ -23684,7 +23746,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y765;K"nbsw"
+C;X1;Y767;K"nbsw"
 C;X2;K"z3"
 C;X3;K"bindstone southwest"
 C;X4;K"other"
@@ -23715,7 +23777,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y766;K"nbt1"
+C;X1;Y768;K"nbt1"
 C;X2;K"z3"
 C;X3;K"boulder tower"
 C;X4;K"human"
@@ -23746,7 +23808,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y767;K"nbt2"
+C;X1;Y769;K"nbt2"
 C;X2;K"z3"
 C;X3;K"boulder tower upgraded"
 C;X4;K"human"
@@ -23777,7 +23839,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y768;K"nbwd"
+C;X1;Y770;K"nbwd"
 C;X2;K"z3"
 C;X3;K"barrow den"
 C;X4;K"nightelf"
@@ -23808,7 +23870,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y769;K"ncap"
+C;X1;Y771;K"ncap"
 C;X2;K"z3"
 C;X3;K"corrupted Ancient Protector"
 C;X4;K"nightelf"
@@ -23839,7 +23901,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y770;K"ncaw"
+C;X1;Y772;K"ncaw"
 C;X2;K"z3"
 C;X3;K"corrupted AncientofWar"
 C;X4;K"nightelf"
@@ -23870,7 +23932,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y771;K"ncmw"
+C;X1;Y773;K"ncmw"
 C;X2;K"z3"
 C;X3;K"corrupted MoonWell"
 C;X4;K"demon"
@@ -23901,7 +23963,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y772;K"ncta"
+C;X1;Y774;K"ncta"
 C;X2;K"z3"
 C;X3;K"corrupted TreeofAges"
 C;X4;K"nightelf"
@@ -23932,7 +23994,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y773;K"ncte"
+C;X1;Y775;K"ncte"
 C;X2;K"z3"
 C;X3;K"corrupted TreeofEternity"
 C;X4;K"nightelf"
@@ -23963,7 +24025,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y774;K"nctl"
+C;X1;Y776;K"nctl"
 C;X2;K"z3"
 C;X3;K"corrupted TreeofLife"
 C;X4;K"nightelf"
@@ -23994,7 +24056,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y775;K"ndfl"
+C;X1;Y777;K"ndfl"
 C;X2;K"z3"
 C;X3;K"Defiled Fountain of Life"
 C;X4;K"orc"
@@ -24025,7 +24087,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y776;K"ndgt"
+C;X1;Y778;K"ndgt"
 C;X2;K"z3"
 C;X3;K"dalaran guard tower"
 C;X4;K"human"
@@ -24056,7 +24118,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y777;K"ndke"
+C;X1;Y779;K"ndke"
 C;X2;K"z3"
 C;X3;K"dark portal (southeast)"
 C;X4;K"other"
@@ -24087,7 +24149,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y778;K"ndkw"
+C;X1;Y780;K"ndkw"
 C;X2;K"z3"
 C;X3;K"dark portal (southwest)"
 C;X4;K"other"
@@ -24118,7 +24180,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y779;K"ndmg"
+C;X1;Y781;K"ndmg"
 C;X2;K"z3"
 C;X3;K"demon gate"
 C;X4;K"undead"
@@ -24149,7 +24211,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y780;K"ndrb"
+C;X1;Y782;K"ndrb"
 C;X2;K"z3"
 C;X3;K"Dragon Building"
 C;X4;K"orc"
@@ -24180,7 +24242,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y781;K"ndt1"
+C;X1;Y783;K"ndt1"
 C;X2;K"z3"
 C;X3;K"cold tower"
 C;X4;K"human"
@@ -24211,7 +24273,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y782;K"ndt2"
+C;X1;Y784;K"ndt2"
 C;X2;K"z3"
 C;X3;K"cold tower upgraded"
 C;X4;K"human"
@@ -24242,7 +24304,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y783;K"nef0"
+C;X1;Y785;K"nef0"
 C;X2;K"z3"
 C;X3;K"elven farm"
 C;X4;K"human"
@@ -24273,7 +24335,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y784;K"nef1"
+C;X1;Y786;K"nef1"
 C;X2;K"z3"
 C;X3;K"elven farm"
 C;X4;K"human"
@@ -24304,7 +24366,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y785;K"nef2"
+C;X1;Y787;K"nef2"
 C;X2;K"z3"
 C;X3;K"elven farm"
 C;X4;K"human"
@@ -24335,7 +24397,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y786;K"nef3"
+C;X1;Y788;K"nef3"
 C;X2;K"z3"
 C;X3;K"elven farm"
 C;X4;K"human"
@@ -24366,7 +24428,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y787;K"nef4"
+C;X1;Y789;K"nef4"
 C;X2;K"z3"
 C;X3;K"elven farm"
 C;X4;K"human"
@@ -24397,7 +24459,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y788;K"nef5"
+C;X1;Y790;K"nef5"
 C;X2;K"z3"
 C;X3;K"elven farm"
 C;X4;K"human"
@@ -24428,7 +24490,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y789;K"nef6"
+C;X1;Y791;K"nef6"
 C;X2;K"z3"
 C;X3;K"elven farm"
 C;X4;K"human"
@@ -24459,7 +24521,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y790;K"nef7"
+C;X1;Y792;K"nef7"
 C;X2;K"z3"
 C;X3;K"elven farm"
 C;X4;K"human"
@@ -24490,7 +24552,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y791;K"nefm"
+C;X1;Y793;K"nefm"
 C;X2;K"z3"
 C;X3;K"elven farm"
 C;X4;K"human"
@@ -24521,7 +24583,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y792;K"negf"
+C;X1;Y794;K"negf"
 C;X2;K"z3"
 C;X3;K"elven guard fire tower"
 C;X4;K"human"
@@ -24552,7 +24614,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y793;K"negm"
+C;X1;Y795;K"negm"
 C;X2;K"z3"
 C;X3;K"elven guard magic tower"
 C;X4;K"human"
@@ -24583,7 +24645,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y794;K"negt"
+C;X1;Y796;K"negt"
 C;X2;K"z3"
 C;X3;K"elven guard tower"
 C;X4;K"human"
@@ -24614,7 +24676,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y795;K"net1"
+C;X1;Y797;K"net1"
 C;X2;K"z3"
 C;X3;K"energy tower"
 C;X4;K"human"
@@ -24645,7 +24707,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y796;K"net2"
+C;X1;Y798;K"net2"
 C;X2;K"z3"
 C;X3;K"energy tower upgraded"
 C;X4;K"human"
@@ -24676,7 +24738,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y797;K"nfnp"
+C;X1;Y799;K"nfnp"
 C;X2;K"z3"
 C;X3;K"purple fountain"
 C;X4;K"nightelf"
@@ -24707,7 +24769,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y798;K"nfrm"
+C;X1;Y800;K"nfrm"
 C;X2;K"z3"
 C;X3;K"frostmourne pedestal"
 C;X4;K"undead"
@@ -24738,7 +24800,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y799;K"nfrt"
+C;X1;Y801;K"nfrt"
 C;X2;K"z3"
 C;X3;K"fruit stand"
 C;X4;K"human"
@@ -24769,7 +24831,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y800;K"nft1"
+C;X1;Y802;K"nft1"
 C;X2;K"z3"
 C;X3;K"flame tower"
 C;X4;K"human"
@@ -24800,7 +24862,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y801;K"nft2"
+C;X1;Y803;K"nft2"
 C;X2;K"z3"
 C;X3;K"flame tower upgraded"
 C;X4;K"human"
@@ -24831,7 +24893,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y802;K"nfv0"
+C;X1;Y804;K"nfv0"
 C;X2;K"z3"
 C;X3;K"elven fishing village"
 C;X4;K"nightelf"
@@ -24862,7 +24924,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y803;K"nfv1"
+C;X1;Y805;K"nfv1"
 C;X2;K"z3"
 C;X3;K"elven fishing village"
 C;X4;K"nightelf"
@@ -24893,7 +24955,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y804;K"nfv2"
+C;X1;Y806;K"nfv2"
 C;X2;K"z3"
 C;X3;K"elven fishing village"
 C;X4;K"nightelf"
@@ -24924,7 +24986,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y805;K"nfv3"
+C;X1;Y807;K"nfv3"
 C;X2;K"z3"
 C;X3;K"elven fishing village"
 C;X4;K"nightelf"
@@ -24955,7 +25017,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y806;K"nfv4"
+C;X1;Y808;K"nfv4"
 C;X2;K"z3"
 C;X3;K"elven fishing village"
 C;X4;K"nightelf"
@@ -24986,7 +25048,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y807;K"ngob"
+C;X1;Y809;K"ngob"
 C;X2;K"z3"
 C;X3;K"gemstone obelisk"
 C;X4;K"nightelf"
@@ -25017,7 +25079,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y808;K"nhcn"
+C;X1;Y810;K"nhcn"
 C;X2;K"z3"
 C;X3;K"horn of cenarius pedestal"
 C;X4;K"nightelf"
@@ -25048,7 +25110,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y809;K"nheb"
+C;X1;Y811;K"nheb"
 C;X2;K"z3"
 C;X3;K"High Elven Barracks"
 C;X4;K"human"
@@ -25079,7 +25141,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y810;K"nico"
+C;X1;Y812;K"nico"
 C;X2;K"z3"
 C;X3;K"icecrown obelisk"
 C;X4;K"other"
@@ -25110,7 +25172,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y811;K"nitb"
+C;X1;Y813;K"nitb"
 C;X2;K"z3"
 C;X3;K"treasure box"
 C;X4;K"human"
@@ -25141,7 +25203,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y812;K"nmgv"
+C;X1;Y814;K"nmgv"
 C;X2;K"z3"
 C;X3;K"magic vault"
 C;X4;K"human"
@@ -25172,7 +25234,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y813;K"nnad"
+C;X1;Y815;K"nnad"
 C;X2;K"z3"
 C;X3;K"altar of the depths - naga altar"
 C;X4;K"naga"
@@ -25203,7 +25265,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y814;K"nnfm"
+C;X1;Y816;K"nnfm"
 C;X2;K"z3"
 C;X3;K"coral bed - naga farm"
 C;X4;K"naga"
@@ -25234,7 +25296,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y815;K"nnsa"
+C;X1;Y817;K"nnsa"
 C;X2;K"z3"
 C;X3;K"shrine of azshara - naga caster barracks"
 C;X4;K"naga"
@@ -25265,7 +25327,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y816;K"nnsg"
+C;X1;Y818;K"nnsg"
 C;X2;K"z3"
 C;X3;K"spawning grounds - naga barracks"
 C;X4;K"naga"
@@ -25296,7 +25358,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y817;K"nntg"
+C;X1;Y819;K"nntg"
 C;X2;K"z3"
 C;X3;K"tidal guardian - naga tower"
 C;X4;K"naga"
@@ -25327,7 +25389,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y818;K"nntt"
+C;X1;Y820;K"nntt"
 C;X2;K"z3"
 C;X3;K"temple of tides - naga town hall"
 C;X4;K"naga"
@@ -25358,7 +25420,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y819;K"npgf"
+C;X1;Y821;K"npgf"
 C;X2;K"z3"
 C;X3;K"Pig Farm"
 C;X4;K"orc"
@@ -25389,7 +25451,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y820;K"npgr"
+C;X1;Y822;K"npgr"
 C;X2;K"z3"
 C;X3;K"power generator"
 C;X4;K"orc"
@@ -25420,7 +25482,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y821;K"nshr"
+C;X1;Y823;K"nshr"
 C;X2;K"z3"
 C;X3;K"shrine"
 C;X4;K"undead"
@@ -25451,7 +25513,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y822;K"ntt1"
+C;X1;Y824;K"ntt1"
 C;X2;K"z3"
 C;X3;K"death tower"
 C;X4;K"human"
@@ -25482,7 +25544,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y823;K"ntx2"
+C;X1;Y825;K"ntx2"
 C;X2;K"z3"
 C;X3;K"death tower upgraded"
 C;X4;K"human"
@@ -25513,7 +25575,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y824;K"nvr0"
+C;X1;Y826;K"nvr0"
 C;X2;K"z3"
 C;X3;K"elven fishing village"
 C;X4;K"nightelf"
@@ -25544,7 +25606,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y825;K"nvr1"
+C;X1;Y827;K"nvr1"
 C;X2;K"z3"
 C;X3;K"elven fishing village"
 C;X4;K"nightelf"
@@ -25575,7 +25637,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y826;K"nvr2"
+C;X1;Y828;K"nvr2"
 C;X2;K"z3"
 C;X3;K"elven fishing village"
 C;X4;K"nightelf"
@@ -25606,7 +25668,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y827;K"nwc1"
+C;X1;Y829;K"nwc1"
 C;X2;K"z3"
 C;X3;K"wyvern cage 1"
 C;X4;K"orc"
@@ -25637,7 +25699,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y828;K"nwc2"
+C;X1;Y830;K"nwc2"
 C;X2;K"z3"
 C;X3;K"wyvern cage 2"
 C;X4;K"orc"
@@ -25668,7 +25730,69 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y829;K"nzin"
+C;X1;Y831;K"nwc3"
+C;X2;K"z3"
+C;X3;K"wyvern cage 3"
+C;X4;K"orc"
+C;X5;K1
+C;X6;K1
+C;X7;K1
+C;X8;K2
+C;X9;K3
+C;X10;K0
+C;X11;K"-"
+C;X12;K"_"
+C;X13;K0
+C;X14;K0
+C;X15;K"-"
+C;X16;K60
+C;X17;K0
+C;X18;K0
+C;X19;K"structure"
+C;X20;K"PathTextures\8x8Round.tga"
+C;X21;K0
+C;X22;K100
+C;X23;K"_"
+C;X24;K"-"
+C;X25;K"-"
+C;X26;K1
+C;X27;K0
+C;X28;K0
+C;X29;K0
+C;X30;K0
+C;X31;K1
+C;X1;Y832;K"nwc4"
+C;X2;K"z3"
+C;X3;K"wyvern cage 4"
+C;X4;K"orc"
+C;X5;K1
+C;X6;K1
+C;X7;K1
+C;X8;K2
+C;X9;K3
+C;X10;K0
+C;X11;K"-"
+C;X12;K"_"
+C;X13;K0
+C;X14;K0
+C;X15;K"-"
+C;X16;K60
+C;X17;K0
+C;X18;K0
+C;X19;K"structure"
+C;X20;K"PathTextures\8x8Round.tga"
+C;X21;K0
+C;X22;K100
+C;X23;K"_"
+C;X24;K"-"
+C;X25;K"-"
+C;X26;K1
+C;X27;K0
+C;X28;K0
+C;X29;K0
+C;X30;K0
+C;X31;K1
+C;X1;Y833;K"nzin"
 C;X2;K"z3"
 C;X3;K"zone indicator"
 C;X4;K"other"
@@ -25699,7 +25823,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K1
-C;X1;Y830;K"ocbw"
+C;X1;Y834;K"ocbw"
 C;X2;K"z3"
 C;X3;K"Chaos OrcBurrow"
 C;X4;K"orc"
@@ -25730,7 +25854,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y831;K"zcso"
+C;X1;Y835;K"zcso"
 C;X2;K"z9"
 C;X3;K"chaos space orc"
 C;X4;K"other"
@@ -25761,7 +25885,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y832;K"zhyd"
+C;X1;Y836;K"zhyd"
 C;X2;K"z9"
 C;X3;K"hydralisk"
 C;X4;K"other"
@@ -25792,7 +25916,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y833;K"zjug"
+C;X1;Y837;K"zjug"
 C;X2;K"z9"
 C;X3;K"orc juggernaut"
 C;X4;K"other"
@@ -25823,7 +25947,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y834;K"zmar"
+C;X1;Y838;K"zmar"
 C;X2;K"z9"
 C;X3;K"Marine"
 C;X4;K"other"
@@ -25854,7 +25978,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y835;K"zshv"
+C;X1;Y839;K"zshv"
 C;X2;K"z9"
 C;X3;K"shoveler"
 C;X4;K"other"
@@ -25885,7 +26009,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y836;K"zsmc"
+C;X1;Y840;K"zsmc"
 C;X2;K"z9"
 C;X3;K"sammy cube"
 C;X4;K"other"
@@ -25916,7 +26040,7 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
-C;X1;Y837;K"zzrg"
+C;X1;Y841;K"zzrg"
 C;X2;K"z9"
 C;X3;K"zergling"
 C;X4;K"other"
@@ -25947,4 +26071,748 @@ C;X28;K0
 C;X29;K0
 C;X30;K0
 C;X31;K0
+C;X1;Y842;K"Nmsr"
+C;X2;K"z2"
+C;X3;K"Murloc Sorceror"
+C;X4;K"creeps"
+C;X5;K9
+C;X6;K1
+C;X7;K1
+C;X8;K2
+C;X9;K2.8
+C;X10;K0
+C;X11;K1
+C;X12;K"foot"
+C;X13;K0
+C;X14;K0
+C;X15;K0.5
+C;X16;K60
+C;X17;K4
+C;X18;K2
+C;X19;K"ground"
+C;X20;K"_"
+C;X21;K0
+C;X22;K100
+C;X23;K"_"
+C;X24;K"-"
+C;X25;K"-"
+C;X26;K1
+C;X27;K0
+C;X28;K0
+C;X29;K0
+C;X30;K0
+C;X31;K1
+C;X1;Y843;K"Nswt"
+C;X2;K"z2"
+C;X3;K"Sea Witch"
+C;X4;K"creeps"
+C;X5;K9
+C;X6;K1
+C;X7;K1
+C;X8;K2
+C;X9;K2.8
+C;X10;K0
+C;X11;K1
+C;X12;K"foot"
+C;X13;K0
+C;X14;K0
+C;X15;K0.5
+C;X16;K60
+C;X17;K4
+C;X18;K2
+C;X19;K"ground"
+C;X20;K"_"
+C;X21;K0
+C;X22;K100
+C;X23;K"_"
+C;X24;K"-"
+C;X25;K1
+C;X26;K1
+C;X27;K0
+C;X28;K0
+C;X29;K0
+C;X30;K0
+C;X31;K1
+C;X1;Y844;K"ntn3"
+C;X2;K"p3"
+C;X3;K"Tent"
+C;X4;K"other"
+C;X5;K1
+C;X6;K1
+C;X7;K1
+C;X8;K2
+C;X9;K3
+C;X10;K0
+C;X11;K"-"
+C;X12;K"_"
+C;X13;K0
+C;X14;K0
+C;X15;K"-"
+C;X16;K60
+C;X17;K0
+C;X18;K0
+C;X19;K"structure"
+C;X20;K"PathTextures\6x6SimpleSolid.tga"
+C;X21;K0
+C;X22;K100
+C;X23;K"_"
+C;X24;K"-"
+C;X25;K"-"
+C;X26;K1
+C;X27;K0
+C;X28;K0
+C;X29;K0
+C;X30;K1
+C;X31;K1
+C;X1;Y845;K"nggm"
+C;X2;K"n2"
+C;X3;K"granite golem"
+C;X4;K"creeps"
+C;X5;K8
+C;X6;K1
+C;X7;K1
+C;X8;K2
+C;X9;K3
+C;X10;K0
+C;X11;K1
+C;X12;K"foot"
+C;X13;K0
+C;X14;K0
+C;X15;K0.5
+C;X16;K60
+C;X17;K1
+C;X18;K0
+C;X19;K"ground"
+C;X20;K"_"
+C;X21;K0
+C;X22;K100
+C;X23;K"_"
+C;X24;K"-"
+C;X25;K"-"
+C;X26;K1
+C;X27;K0
+C;X28;K0
+C;X29;K0
+C;X30;K1
+C;X31;K1
+C;X1;Y846;K"nggg"
+C;X2;K"n2"
+C;X3;K"granite golem"
+C;X4;K"creeps"
+C;X5;K8
+C;X6;K1
+C;X7;K1
+C;X8;K2
+C;X9;K3
+C;X10;K0
+C;X11;K1
+C;X12;K"foot"
+C;X13;K0
+C;X14;K0
+C;X15;K0.5
+C;X16;K60
+C;X17;K1
+C;X18;K0
+C;X19;K"ground"
+C;X20;K"_"
+C;X21;K0
+C;X22;K100
+C;X23;K"_"
+C;X24;K"-"
+C;X25;K"-"
+C;X26;K1
+C;X27;K0
+C;X28;K0
+C;X29;K0
+C;X30;K1
+C;X31;K1
+C;X1;Y847;K"nggd"
+C;X2;K"n2"
+C;X3;K"rock golem"
+C;X4;K"creeps"
+C;X5;K1
+C;X6;K1
+C;X7;K1
+C;X8;K2
+C;X9;K3
+C;X10;K0
+C;X11;K1
+C;X12;K"foot"
+C;X13;K0
+C;X14;K0
+C;X15;K0.5
+C;X16;K60
+C;X17;K1
+C;X18;K0
+C;X19;K"ground"
+C;X20;K"_"
+C;X21;K0
+C;X22;K100
+C;X23;K"_"
+C;X24;K"-"
+C;X25;K"-"
+C;X26;K1
+C;X27;K0
+C;X28;K0
+C;X29;K0
+C;X30;K1
+C;X31;K1
+C;X1;Y848;K"ngow"
+C;X2;K"n2"
+C;X3;K"gnoll king"
+C;X4;K"creeps"
+C;X5;K2
+C;X6;K1
+C;X7;K1
+C;X8;K3
+C;X9;K3
+C;X10;K0
+C;X11;K1
+C;X12;K"foot"
+C;X13;K0
+C;X14;K0
+C;X15;K0.5
+C;X16;K60
+C;X17;K1
+C;X18;K0
+C;X19;K"ground"
+C;X20;K"_"
+C;X21;K0
+C;X22;K100
+C;X23;K"_"
+C;X24;K"-"
+C;X25;K"-"
+C;X26;K1
+C;X27;K0
+C;X28;K0
+C;X29;K0
+C;X30;K1
+C;X31;K1
+C;X1;Y849;K"nwzw"
+C;X2;K"n2"
+C;X3;K"rogue wizard"
+C;X4;K"creeps"
+C;X5;K1
+C;X6;K1
+C;X7;K1
+C;X8;K3
+C;X9;K3
+C;X10;K1
+C;X11;K1
+C;X12;K"foot"
+C;X13;K0
+C;X14;K0
+C;X15;K0.5
+C;X16;K60
+C;X17;K4
+C;X18;K2
+C;X19;K"ground"
+C;X20;K"_"
+C;X21;K0
+C;X22;K100
+C;X23;K"_"
+C;X24;K"-"
+C;X25;K"-"
+C;X26;K1
+C;X27;K0
+C;X28;K0
+C;X29;K0
+C;X30;K1
+C;X31;K1
+C;X1;Y850;K"ngos"
+C;X2;K"n2"
+C;X3;K"gnoll king"
+C;X4;K"creeps"
+C;X5;K2
+C;X6;K1
+C;X7;K1
+C;X8;K3
+C;X9;K3
+C;X10;K0
+C;X11;K1
+C;X12;K"foot"
+C;X13;K0
+C;X14;K0
+C;X15;K0.5
+C;X16;K60
+C;X17;K1
+C;X18;K0
+C;X19;K"ground"
+C;X20;K"_"
+C;X21;K0
+C;X22;K100
+C;X23;K"_"
+C;X24;K"-"
+C;X25;K"-"
+C;X26;K1
+C;X27;K0
+C;X28;K0
+C;X29;K0
+C;X30;K1
+C;X31;K1
+C;X1;Y851;K"ngog"
+C;X2;K"o2"
+C;X3;K"dog"
+C;X4;K"critters"
+C;X5;K1
+C;X6;K1
+C;X7;K1
+C;X8;K3
+C;X9;K3
+C;X10;K0
+C;X11;K1
+C;X12;K"foot"
+C;X13;K0
+C;X14;K0
+C;X15;K0.5
+C;X16;K60
+C;X17;K0
+C;X18;K0
+C;X19;K"ground"
+C;X20;K"_"
+C;X21;K0
+C;X22;K100
+C;X23;K"_"
+C;X24;K"-"
+C;X25;K"-"
+C;X26;K1
+C;X27;K0
+C;X28;K0
+C;X29;K0
+C;X30;K1
+C;X31;K1
+C;X1;Y852;K"nwar"
+C;X2;K"a2"
+C;X3;K"Siege Engine"
+C;X4;K"human"
+C;X5;K3
+C;X6;K1
+C;X7;K1
+C;X8;K2
+C;X9;K3
+C;X10;K0
+C;X11;K4
+C;X12;K"foot"
+C;X13;K0
+C;X14;K0
+C;X15;K0.4
+C;X16;K30
+C;X17;K1
+C;X18;K3
+C;X19;K"ground"
+C;X20;K"_"
+C;X21;K0
+C;X22;K100
+C;X23;K"_"
+C;X24;K"-"
+C;X25;K"-"
+C;X26;K1
+C;X27;K0
+C;X28;K0
+C;X29;K0
+C;X30;K1
+C;X31;K1
+C;X1;Y853;K"nccd"
+C;X2;K"a2"
+C;X3;K"Siege Engine"
+C;X4;K"human"
+C;X5;K3
+C;X6;K1
+C;X7;K1
+C;X8;K0
+C;X9;K3
+C;X10;K0
+C;X11;K4
+C;X12;K"foot"
+C;X13;K0
+C;X14;K0
+C;X15;K0.4
+C;X16;K30
+C;X17;K1
+C;X18;K3
+C;X19;K"ground"
+C;X20;K"_"
+C;X21;K0
+C;X22;K100
+C;X23;K"_"
+C;X24;K"-"
+C;X25;K"-"
+C;X26;K0
+C;X27;K0
+C;X28;K0
+C;X29;K0
+C;X30;K1
+C;X31;K1
+C;X1;Y854;K"ncco"
+C;X2;K"a2"
+C;X3;K"Siege Engine"
+C;X4;K"human"
+C;X5;K3
+C;X6;K1
+C;X7;K1
+C;X8;K0
+C;X9;K3
+C;X10;K0
+C;X11;K4
+C;X12;K"foot"
+C;X13;K0
+C;X14;K0
+C;X15;K0.4
+C;X16;K30
+C;X17;K1
+C;X18;K3
+C;X19;K"ground"
+C;X20;K"_"
+C;X21;K0
+C;X22;K100
+C;X23;K"_"
+C;X24;K"-"
+C;X25;K"-"
+C;X26;K1
+C;X27;K0
+C;X28;K0
+C;X29;K0
+C;X30;K1
+C;X31;K1
+C;X1;Y855;K"nccu"
+C;X2;K"a2"
+C;X3;K"Siege Engine"
+C;X4;K"human"
+C;X5;K3
+C;X6;K1
+C;X7;K1
+C;X8;K0
+C;X9;K3
+C;X10;K0
+C;X11;K4
+C;X12;K"foot"
+C;X13;K0
+C;X14;K0
+C;X15;K0.4
+C;X16;K30
+C;X17;K1
+C;X18;K3
+C;X19;K"ground"
+C;X20;K"_"
+C;X21;K0
+C;X22;K100
+C;X23;K"_"
+C;X24;K"-"
+C;X25;K"-"
+C;X26;K1
+C;X27;K0
+C;X28;K0
+C;X29;K0
+C;X30;K1
+C;X31;K1
+C;X1;Y856;K"nccr"
+C;X2;K"a2"
+C;X3;K"Siege Engine"
+C;X4;K"human"
+C;X5;K3
+C;X6;K1
+C;X7;K1
+C;X8;K0
+C;X9;K3
+C;X10;K0
+C;X11;K4
+C;X12;K"foot"
+C;X13;K0
+C;X14;K0
+C;X15;K0.4
+C;X16;K30
+C;X17;K1
+C;X18;K3
+C;X19;K"ground"
+C;X20;K"_"
+C;X21;K0
+C;X22;K100
+C;X23;K"_"
+C;X24;K"-"
+C;X25;K"-"
+C;X26;K1
+C;X27;K0
+C;X28;K0
+C;X29;K0
+C;X30;K1
+C;X31;K1
+C;X1;Y857;K"Hjnd"
+C;X2;K"z1"
+C;X3;K"sylvanus windrunner"
+C;X4;K"human"
+C;X5;K10
+C;X6;K1
+C;X7;K1
+C;X8;K2
+C;X9;K3
+C;X10;K0
+C;X11;K1
+C;X12;K"foot"
+C;X13;K0
+C;X14;K0
+C;X15;K0.6
+C;X16;K60
+C;X17;K5
+C;X18;K2
+C;X19;K"ground"
+C;X20;K"_"
+C;X21;K0
+C;X22;K100
+C;X23;K"_"
+C;X24;K"-"
+C;X25;K1
+C;X26;K1
+C;X27;K0
+C;X28;K0
+C;X29;K0
+C;X30;K0
+C;X31;K1
+C;X1;Y858;K"nmg2"
+C;X2;K"p3"
+C;X3;K"Mur'gul Hut 1"
+C;X4;K"other"
+C;X5;K1
+C;X6;K1
+C;X7;K1
+C;X8;K0
+C;X9;K3
+C;X10;K0
+C;X11;K"-"
+C;X12;K"_"
+C;X13;K0
+C;X14;K0
+C;X15;K"-"
+C;X16;K60
+C;X17;K0
+C;X18;K0
+C;X19;K"structure"
+C;X20;K"PathTextures\6x6SimpleSolid.tga"
+C;X21;K0
+C;X22;K100
+C;X23;K"_"
+C;X24;K"-"
+C;X25;K"-"
+C;X26;K1
+C;X27;K0
+C;X28;K0
+C;X29;K0
+C;X30;K0
+C;X31;K1
+C;X1;Y859;K"nhn2"
+C;X2;K"p3"
+C;X3;K"harpy nest"
+C;X4;K"other"
+C;X5;K1
+C;X6;K1
+C;X7;K1
+C;X8;K2
+C;X9;K3
+C;X10;K0
+C;X11;K"-"
+C;X12;K"_"
+C;X13;K0
+C;X14;K0
+C;X15;K"-"
+C;X16;K60
+C;X17;K0
+C;X18;K0
+C;X19;K"structure"
+C;X20;K"PathTextures\8x8SimpleSolid.tga"
+C;X21;K0
+C;X22;K100
+C;X23;K"_"
+C;X24;K"-"
+C;X25;K"-"
+C;X26;K1
+C;X27;K0
+C;X28;K0
+C;X29;K0
+C;X30;K1
+C;X31;K1
+C;X1;Y860;K"obai"
+C;X2;K"b2"
+C;X3;K"spiritwalker"
+C;X4;K"orc"
+C;X5;K7
+C;X6;K1
+C;X7;K1
+C;X8;K3
+C;X9;K2
+C;X10;K0
+C;X11;K1
+C;X12;K"foot"
+C;X13;K0
+C;X14;K0
+C;X15;K0.5
+C;X16;K60
+C;X17;K4
+C;X18;K2
+C;X19;K"ground"
+C;X20;K"_"
+C;X21;K0
+C;X22;K100
+C;X23;K"_"
+C;X24;K"-"
+C;X25;K"-"
+C;X26;K1
+C;X27;K0
+C;X28;K0
+C;X29;K0
+C;X30;K1
+C;X31;K1
+C;X1;Y861;K"hrrh"
+C;X2;K"a2"
+C;X3;K"Peasant"
+C;X4;K"human"
+C;X5;K1
+C;X6;K1
+C;X7;K1
+C;X8;K3
+C;X9;K3.34
+C;X10;K0
+C;X11;K1
+C;X12;K"foot"
+C;X13;K0
+C;X14;K0
+C;X15;K0.6
+C;X16;K60
+C;X17;K0
+C;X18;K4
+C;X19;K"ground"
+C;X20;K"_"
+C;X21;K0
+C;X22;K100
+C;X23;K"_"
+C;X24;K"-"
+C;X25;K"-"
+C;X26;K1
+C;X27;K0
+C;X28;K0
+C;X29;K0
+C;X30;K1
+C;X31;K1
+C;X1;Y862;K"Haah"
+C;X2;K"a1"
+C;X3;K"HeroArchMage"
+C;X4;K"human"
+C;X5;K9
+C;X6;K1
+C;X7;K1
+C;X8;K2
+C;X9;K2.8
+C;X10;K0
+C;X11;K1
+C;X12;K"foot"
+C;X13;K0
+C;X14;K0
+C;X15;K0.5
+C;X16;K60
+C;X17;K4
+C;X18;K2
+C;X19;K"ground"
+C;X20;K"_"
+C;X21;K0
+C;X22;K100
+C;X23;K"_"
+C;X24;K"-"
+C;X25;K13
+C;X26;K1
+C;X27;K0
+C;X28;K0
+C;X29;K0
+C;X30;K1
+C;X31;K1
+C;X1;Y863;K"Hssa"
+C;X2;K"a1"
+C;X3;K"HeroPaladin"
+C;X4;K"human"
+C;X5;K9
+C;X6;K1
+C;X7;K1
+C;X8;K2
+C;X9;K1.5
+C;X10;K0
+C;X11;K1
+C;X12;K"foot"
+C;X13;K0
+C;X14;K0
+C;X15;K0.6
+C;X16;K60
+C;X17;K5
+C;X18;K0
+C;X19;K"ground"
+C;X20;K"_"
+C;X21;K0
+C;X22;K100
+C;X23;K"_"
+C;X24;K"-"
+C;X25;K15
+C;X26;K1
+C;X27;K0
+C;X28;K0
+C;X29;K0
+C;X30;K1
+C;X31;K1
+C;X1;Y864;K"Hddt"
+C;X2;K"a1"
+C;X3;K"ThalorienDawnseeker"
+C;X4;K"human"
+C;X5;K9
+C;X6;K1
+C;X7;K1
+C;X8;K2
+C;X9;K1.9
+C;X10;K0
+C;X11;K1
+C;X12;K"foot"
+C;X13;K0
+C;X14;K0
+C;X15;K0.6
+C;X16;K60
+C;X17;K5
+C;X18;K0
+C;X19;K"ground"
+C;X20;K"_"
+C;X21;K0
+C;X22;K100
+C;X23;K"_"
+C;X24;K"-"
+C;X25;K14
+C;X26;K1
+C;X27;K0
+C;X28;K0
+C;X29;K0
+C;X30;K1
+C;X31;K1
+C;X1;Y865;K"owad"
+C;X2;K"b2"
+C;X3;K"WolfRider"
+C;X4;K"orc"
+C;X5;K6
+C;X6;K1
+C;X7;K1
+C;X8;K3
+C;X9;K1.87
+C;X10;K0
+C;X11;K1
+C;X12;K"horse"
+C;X13;K0
+C;X14;K0
+C;X15;K0.5
+C;X16;K60
+C;X17;K4
+C;X18;K0
+C;X19;K"ground"
+C;X20;K"_"
+C;X21;K0
+C;X22;K100
+C;X23;K"_"
+C;X24;K"-"
+C;X25;K"-"
+C;X26;K1
+C;X27;K0
+C;X28;K0
+C;X29;K0
+C;X30;K1
+C;X31;K1
 E

@@ -14,6 +14,7 @@ export interface ItemSpec {
   };
   art?: {
     Art?: string;
+    Buttonpos?: number[];
     colorB?: number;
     colorG?: number;
     colorR?: number;
@@ -25,8 +26,8 @@ export interface ItemSpec {
     armor?: Armor;
   };
   comment?: string;
+  InBeta?: boolean;
   scriptname?: string;
-  stackMax?: number;
   stats: {
     class: ItemClass;
     cooldownID?: string;
@@ -45,6 +46,7 @@ export interface ItemSpec {
     powerup: boolean;
     prio: number;
     sellable: boolean;
+    stackMax?: number;
     stockInitial?: number;
     stockMax?: number;
     stockRegen?: number;
