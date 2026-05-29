@@ -6,6 +6,7 @@ export const iniToObjs = (
 
   for (let line of data.replace(/\r/g, "").split("\n")) {
     line = line.replace(/\/\/.*/, "").trim();
+    if (line.startsWith("/ ")) continue; // typo'd "//" comment in itemfunc.txt
 
     if (line === "") continue;
 
@@ -18,9 +19,13 @@ export const iniToObjs = (
 
     if (entry === undefined) throw new Error(`Bad line ${line}`);
 
-    const valueMatch = line.match(/^([0-9A-Za-z]+)=(.*)/);
+    const valueMatch = line.match(/^([0-9A-Za-z]+)(?::[^=]*)?=(.*)/);
     if (valueMatch) {
-      entry[valueMatch[1].replace("UberTip", "Ubertip")] = valueMatch[2];
+      if (line[valueMatch[1].length] === ":") continue;
+      const key = valueMatch[1]
+        .replace("UberTip", "Ubertip")
+        .replace("ButtonPos", "Buttonpos");
+      entry[key] = valueMatch[2];
       continue;
     }
 

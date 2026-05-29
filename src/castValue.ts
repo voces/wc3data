@@ -51,8 +51,10 @@ const _castValue = (value: string, fieldType: string): Value => {
     case "shadowImage":
     case "combatSound":
     case "unitClass":
+    case "itemClass":
     case "upgrade":
     case "abilCode":
+    case "tech":
     case "pathingListPrevent":
     case "pathingTexture":
     case "aiBuffer":
@@ -122,18 +124,26 @@ export const castValue = (
         if (isNaN(v)) throw new Error(`bad float ${value}`);
         return v;
       }
+      case "stackMax": {
+        if (value === undefined) return;
+        const v = parseInt(value as string);
+        if (isNaN(v)) throw new Error(`bad int ${value}`);
+        return v;
+      }
       case "weap1":
       case "weap2":
       case "DmgUpg":
       case "unitClass":
       case "name":
       case "Name":
+      case "scriptname":
         return value;
       case "hiddenInEditor":
       case "valid":
       case "threat": // todo: maybe an int?
         return value === "1";
       case "comment(s)":
+      case "comment":
         return Array.isArray(value)
           ? value.reduce(
             (longest, value) => value.length > longest.length ? longest : value,
@@ -147,6 +157,10 @@ export const castValue = (
       case "sortBalance":
       case "sortAbil":
       case "sortUI":
+      case "Buttonpos": // skip: indexed pair, not currently parsed
+      case "XPFactor": // skip: rare dependency XP factor
+      case "skinType": // always "item", redundant
+      case "skinnableID": // duplicate of row id
       case "": // shows up in UnitBalance
       case "undefined": // shows up in UnitWeapons
         return;

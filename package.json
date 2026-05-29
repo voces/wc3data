@@ -1,6 +1,6 @@
 {
   "name": "wc3data",
-  "version": "2.3.0",
+  "version": "2.4.0",
   "description": "Warcraft III data",
   "author": "verit",
   "license": "MIT",
@@ -9,7 +9,9 @@
     "build-types": "ts-node bin/types.ts > src/types.ts",
     "build-units-debug": "node -r ts-node/register --inspect-brk bin/units.ts",
     "build-units": "ts-node bin/units.ts > src/units.ts",
-    "build": "npm run build-types && npm run build-units && npm run build-js && deno fmt dist",
+    "build-items-debug": "node -r ts-node/register --inspect-brk bin/items.ts",
+    "build-items": "ts-node bin/items.ts > src/items.ts",
+    "build": "npm run build-types && npm run build-units && npm run build-items && npm run build-js && deno fmt dist",
     "prepublishOnly": "npm run clean && npm run build",
     "clean": "rm -rf dist",
     "test-lint": "deno lint . --ignore=node_modules,dist"
